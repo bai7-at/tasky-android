@@ -1,0 +1,22 @@
+name: OpenGrep CI Scan
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  opengrep:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install OpenGrep
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/opengrep/opengrep/main/install.sh | bash
+
+      - name: Run OpenGrep scan
+        run: |
+          opengrep scan .
