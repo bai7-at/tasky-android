@@ -21,7 +21,7 @@ jobs:
         run: |
           curl -fsSL https://raw.githubusercontent.com/opengrep/opengrep/main/install.sh | bash
 
-     - name: Download Android Security Semgrep Rules
+      - name: Download Android Security Semgrep Rules
         run: |
           git clone --depth 1 https://github.com/mindedsecurity/semgrep-rules-android-security.git android-security-rules
 
