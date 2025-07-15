@@ -30,7 +30,6 @@ jobs:
           export PATH='/home/runner/.opengrep/cli/latest':$PATH
           opengrep scan --rules=android-security-rules --sarif-output=sarif.json .
 
-
       - name: Upload SARIF to GitHub Code Scanning
         uses: github/codeql-action/upload-sarif@v3
         with:
