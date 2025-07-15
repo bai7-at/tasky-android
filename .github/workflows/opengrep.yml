@@ -16,6 +16,7 @@ jobs:
       - name: Install OpenGrep
         run: |
           curl -fsSL https://raw.githubusercontent.com/opengrep/opengrep/main/install.sh | bash
+          export PATH='/home/runner/.opengrep/cli/latest':$PATH
 
       - name: Run OpenGrep scan
         run: |
