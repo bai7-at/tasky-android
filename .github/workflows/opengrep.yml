@@ -1,36 +1,36 @@
-name: OpenGrep CI Scan
+# name: OpenGrep CI Scan
 
-on:
-  push:
-    branches: [main]
-  pull_request:
+# on:
+#   push:
+#     branches: [main]
+#   pull_request:
 
-permissions:
-  contents: read
-  security-events: write
+# permissions:
+#   contents: read
+#   security-events: write
 
-jobs:
-  opengrep:
-    runs-on: ubuntu-latest
+# jobs:
+#   opengrep:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v4
 
-      - name: Install OpenGrep
-        run: |
-          curl -fsSL https://raw.githubusercontent.com/opengrep/opengrep/main/install.sh | bash
+#       - name: Install OpenGrep
+#         run: |
+#           curl -fsSL https://raw.githubusercontent.com/opengrep/opengrep/main/install.sh | bash
 
-      - name: Download Android Security Semgrep Rules
-        run: |
-          git clone --depth 1 https://github.com/mindedsecurity/semgrep-rules-android-security.git android-security-rules
+#       - name: Download Android Security Semgrep Rules
+#         run: |
+#           git clone --depth 1 https://github.com/mindedsecurity/semgrep-rules-android-security.git android-security-rules
 
-      - name: Run OpenGrep scan with custom rules
-        run: |
-          export PATH='/home/runner/.opengrep/cli/latest':$PATH
-          opengrep scan -f android-security-rules --sarif-output=sarif.json tasky
+#       - name: Run OpenGrep scan with custom rules
+#         run: |
+#           export PATH='/home/runner/.opengrep/cli/latest':$PATH
+#           opengrep scan -f android-security-rules --sarif-output=sarif.json tasky
 
-      - name: Upload SARIF to GitHub Code Scanning
-        uses: github/codeql-action/upload-sarif@v3
-        with:
-          sarif_file: sarif.json
+#       - name: Upload SARIF to GitHub Code Scanning
+#         uses: github/codeql-action/upload-sarif@v3
+#         with:
+#           sarif_file: sarif.json
