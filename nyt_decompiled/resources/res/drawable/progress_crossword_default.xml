@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="64dp"
+    android:width="64dp"
+    android:autoMirrored="true"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <group>
+        <clip-path android:pathData="M0,0h64v64h-64z"/>
+        <group>
+            <clip-path android:pathData="M0,0h64v64.001h-64z"/>
+            <path
+                android:fillColor="#ffffffff"
+                android:pathData="M3.57,7.917V20.018H20.215V3.55H7.936C6.778,3.55 5.668,4.01 4.849,4.829C4.03,5.648 3.57,6.759 3.57,7.917Z"/>
+            <path
+                android:fillColor="#ffffffff"
+                android:pathData="M43.829,60.429H56.066C56.347,60.426 56.628,60.397 56.904,60.343C57.739,60.166 58.504,59.751 59.109,59.149C59.925,58.329 60.385,57.22 60.388,56.062V43.789H43.829V60.429Z"/>
+            <path
+                android:fillColor="#ffffffff"
+                android:pathData="M40.463,43.79H23.592V60.43H40.463V43.79Z"/>
+            <path
+                android:fillColor="#ffffffff"
+                android:pathData="M60.421,23.395H43.829V40.271H60.421V23.395Z"/>
+            <path
+                android:fillColor="#ffffffff"
+                android:pathData="M40.463,3.55H23.592V20.018H40.463V3.55Z"/>
+            <path
+                android:fillColor="#ffffffff"
+                android:pathData="M20.215,23.395H3.57V40.271H20.215V23.395Z"/>
+            <path
+                android:fillColor="#ff000000"
+                android:pathData="M62.516,3.324C62.2,2.896 61.839,2.503 61.441,2.151C60.095,0.876 58.345,0.115 56.495,0C56.333,0 56.183,0 56.021,0H7.935C7.774,0 7.624,0 7.462,0C5.445,0.115 3.547,0.999 2.16,2.469C0.772,3.939 -0.001,5.884 0,7.906V56.073C0.003,58.175 0.839,60.189 2.324,61.675C3.81,63.161 5.824,63.998 7.925,64.001H56.075C58.177,63.995 60.191,63.156 61.676,61.668C63.162,60.181 63.997,58.165 64,56.062V7.917C63.996,6.268 63.477,4.663 62.516,3.324ZM20.215,40.261H3.57V23.395H20.215V40.261ZM20.215,20.018H3.57V7.917C3.57,6.758 4.03,5.648 4.849,4.829C5.667,4.01 6.778,3.55 7.935,3.55H20.215V20.018ZM40.462,60.429H23.57V43.789H40.462V60.429ZM40.462,20.018H23.57V3.55H40.462V20.018ZM60.43,56.062C60.427,57.22 59.967,58.329 59.151,59.149C58.534,59.759 57.753,60.174 56.903,60.343C56.613,60.4 56.318,60.428 56.021,60.429H43.828V43.789H60.43V56.062ZM60.43,40.261H43.828V23.395H60.43V40.261Z"/>
+        </group>
+    </group>
+</vector>

@@ -1,0 +1,92 @@
+package defpackage;
+
+import org.threeten.bp.Instant;
+
+/* loaded from: classes3.dex */
+public final class u55 implements rp2 {
+    private final String a;
+    private final Instant b;
+    private final a c;
+
+    public static final class a {
+        private final String a;
+        private final mp3 b;
+
+        public a(String str, mp3 mp3Var) {
+            zq3.h(str, "__typename");
+            this.a = str;
+            this.b = mp3Var;
+        }
+
+        public final mp3 a() {
+            return this.b;
+        }
+
+        public final String b() {
+            return this.a;
+        }
+
+        public boolean equals(Object obj) {
+            if (this == obj) {
+                return true;
+            }
+            if (!(obj instanceof a)) {
+                return false;
+            }
+            a aVar = (a) obj;
+            return zq3.c(this.a, aVar.a) && zq3.c(this.b, aVar.b);
+        }
+
+        public int hashCode() {
+            int hashCode = this.a.hashCode() * 31;
+            mp3 mp3Var = this.b;
+            return hashCode + (mp3Var == null ? 0 : mp3Var.hashCode());
+        }
+
+        public String toString() {
+            return "Data(__typename=" + this.a + ", interestLegacyCollectionWithAssetList=" + this.b + ")";
+        }
+    }
+
+    public u55(String str, Instant instant, a aVar) {
+        zq3.h(str, "__typename");
+        this.a = str;
+        this.b = instant;
+        this.c = aVar;
+    }
+
+    public final a a() {
+        return this.c;
+    }
+
+    public final Instant b() {
+        return this.b;
+    }
+
+    public final String c() {
+        return this.a;
+    }
+
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof u55)) {
+            return false;
+        }
+        u55 u55Var = (u55) obj;
+        return zq3.c(this.a, u55Var.a) && zq3.c(this.b, u55Var.b) && zq3.c(this.c, u55Var.c);
+    }
+
+    public int hashCode() {
+        int hashCode = this.a.hashCode() * 31;
+        Instant instant = this.b;
+        int hashCode2 = (hashCode + (instant == null ? 0 : instant.hashCode())) * 31;
+        a aVar = this.c;
+        return hashCode2 + (aVar != null ? aVar.hashCode() : 0);
+    }
+
+    public String toString() {
+        return "NewsLetterInterestFragment(__typename=" + this.a + ", updatedAt=" + this.b + ", data=" + this.c + ")";
+    }
+}

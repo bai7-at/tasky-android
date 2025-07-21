@@ -1,0 +1,33 @@
+package com.google.android.gms.internal.ads;
+
+import defpackage.x1f;
+
+/* loaded from: classes3.dex */
+public final class ud extends xh implements x1f {
+    /* JADX WARN: Illegal instructions before constructor call */
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct add '--show-bad-code' argument
+    */
+    /* synthetic */ ud(com.google.android.gms.internal.ads.td r1) {
+        /*
+            r0 = this;
+            com.google.android.gms.internal.ads.vd r1 = com.google.android.gms.internal.ads.vd.N()
+            r0.<init>(r1)
+            return
+        */
+        throw new UnsupportedOperationException("Method not decompiled: com.google.android.gms.internal.ads.ud.<init>(com.google.android.gms.internal.ads.td):void");
+    }
+
+    public final ud n(int i) {
+        l();
+        ((vd) this.b).zzf = i;
+        return this;
+    }
+
+    public final ud o(yd ydVar) {
+        l();
+        vd.Q((vd) this.b, ydVar);
+        return this;
+    }
+}

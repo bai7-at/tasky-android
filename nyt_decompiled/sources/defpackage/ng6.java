@@ -1,0 +1,56 @@
+package defpackage;
+
+/* loaded from: classes4.dex */
+public abstract class ng6 {
+    public static int action_bar_by_line = 2131361859;
+    public static int action_bar_title = 2131361864;
+    public static int action_open_in_chrome = 2131361875;
+    public static int action_share = 2131361877;
+    public static int af_native_ad_overlay_id = 2131361890;
+    public static int af_native_ad_overlay_vh = 2131361891;
+    public static int articleHeadline = 2131361910;
+    public static int article_front_save = 2131361911;
+    public static int article_front_unsave = 2131361912;
+    public static int closeButton = 2131362043;
+    public static int composable = 2131362061;
+    public static int container = 2131362072;
+    public static int content_frame = 2131362078;
+    public static int disable_hq_video = 2131362135;
+    public static int dismissibleContainer = 2131362140;
+    public static int enable_hq_video = 2131362172;
+    public static int fragment_container = 2131362279;
+    public static int fullscreen_ad = 2131362284;
+    public static int fullscreen_exo_player_view = 2131362287;
+    public static int gatewayContainer = 2131362295;
+    public static int horizontalView = 2131362329;
+    public static int hybrid_container = 2131362332;
+    public static int imageView = 2131362343;
+    public static int journalist = 2131362368;
+    public static int layout_frame_tooltip = 2131362379;
+    public static int llEmptyWebViewContainer = 2131362391;
+    public static int main_content = 2131362402;
+    public static int media_overlay = 2131362439;
+    public static int media_overlay_body = 2131362440;
+    public static int media_overlay_layout = 2131362441;
+    public static int media_overlay_title = 2131362442;
+    public static int meterContainerTest = 2131362453;
+    public static int noNetworkHeader = 2131362559;
+    public static int noNetworkSubheader = 2131362560;
+    public static int offlineContainer = 2131362585;
+    public static int paywallBackground = 2131362637;
+    public static int paywallContainer = 2131362638;
+    public static int refresh_image = 2131362684;
+    public static int refresh_video = 2131362685;
+    public static int sharedText = 2131362806;
+    public static int subscriberLinkSharing = 2131362857;
+    public static int toolTipTextview = 2131362913;
+    public static int toolbar = 2131362914;
+    public static int truncatorContainer = 2131362936;
+    public static int video_container = 2131362959;
+    public static int viewEmpty = 2131362972;
+    public static int viewpager = 2131362979;
+    public static int webRefresh = 2131362990;
+    public static int webView = 2131362991;
+    public static int webViewRefreshLayout = 2131362992;
+    public static int web_holder_progress_bar = 2131362993;
+}

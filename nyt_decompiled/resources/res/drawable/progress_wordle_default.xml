@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="64dp"
+    android:width="64dp"
+    android:autoMirrored="true"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <path
+        android:fillColor="#ff7fa768"
+        android:pathData="M43.736,21.738H43.725V21.75H43.736V21.738Z"/>
+    <path
+        android:fillColor="#ff6aaa64"
+        android:pathData="M43.725,23.375V61.515H57.564C59.641,61.515 61.331,59.847 61.331,57.791V42.369V23.461L43.725,23.375Z"/>
+    <path
+        android:fillColor="#ffffffff"
+        android:pathData="M60.717,6.791V20.221L43.746,20.146L43.821,3.153H57.08C59.082,3.153 60.717,4.789 60.717,6.791Z"/>
+    <path
+        android:fillColor="#ff6aaa64"
+        android:pathData="M41.465,42.885V61.492H23.03V42.799L41.465,42.885Z"/>
+    <path
+        android:fillColor="#ffd1b036"
+        android:pathData="M41.723,22.181L41.626,41.477L22.352,41.369L22.438,22.105L41.723,22.181Z"/>
+    <path
+        android:fillColor="#ffffffff"
+        android:pathData="M40.593,3.153L40.518,20.125L23.525,20.06V3.153H40.593Z"/>
+    <path
+        android:fillColor="#ff6aaa64"
+        android:pathData="M21.674,42.702V61.589H6.801C4.584,61.589 2.776,59.781 2.776,57.564V42.702H21.674Z"/>
+    <path
+        android:fillColor="#ffffffff"
+        android:pathData="M20.286,23.375L20.2,40.346H3.175V23.375H20.286Z"/>
+    <path
+        android:fillColor="#ffffffff"
+        android:pathData="M20.297,3.153V20.146H3.175V6.791C3.175,4.789 4.811,3.153 6.823,3.153H20.297Z"/>
+    <path
+        android:fillColor="#ff000000"
+        android:pathData="M57.134,0H6.877C3.089,0 0,3.078 0,6.866V57.123C0,60.911 3.089,64 6.877,64H57.134C60.922,64 64,60.911 64,57.123V6.866C64,3.089 60.922,0 57.134,0ZM43.779,21.825H43.79V21.836H43.779V21.825ZM3.239,23.461H20.35L20.264,40.432H3.239V23.461ZM20.35,60.782H6.877C4.864,60.782 3.229,59.146 3.229,57.134V43.65H20.35V60.782ZM20.35,20.232H3.239V6.866C3.239,4.864 4.875,3.229 6.888,3.229H20.361V20.232H20.35ZM40.55,60.782H23.579V43.574L40.55,43.66V60.782ZM40.464,40.421L23.493,40.335L23.568,23.364L40.55,23.428L40.464,40.421ZM40.572,20.211L23.579,20.146V3.229H40.647L40.572,20.211ZM60.771,57.134C60.771,59.146 59.136,60.782 57.134,60.782H43.779V43.65H60.771V57.134ZM60.771,40.421H43.703L43.779,23.45L60.771,23.525V40.421ZM60.771,20.307L43.8,20.232L43.876,3.239H57.134C59.136,3.239 60.771,4.875 60.771,6.877V20.307Z"/>
+</vector>

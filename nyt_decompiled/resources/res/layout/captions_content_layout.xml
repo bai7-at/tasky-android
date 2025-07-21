@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@+id/top_container"
+        android:paddingTop="@dimen/caption_layout_internal_padding"
+        style="@style/CaptionContainer">
+        <TextView
+            android:id="@+id/captions_top_text"
+            style="@style/CaptionsText"/>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/bottom_container"
+        android:paddingTop="0dp"
+        style="@style/CaptionContainer">
+        <TextView
+            android:id="@+id/captions_bottom_text"
+            style="@style/CaptionsText"/>
+    </FrameLayout>
+</merge>

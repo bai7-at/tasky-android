@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/header_rule"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        style="@style/TextView.Push.Notifications.Group.Title.HorizontalLine"/>
+    <TextView
+        android:id="@+id/notificationGroupTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        style="@style/TextView.Push.Notifications.Group.Title"/>
+</LinearLayout>

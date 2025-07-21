@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:nyt="http://schemas.android.com/apk/res-auto">
+    <group android:menuCategory="secondary">
+        <item
+            android:id="@+id/refresh_video"
+            android:title="@string/refresh"
+            nyt:showAsAction="never"/>
+        <item
+            android:id="@+id/enable_hq_video"
+            android:visible="false"
+            android:title="@string/menu_video_enable_hq"
+            nyt:showAsAction="never"/>
+        <item
+            android:id="@+id/disable_hq_video"
+            android:visible="false"
+            android:title="@string/menu_video_disable_hq"
+            nyt:showAsAction="never"/>
+    </group>
+</menu>

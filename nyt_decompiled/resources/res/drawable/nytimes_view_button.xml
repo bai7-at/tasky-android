@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="false"
+        android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="1dp"/>
+            <gradient
+                android:startColor="@color/ds_nyt_button_bg_inactive"
+                android:endColor="@color/ds_nyt_button_bg_inactive"
+                android:angle="-90"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="1dp"/>
+            <gradient
+                android:startColor="@color/ds_nyt_button_bg_pressed"
+                android:endColor="@color/ds_nyt_button_bg_pressed"
+                android:angle="-90"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="1dp"/>
+            <gradient
+                android:startColor="@color/signal_editorial"
+                android:endColor="@color/signal_editorial"
+                android:angle="-90"/>
+        </shape>
+    </item>
+</selector>

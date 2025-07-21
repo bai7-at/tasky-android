@@ -1,0 +1,12 @@
+package defpackage;
+
+import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
+
+/* loaded from: classes2.dex */
+public class yb8 extends DecoderInputBuffer {
+    public long i;
+
+    public yb8() {
+        super(1);
+    }
+}

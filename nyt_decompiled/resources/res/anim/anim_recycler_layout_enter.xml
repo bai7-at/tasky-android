@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@interpolator/mr_fast_out_slow_in"
+    android:delay="20%"
+    android:animation="@anim/anim_recycler_enter"
+    android:animationOrder="normal"/>

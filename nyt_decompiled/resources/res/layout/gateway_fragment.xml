@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/meterContainerTest"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <FrameLayout
+        android:id="@+id/gatewayContainer"
+        android:background="@drawable/meter_background"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <include layout="@layout/layout_meter_gateway_card"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_gravity="center"
+        android:id="@+id/dismissibleContainer"
+        android:background="@drawable/meter_background"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <include layout="@layout/layout_dismissible_regiwall_gateway_card"/>
+    </FrameLayout>
+    <FrameLayout
+        android:gravity="bottom|center_horizontal"
+        android:id="@+id/offlineContainer"
+        android:background="@drawable/meter_background"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <include layout="@layout/layout_offline_card"/>
+    </FrameLayout>
+    <FrameLayout
+        android:gravity="bottom|center_horizontal"
+        android:id="@+id/truncatorContainer"
+        android:background="@drawable/meter_background"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <include layout="@layout/layout_truncator"/>
+    </FrameLayout>
+    <View
+        android:id="@+id/paywallBackground"
+        android:background="@drawable/meter_background"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

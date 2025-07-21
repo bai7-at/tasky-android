@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:title="@string/settings_frequently_asked_questions"
+        android:key="@string/settings_faq_key"/>
+    <Preference
+        android:title="@string/settings_feedback"
+        android:key="@string/settings_feedback_key"/>
+    <Preference
+        android:title="@string/settings_tos"
+        android:key="@string/settings_tos_key"/>
+    <Preference
+        android:title="@string/settings_legal_title"
+        android:key="@string/settings_legal_key"/>
+    <Preference
+        android:title="@string/settings_version_title"
+        android:key="@string/settings_version_key"
+        android:summary=""/>
+    <Preference
+        android:title="@string/settings_ab_version_title"
+        android:key="@string/settings_ab_version_key"
+        android:summary=""/>
+    <Preference
+        android:title="@string/settings_firebase_id_title"
+        android:key="@string/settings_firebase_id_key"
+        android:summary=""/>
+    <Preference
+        android:title="@string/settings_embrace_id_title"
+        android:key="@string/settings_embrace_id_key"
+        android:summary=""/>
+    <Preference
+        android:enabled="false"
+        android:title="Build Information"
+        android:key="@string/settings_build_key"
+        android:summary=""/>
+    <com.nytimes.android.features.settings.PreferenceLongSummary
+        android:enabled="false"
+        android:title="@string/settings_copyright"
+        android:key="@string/settings_copyright_key"
+        android:summary="@string/settings_copyright_summary"/>
+</PreferenceScreen>

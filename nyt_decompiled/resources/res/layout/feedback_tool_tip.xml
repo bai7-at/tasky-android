@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="@color/ds_permaWhite"
+        android:id="@+id/tooltip_text"
+        android:background="@drawable/feedback_tool_tip_background"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
+    <View
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/tooltip_arrow"
+        android:background="@drawable/feedback_tool_tip_arrow"
+        android:layout_width="18dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="-8dp"
+        android:adjustViewBounds="true"/>
+</LinearLayout>

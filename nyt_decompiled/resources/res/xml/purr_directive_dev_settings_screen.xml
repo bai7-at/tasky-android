@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="Purr Overridden directives"
+    android:key="legal_purr_overrides">
+    <com.nytimes.android.subauth.devsettings.purr.override.PurrDirectiveOverridePreference
+        app:purrDirective="PurrAdvertisingConfigurationDirectiveV2"
+        app:purrKey="@string/purr_key_ads_V2"
+        app:purrLabel="Ad Configuration V2"/>
+    <com.nytimes.android.subauth.devsettings.purr.override.PurrDirectiveOverridePreference
+        app:purrDirective="PurrAdvertisingConfigurationDirectiveV3"
+        app:purrKey="@string/purr_key_ads_V3"
+        app:purrLabel="Ad Configuration V3"/>
+    <com.nytimes.android.subauth.devsettings.purr.override.PurrDirectiveOverridePreference
+        app:purrDirective="PurrAcceptableTrackersDirectiveV2"
+        app:purrKey="@string/purr_key_trackers_V2"
+        app:purrLabel="Acceptable Trackers V2"/>
+    <com.nytimes.android.subauth.devsettings.purr.override.PurrDirectiveOverridePreference
+        app:purrDirective="PurrDataSaleOptOutDirectiveV2"
+        app:purrKey="@string/purr_key_data_opt_v2"
+        app:purrLabel="Show Data Sale Opt Out V2 UI"/>
+    <com.nytimes.android.subauth.devsettings.purr.override.PurrDirectiveOverridePreference
+        app:purrDirective="PurrShowDataProcessingConsentDirective"
+        app:purrKey="@string/purr_key_data_consent"
+        app:purrLabel="Show Data Processing Consent UI"/>
+    <com.nytimes.android.subauth.devsettings.purr.override.PurrDirectiveOverridePreference
+        app:purrDirective="PurrShowDataProcessingPreferenceDirective"
+        app:purrKey="@string/purr_key_data_pref"
+        app:purrLabel="Show Data Processing Preference"/>
+    <com.nytimes.android.subauth.devsettings.purr.override.PurrDirectiveOverridePreference
+        app:purrDirective="PurrShowCaliforniaNoticesUiDirective"
+        app:purrKey="@string/purr_key_cali_notices"
+        app:purrLabel="Show California Notices"/>
+    <com.nytimes.android.subauth.devsettings.purr.override.PurrDirectiveOverridePreference
+        app:purrDirective="PurrEmailMarketingOptInUiDirective"
+        app:purrKey="@string/purr_key_email_marketing_opt_in"
+        app:purrLabel="Email Marketing Opt In V2"/>
+    <com.nytimes.android.subauth.devsettings.purr.override.PurrDirectiveOverridePreference
+        app:purrDirective="PurrShowLimitSensitivePIUiDirective"
+        app:purrKey="@string/purr_key_limit_sensitive_pi"
+        app:purrLabel="Show Limit Sensitive PI UI"/>
+    <com.nytimes.android.subauth.devsettings.purr.override.PurrDirectiveOverridePreference
+        app:purrDirective="PurrTCFUIDirective"
+        app:purrKey="@string/purr_key_tcf_ui"
+        app:purrLabel="Show TCF UI"/>
+    <com.nytimes.android.subauth.devsettings.purr.override.PurrDirectiveOverridePreference
+        app:purrDirective="PurrFirstPartyBehavioralTargetingDirective"
+        app:purrKey="@string/purr_key_first_party_targeting"
+        app:purrLabel="First Party Behavioral Targeting"/>
+</androidx.preference.PreferenceScreen>

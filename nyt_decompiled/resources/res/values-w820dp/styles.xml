@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FullScreenMediaTheme.Overlay" parent="@style/FullScreenMediaTheme">
+        <item name="android:layout_width">800dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

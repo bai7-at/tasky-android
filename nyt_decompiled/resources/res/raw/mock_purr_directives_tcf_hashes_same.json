@@ -1,0 +1,69 @@
+{
+  "data": {
+    "user": {
+      "__typename": "User",
+      "privacyDirectivesV2": {
+        "__typename": "UserPrivacyDirectives",
+        "adConfigurationV2": {
+          "__typename": "AdConfigurationPrivacyDirective",
+          "value": "FULL"
+        },
+        "adConfigurationV3": {
+          "__typename": "AdConfigurationPrivacyDirective",
+          "value": "FULL"
+        },
+        "acceptableTrackersV2": {
+          "__typename": "AcceptableTrackersPrivacyDirective",
+          "value": "CONTROLLERS"
+        },
+        "showDataSaleOptOutUIV2": {
+          "__typename": "ShowDataSaleOptOutUiPrivacyDirectiveV2",
+          "value": "HIDE"
+        },
+        "showDataProcessingConsentUI": {
+          "__typename": "ShowDataProcessingConsentUiPrivacyDirective",
+          "value": "HIDE"
+        },
+        "showDataProcessingPreferenceUI": {
+          "__typename": "ShowDataProcessingPreferenceUiPrivacyDirective",
+          "value": "HIDE"
+        },
+        "showCaliforniaNoticesUI": {
+          "__typename": "ShowCaliforniaNoticesUiPrivacyDirective",
+          "value": "HIDE"
+        },
+        "emailMarketingOptInUIV2": {
+          "__typename": "EmailMarketingOptInUiPrivacyDirective",
+          "value": "DO_NOT_DISPLAY"
+        },
+        "showLimitSensitivePIUI": {
+          "__typename": "ShowLimitSensitivePIDirective",
+          "value": "HIDE"
+        },
+        "tosBlockerUIV1": {
+          "__typename": "TosBlockerPrivacyDirectiveV1",
+          "value": "SHOW"
+        },
+        "fidesTCF": {
+          "__typename": "FidesTCFPrivacyDirective",
+          "value": "SHOW"
+        }
+      },
+      "tcfPref": {
+        "__typename": "TcfPreferenceData",
+        "userTcfData": {
+          "__typename": "TcfPreferenceUserData",
+          "tcString": "CPyZhwAPyZhwAAMABBENASEAAAAAAAAAAAAAAAAAAAAA.IgoMV_H3_bX9v8Tq16ft0eYFX99j77uQxBhfJs-4FyDvW_JwVn2EyNAUytqYKmRIEuzZBIQFsHJnURVChQogVryHsYkGMhTEAJ-BkgHMRa2dYCFxvmYtjEQIZ5_p_czf52R_9_dn-3czjT9lnnzVtO2dlcKidS59tH_l_bRKb-7Ied-7W_4v09tfrkW_eTVu_9evvp9-u_s_v__934AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "noticeVersion": "370eb6b18bb9",
+          "tcDecodedData": "{\n            \"IABTCF_CmpSdkID\": 890,\n            \"IABTCF_CmpSdkVersion\": 0,\n            \"IABTCF_PolicyVersion\": 2,\n            \"IABTCF_gdprApplies\": 1,\n            \"IABTCF_PublisherCC\": \"AA\",\n            \"IABTCF_PurposeOneTreatment\": 0,\n            \"IABTCF_UseNonStandardTexts\": 0,\n            \"IABTCF_TCString\": \"CPzKwooPzKwooN6AAAENCZCgAPwAAHwAAAAAADtYAEAEAAA.YAAAAAAAAAA.II7Nd_X__bX9n-_7_6ft0eY1f9_r37uQzDhfNs-8F3L_W_LwX32E7NF36tq4KmR4ku1bBIQNtHMnUDUmxaolVrzHsak2cpyNKJ_JkknsZe2dYGF9Pn9lD-YKZ7_5_9_f52T_9_9_-39z3_9f___dv_-__-vjf_599n_v9fV_78_Kf9______-____________8A\",\n            \"IABTCF_VendorConsents\": \"1101011\",\n            \"IABTCF_VendorLegitimateInterests\": \"00000001\",\n            \"IABTCF_PurposeConsents\": \"111111000000000000000000\",\n            \"IABTCF_PurposeLegitimateInterests\": \"011111000000000000000000\",\n            \"IABTCF_SpecialFeaturesOptIns\": \"000000000000\",\n            \"IABTCF_PublisherConsent\": null,\n            \"IABTCF_PublisherLegitimateInterests\": null,\n            \"IABTCF_PublisherCustomPurposesConsents\": null,\n            \"IABTCF_PublisherCustomPurposesLegitimateInterests\": null,\n            \"IABTCF_AddtlConsent\": null\n          }"
+        }
+      },
+      "currentTcfNotice": {
+        "__typename": "CurrentNotice",
+        "acceptAllTcString": "CPyZhwAPyZhwAAMABBENASEAAAAAAAAAAAAAAAAAAAAA.IgoMV_H3_bX9v8Tq16ft0eYFX99j77uQxBhfJs-4FyDvW_JwVn2EyNAUytqYKmRIEuzZBIQFsHJnURVChQogVryHsYkGMhTEAJ-BkgHMRa2dYCFxvmYtjEQIZ5_p_czf52R_9_dn-3czjT9lnnzVtO2dlcKidS59tH_l_bRKb-7Ied-7W_4v09tfrkW_eTVu_9evvp9-u_s_v__934AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "rejectAllTcString": "CPyZhwAPyZhwAAMABBENASEAAAAAAAAAAAAAAAAAAAAA.IgoMV_H3_bX9v8Tq16ft0eYFX99j77uQxBhfJs-4FyDvW_JwVn2EyNAUytqYKmRIEuzZBIQFsHJnURVChQogVryHsYkGMhTEAJ-BkgHMRa2dYCFxvmYtjEQIZ5_p_czf52R_9_dn-3czjT9lnnzVtO2dlcKidS59tH_l_bRKb-7Ied-7W_4v09tfrkW_eTVu_9evvp9-u_s_v__934AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "currentNoticeVersion": "370eb6b18bb9"
+      }
+    }
+  }
+}

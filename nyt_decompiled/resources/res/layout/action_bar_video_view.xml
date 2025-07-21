@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/fullscreen_media_video_title_margin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true">
+    <TextView
+        android:textColor="@color/content_primary_alwaysdark"
+        android:ellipsize="end"
+        android:id="@+id/action_bar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        style="@style/TextView.FullscreenMedia.ActionBar.Title"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/fs_video_byline_seperator"/>
+    <TextView
+        android:textColor="@color/content_primary_alwaysdark"
+        android:ellipsize="end"
+        android:id="@+id/action_bar_by_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        style="@style/TextView.FullscreenMedia.ActionBar.ByLine"/>
+</LinearLayout>

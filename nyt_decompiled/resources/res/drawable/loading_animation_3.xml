@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@color/content_quaternary"
+        android:pathData="@string/dots_button_loading_animation_path_1"/>
+    <path
+        android:fillColor="@color/content_quaternary"
+        android:pathData="@string/dots_button_loading_animation_path_2"/>
+    <path
+        android:fillColor="@color/content_primary"
+        android:pathData="@string/dots_button_loading_animation_path_3"/>
+</vector>

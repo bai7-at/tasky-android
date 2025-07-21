@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="11461959"
+    android:versionName="11.15.0"
+    android:compileSdkVersion="35"
+    android:compileSdkVersionCodename="15"
+    android:isSplitRequired="true"
+    android:requiredSplitTypes="base__abi,base__density"
+    android:splitTypes=""
+    package="com.nytimes.android"
+    platformBuildVersionCode="35"
+    platformBuildVersionName="15">
+    <uses-sdk
+        android:minSdkVersion="29"
+        android:targetSdkVersion="35"/>
+    <queries>
+        <package android:name="com.theathletic"/>
+        <package android:name="com.nytimes.cooking"/>
+        <package android:name="com.nytimes.crossword"/>
+        <intent>
+            <action android:name="android.intent.action.SEND"/>
+            <data android:mimeType="image/*"/>
+        </intent>
+        <intent>
+            <action android:name="com.instagram.share.ADD_TO_STORY"/>
+            <data android:mimeType="image/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+        <package android:name="com.google.android.apps.tv.launcherx"/>
+        <package android:name="com.google.android.tvlauncher"/>
+        <package android:name="com.google.android.tvrecommendations"/>
+        <package android:name="com.facebook.katana"/>
+        <intent>
+            <action android:name="com.android.vending.billing.InAppBillingService.BIND"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"/>
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.DETECT_SCREEN_CAPTURE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS"/>
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <permission
+        android:name="com.nytimes.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.nytimes.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:name="com.nytimes.android.NYTApplication"
+        android:allowBackup="false"
+        android:largeHeap="@bool/is_large_heap"
+        android:supportsRtl="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:enableOnBackInvokedCallback="true">
+        <meta-data
+            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+            android:value="false"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="false"/>
+        <activity
+            android:theme="@style/DrawerTheme"
+            android:name="com.nytimes.android.MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:configChanges="screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH"/>
+                <action android:name="android.media.action.MEDIA_SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.nytimes.android.bestsellers.BooksBestSellersActivity"
+            android:screenOrientation="behind"/>
+        <activity
+            android:theme="@style/Subauth_Theme.NoActionBar"
+            android:name="com.nytimes.subauth.ui.login.SubauthLoginActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="nytmobile"
+                    android:host="authorize"
+                    android:path="/news"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.SingleArticleActivity"
+            android:name="com.nytimes.android.SingleArticleActivity"
+            android:taskAffinity=".article_task"
+            android:screenOrientation="behind"
+            android:configChanges="keyboardHidden|keyboard"
+            android:parentActivityName="com.nytimes.android.MainActivity"/>
+        <activity
+            android:theme="@style/FullScreenMediaTheme"
+            android:name="com.nytimes.android.FullscreenMediaActivity"
+            android:configChanges="screenSize|uiMode|orientation"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.nytimes.android.onboarding.compose.ComposeOnboardingActivity"
+            android:screenOrientation="portrait"/>
+        <service android:name="com.nytimes.android.push.FcmIntentService"/>
+        <activity
+            android:theme="@style/Theme.Settings"
+            android:label="@string/action_settings"
+            android:name="com.nytimes.android.features.settings.SettingsActivity"
+            android:screenOrientation="behind"
+            android:parentActivityName="com.nytimes.android.MainActivity"/>
+        <activity
+            android:theme="@style/Theme.Settings"
+            android:label="@string/notification_setting_title"
+            android:name="com.nytimes.android.features.settings.push.NotificationsSettingsActivity"
+            android:screenOrientation="behind"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.nytimes.android.WebActivity"
+            android:screenOrientation="behind"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/SectionTheme"
+            android:name="com.nytimes.android.SectionActivity"
+            android:screenOrientation="behind"
+            android:configChanges="screenSize"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent"
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:exported="false"
+            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@style/Theme.AppThemeWithElevatedStatusBar"
+            android:name="com.nytimes.android.features.giftsharehub.GiftShareHubActivity"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/Theme.AppThemeWithElevatedStatusBar"
+            android:name="com.nytimes.android.comments.writenewcomment.mvi.WriteNewCommentActivity"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/Theme.AppThemeWithElevatedStatusBar"
+            android:name="com.nytimes.android.comments.comments.mvi.ViewingCommentsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize"/>
+        <receiver
+            android:name="com.nytimes.android.InstallReferrerReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.nytimes.android.share.ShareBroadcastReceiver"
+            android:exported="true"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.nytimes.android.IntentFilterActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="behind"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="nyt"
+                    android:host="*"/>
+                <data
+                    android:scheme="nytimes"
+                    android:host="reader"/>
+                <data
+                    android:scheme="nytimes"
+                    android:host="notifications"/>
+                <data
+                    android:scheme="nytimes"
+                    android:host="abra"/>
+                <data
+                    android:scheme="nytimes"
+                    android:host="advertising"/>
+                <data
+                    android:scheme="nytimes"
+                    android:host="adv-preview.nytimes.com"/>
+                <data
+                    android:scheme="nytimes"
+                    android:host="paidpost.nytimes.com"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="nytimes"/>
+                <data android:host="www.nytimes.com"/>
+                <data android:host="www.nytimes.com/"/>
+                <data android:host="nytimes.com"/>
+                <data android:host="nytimes.com/"/>
+                <data android:host="notifications"/>
+                <data android:pathPrefix="/20"/>
+                <data android:pathPrefix="/19"/>
+                <data android:pathPrefix="/es/20"/>
+                <data android:pathPrefix="/es/19"/>
+                <data android:pathPrefix="/id/"/>
+                <data android:pathPrefix="/sf/"/>
+                <data android:pathPrefix="/live/"/>
+                <data android:pathPrefix="/section/"/>
+                <data android:pathPrefix="/lp/"/>
+                <data android:pathPrefix="/interactive/"/>
+                <data android:pathPrefix="/news-event/2020-election"/>
+                <data android:pathPrefix="/news-event/"/>
+                <data android:pathPrefix="/topic/subject/"/>
+                <data android:pathPrefix="/by/"/>
+                <data android:pathPrefix="/column/"/>
+                <data android:pathPrefix="/explain/"/>
+                <data android:pathPrefix="/video/"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="www.nytimes.com"/>
+                <data android:pathPattern="/*"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.Settings"
+            android:label="@string/title_activity_notification"
+            android:name="com.nytimes.android.features.notifications.push.ComposeNotificationsActivity"/>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token"/>
+        <receiver
+            android:name="com.nytimes.android.media.NytMediaButtonReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.nytimes.android.notification.NotificationParsingJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/Ecomm.Theme.Facebook"
+            android:label="NYTIMES"
+            android:name="com.facebook.FacebookActivity"
+            android:screenOrientation="behind"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <receiver
+            android:name="com.nytimes.android.notification.NotificationActionReceiver"
+            android:enabled="true"
+            android:exported="true"/>
+        <activity
+            android:theme="@style/Theme.Settings"
+            android:name="com.nytimes.android.feedback.FeedbackActivity"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:theme="@style/Theme.AccountBenefits"
+            android:name="com.nytimes.android.accountbenefits.AccountBenefitsActivity"/>
+        <receiver android:name="com.nytimes.android.eventtracker.worker.EventReporterReceiver"/>
+        <service
+            android:name="com.nytimes.android.eventtracker.buffer.EventReporterService"
+            android:exported="false"/>
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:exported="false"
+            android:authorities="com.nytimes.android.androidx-startup">
+            <meta-data
+                android:name="com.nytimes.android.unfear.reader.UnfearInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="com.nytimes.android.unfear.nytdesignsystem.UnfearInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup"/>
+        </provider>
+        <activity
+            android:theme="@style/Theme.Settings"
+            android:label="@string/action_settings"
+            android:name="com.nytimes.android.features.settings.AboutActivity"
+            android:screenOrientation="behind"/>
+        <activity
+            android:theme="@style/Theme.Settings"
+            android:label="@string/settings_legal_title"
+            android:name="com.nytimes.android.features.settings.LegalDynamicActivity"/>
+        <activity
+            android:theme="@style/Theme.Settings"
+            android:label="@string/text_size_setting_title"
+            android:name="com.nytimes.android.textsize.TextSizeActivity"/>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.nytimes.android"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.nytimes.android.messaging.postloginregioffers.view.PostRegiLoginOfferBaseActivity"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.nytimes.android.messaging.postloginregioffers.view.NewPostRegiOfferActivity"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.nytimes.android.messaging.postloginregioffers.view.NewPostLoginOfferActivity"/>
+        <activity
+            android:name="com.nytimes.android.notification.NotificationTrampolineActivity"
+            android:exported="false"/>
+        <service
+            android:name="com.nytimes.android.media.player.MediaService"
+            android:exported="true"
+            android:stopWithTask="true"
+            android:foregroundServiceType="mediaPlayback">
+            <intent-filter>
+                <action android:name="android.media.browse.MediaBrowserService"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name="com.nytimes.android.libs.messagingarchitecture.betasettings.MessagingBetaSettingsActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.nytimes.games.spellingbee.SpellingBeeHostActivity"
+            android:fitsSystemWindows="true"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.nytimes.subauth.ui.purr.webview.PurrUIWebViewActivity"
+            android:enabled="true"
+            android:exported="false"
+            android:screenOrientation="behind"/>
+        <service
+            android:name="com.nytimes.android.assetretriever.AssetRetrieverJobIntentService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="true"/>
+        <activity android:name="com.nytimes.xwords.hybrid.view.BaseGamesHybridHostActivity"/>
+        <activity
+            android:theme="@style/Subauth_Theme.NoActionBar"
+            android:name="com.nytimes.subauth.ui.accountdelete.AccountDeleteActivity"
+            android:exported="true"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/PurrAppTheme.NoActionBar"
+            android:name="com.nytimes.subauth.ui.purr.privacysettings.PrivacySettingsActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/SdkTheme"
+            android:name="co.datadome.sdk.ChallengeActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/Theme.AppCompat"
+            android:name="com.nytimes.android.eventtracker.devsettings.logviewer.ET2EventViewerActivity"/>
+        <service
+            android:name="com.nytimes.android.internal.pushmessaging.fcmprovider.FCMService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme="@style/Theme.DevSettings"
+            android:name="com.nytimes.android.devsettings.home.DevSettingsActivity"/>
+        <activity
+            android:theme="@style/Theme.DevSettings"
+            android:name="com.nytimes.android.devsettings.home.DevSettingsXmlActivity"/>
+        <activity
+            android:name="com.nytimes.android.devsettings.utils.ProcessPhoenix"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/Theme.GrowthUI"
+            android:label=""
+            android:name="com.nytimes.android.growthui.landingpage.LandingPageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/Theme.GrowthUI"
+            android:name="com.nytimes.android.growthui.postauth.PostAuthActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/Theme.App.NoActionBar"
+            android:label="ShowkaseBrowserActivity"
+            android:name="com.airbnb.android.showkase.ui.ShowkaseBrowserActivity"
+            android:exported="true"
+            android:configChanges="fontScale|colorMode|layoutDirection|density|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <provider
+            android:name="com.datadog.android.rum.DdRumContentProvider"
+            android:exported="false"
+            android:authorities="com.nytimes.android.provider.datadog.rum"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9542126426993714~1327531484"/>
+        <provider
+            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+            android:exported="false"
+            android:authorities="com.nytimes.android.mobileadsinitprovider"
+            android:initOrder="100"/>
+        <service
+            android:name="com.google.android.gms.ads.AdService"
+            android:enabled="true"
+            android:exported="false"/>
+        <activity
+            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+            android:exported="false"
+            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
+            android:exported="false"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"/>
+        <property
+            android:name="android.adservices.AD_SERVICES_CONFIG"
+            android:resource="@xml/gma_ad_services_config"/>
+        <service
+            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="@bool/enable_system_job_service_default"
+            android:exported="true"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:enabled="@bool/enable_system_foreground_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable.BroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.BatteryChargingProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.BatteryNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.StorageNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.NetworkStateProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="hostAppId"
+            android:value="com.nytimes.android"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.NoActionBar.Translucent"
+            android:name="com.google.android.tv.ads.controls.FallbackImageActivity"
+            android:exported="false"/>
+        <service android:name="com.chartbeat.androidsdk.ChartbeatService"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="fbconnect"
+                    android:host="cct.com.nytimes.android"/>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false"
+            android:directBootAware="true">
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false"
+            android:directBootAware="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:exported="false"
+            android:authorities="com.nytimes.android.firebaseinitprovider"
+            android:initOrder="100"
+            android:directBootAware="true"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"/>
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:exported="true"
+            android:visibleToInstantApps="true"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"/>
+        <uses-library
+            android:name="android.ext.adservices"
+            android:required="false"/>
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:exported="false"
+            android:authorities="com.nytimes.android.FacebookInitProvider"/>
+        <receiver
+            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false"
+            android:directBootAware="true"/>
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false"/>
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false"/>
+        <activity
+            android:name="androidx.compose.ui.tooling.PreviewActivity"
+            android:exported="true"/>
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:exported="false"
+            android:authorities="com.nytimes.android.com.squareup.picasso"/>
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false"/>
+        <meta-data
+            android:name="com.google.android.play.billingclient.version"
+            android:value="6.0.1"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.android.billingclient.api.ProxyBillingActivity"
+            android:exported="false"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false">
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct"/>
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false"/>
+        <receiver
+            android:name="com.instacart.library.truetime.BootCompletedBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/Theme.PlayCore.Transparent"
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:exported="false"
+            android:stateNotNeeded="true"/>
+        <meta-data
+            android:name="com.android.vending.splits.required"
+            android:value="true"/>
+        <meta-data
+            android:name="com.android.stamp.source"
+            android:value="https://play.google.com/store"/>
+        <meta-data
+            android:name="com.android.stamp.type"
+            android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data
+            android:name="com.android.vending.splits"
+            android:resource="@xml/splits0"/>
+        <meta-data
+            android:name="com.android.vending.derived.apk.id"
+            android:value="2"/>
+    </application>
+</manifest>

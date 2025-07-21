@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="@integer/video_cover_animator_duration"
+        android:startOffset="@integer/video_cover_animator_start_offset"
+        android:valueFrom="0dp"
+        android:valueTo="40dp"
+        android:propertyName="translationY"/>
+</set>

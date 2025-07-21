@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/WidthMatchHeightMatch">
+    <TextView
+        android:gravity="start"
+        android:id="@+id/sf_summary_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextView.SFSummary"/>
+    <TextView
+        android:gravity="start"
+        android:id="@+id/sf_summary_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextView.SFSummary.Small"/>
+    <TextView
+        android:gravity="start"
+        android:id="@+id/sf_summary_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextView.SFSummary.Large"/>
+    <TextView
+        android:gravity="start"
+        android:id="@+id/sf_summary_extra_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextView.SFSummary.ExtraLarge"/>
+    <TextView
+        android:gravity="start"
+        android:id="@+id/sf_summary_jumbo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextView.SFSummary.Jumbo"/>
+</LinearLayout>

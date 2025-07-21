@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/hybrid_container"
+    android:scrollbars="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/webViewRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.nytimes.android.readerhybrid.HybridWebView
+            android:id="@+id/webView"
+            android:paddingBottom="?attr/actionBarSize"
+            android:scrollbars="vertical"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="false"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <FrameLayout
+        android:id="@+id/paywallContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

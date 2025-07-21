@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="40dp"
+    android:width="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+    <group
+        android:translateX="-109"
+        android:translateY="-28">
+        <group
+            android:translateX="109"
+            android:translateY="28">
+            <path
+                android:fillColor="@color/audio_sf_card_pause_play_button"
+                android:pathData="M 22 13 H 25.7037037 V 27.8148148 H 22 V 13 Z"
+                android:strokeWidth="1"/>
+            <path
+                android:fillColor="@color/audio_sf_card_pause_play_button"
+                android:pathData="M 15 13 H 18.7037037 V 27.8148148 H 15 V 13 Z"
+                android:strokeWidth="1"/>
+        </group>
+    </group>
+</vector>

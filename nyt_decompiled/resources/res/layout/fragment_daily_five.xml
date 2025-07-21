@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/dailyFiveFeedRv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <com.nytimes.android.designsystem.uiview.ProgressTextView
+        android:id="@+id/progressIndicator"
+        android:visibility="gone"
+        android:text="@string/daily_five_updating_message"
+        style="@style/ProgressTextView"/>
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/composable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

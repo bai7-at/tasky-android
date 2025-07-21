@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/video_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.nytimes.android.video.views.ExoPlayerView
+        android:layout_gravity="center"
+        android:id="@+id/fullscreen_exo_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:fullscreenMode="true"
+        app:video_surface_type="surface_view"/>
+</RelativeLayout>

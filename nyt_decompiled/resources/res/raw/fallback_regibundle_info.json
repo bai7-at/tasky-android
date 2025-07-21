@@ -1,0 +1,15 @@
+{
+  "loginText": "Log In",
+  "registration": {
+    "header": "FREE",
+    "text": "Get limited article access with a free account.",
+    "buttonText": "Create a free account"
+  },
+  "subscription": {
+    "header": "Starting at",
+    "text": "Subscribe for unlimited access.",
+    "buttonText": "View subscription offer",
+    "hoursBetweenRecurrence": 24,
+    "sku": "and.aa.news.app.bau.mo.oc.20000288480"
+  }
+}

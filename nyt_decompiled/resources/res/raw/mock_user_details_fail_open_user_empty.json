@@ -1,0 +1,90 @@
+{
+  "errors": [
+    {
+      "message": "Received Unauthorized response from LIRE client: The user token is invalid.",
+      "path": [
+        "user",
+        "userInfo"
+      ],
+      "extensions": {
+        "detailCode": "UIE",
+        "description": "The provided user input is invalid.",
+        "serviceName": "samizdat-sangria-graphql",
+        "code": "DOWNSTREAM_SERVICE_ERROR",
+        "exception": {
+          "message": "Received Unauthorized response from LIRE client: The user token is invalid.",
+          "path": [
+            "user",
+            "userInfo"
+          ],
+          "locations": [
+            {
+              "line": 1,
+              "column": 107
+            }
+          ],
+          "stacktrace": [ "" ]
+        }
+      }
+    }
+  ],
+  "data": {
+    "user": {
+      "profile": {
+        "email": "example.email@nytimes.com",
+        "displayName": "Example Name",
+        "name": "Example Name",
+        "givenName": "",
+        "familyName": "",
+        "username": ""
+      },
+      "userInfo": {
+        "regiId": null
+      },
+      "subscriptionDetails": [
+        {
+          "bundleType": "ADA_CR",
+          "cancellationDate": null,
+          "subscriptionName": "All Access",
+          "isFreeTrial": false,
+          "hasQueuedSub": false,
+          "startDate": "2023-12-12T14:44:12.000Z",
+          "endDate": null,
+          "status": "ACTIVE",
+          "entitlements": [
+            "AAA",
+            "XWD",
+            "MM",
+            "MOW",
+            "MSD",
+            "MTD",
+            "CKG",
+            "WC",
+            "ATH",
+            "AUD"
+          ],
+          "graceStartDate": null,
+          "graceEndDate": null,
+          "hasTransactionInProgress": true,
+          "hasActiveEntitlements": true,
+          "billingSource": "Sartre",
+          "ownershipStatus": "OWNED",
+          "promotionTierType": "FIXED_AMOUNT",
+          "subscriptionProducts": [
+            "NEWS",
+            "COOKING",
+            "GAMES",
+            "WIRECUTTER",
+            "ATHLETIC",
+            "AUDIO"
+          ],
+          "subscriptionLabels": [
+            "PAID_BY_OWNER",
+            "BONUS",
+            "ALL_ACCESS"
+          ]
+        }
+      ]
+    }
+  }
+}

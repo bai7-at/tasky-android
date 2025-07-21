@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/default_ripple_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:id="@+id/watching_module"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        style="@style/SectionFront.WebView.Container"/>
+    <View
+        android:id="@+id/debug_ad_module_layer"
+        android:background="@color/test_blue_trans"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/watching_module"
+        android:layout_alignBottom="@+id/watching_module"
+        android:layout_alignStart="@+id/watching_module"
+        android:layout_alignEnd="@+id/watching_module"/>
+</RelativeLayout>

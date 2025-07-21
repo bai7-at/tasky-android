@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sf_photo_video_bottom_padding">44dp</dimen>
+    <dimen name="sf_photo_video_item_kicker_top_margin">14dp</dimen>
+    <dimen name="sf_photo_video_item_title_top_margin">5dp</dimen>
+    <dimen name="sf_photo_video_item_title_txt_height">28sp</dimen>
+    <dimen name="sf_photo_video_item_title_txt_size">22sp</dimen>
+</resources>

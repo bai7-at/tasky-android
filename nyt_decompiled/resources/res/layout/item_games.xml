@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nytimes.android.designsystem.uiview.CarouselView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gamesCarouselView"
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/gamesCarouselContent"
+        android:paddingLeft="@dimen/daily_five_feed_horizontal_spacing"
+        android:paddingRight="@dimen/daily_five_feed_horizontal_spacing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/daily_five_layout_margin_bottom"
+        android:contentDescription="@string/daily_five_for_you_games_content_accessibility"/>
+</com.nytimes.android.designsystem.uiview.CarouselView>

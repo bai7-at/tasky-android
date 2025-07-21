@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/playback_container"
+    style="@style/WidthMatchHeightWrap">
+    <ImageView
+        android:id="@+id/play_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@null"
+        android:layout_marginEnd="@dimen/sf_audio_view_horizontal_margin"
+        app:srcCompat="@drawable/audio_btn_play"/>
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/buffering_animation"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="fitXY"
+        android:layout_alignTop="@+id/play_button"
+        android:layout_alignStart="@+id/play_button"
+        app:lottie_fileName="icons/audio_buffering.json"
+        app:lottie_loop="true"/>
+    <TextView
+        android:id="@+id/playback_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/sf_audio_view_horizontal_margin"
+        android:layout_toEndOf="@+id/play_button"
+        style="@style/TextView.Section.AudioPlaybackStatus"/>
+    <TextView
+        android:gravity="end"
+        android:id="@+id/current_audio_position"
+        android:visibility="gone"
+        android:layout_width="@dimen/audio_control_duration_width"
+        android:layout_height="@dimen/audio_control_duration_height"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/playback_status"
+        style="@style/TextView.Section.AudioText"/>
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="@dimen/audio_control_duration_width"
+        android:layout_height="@dimen/audio_control_duration_height"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/current_audio_position"
+        style="@style/TextView.Section.AudioText"/>
+</RelativeLayout>

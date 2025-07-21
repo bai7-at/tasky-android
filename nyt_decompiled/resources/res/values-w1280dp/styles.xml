@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SectionFront.LayoutConfig.Email" parent="@style/SectionFront.LayoutConfig.ThreeColumnLayout">
+        <item name="isOrderedSection">true</item>
+    </style>
+</resources>

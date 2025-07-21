@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/promoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/daily_five_feed_horizontal_spacing"
+        android:layout_marginRight="@dimen/daily_five_feed_horizontal_spacing"
+        style="@style/DailyFive.Headline"/>
+    <com.nytimes.android.designsystem.uiview.CarouselView
+        android:id="@+id/carouselView"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/carouselContent"
+            android:paddingLeft="@dimen/daily_five_feed_horizontal_spacing"
+            android:paddingRight="@dimen/daily_five_feed_horizontal_spacing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </com.nytimes.android.designsystem.uiview.CarouselView>
+</LinearLayout>

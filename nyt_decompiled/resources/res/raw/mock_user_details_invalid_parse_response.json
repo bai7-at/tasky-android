@@ -1,0 +1,63 @@
+{
+  "data": {
+    "user": {
+      "__typename": "User",
+      "profile": {
+        "__typename": "Profile",
+        "email": "testemail@nytimes.com",
+        "displayName": "test.user",
+        "name": "Test User",
+        "givenName": "Test",
+        "familyName": "User",
+        "username": "testuser"
+      },
+      "userInfo": {
+        "__typename": "UserInfo",
+        "regiId": "135190990"
+      },
+      "subscriptionDetails": [
+        {
+          "bundleType": "G",
+          "cancellationDate": null,
+          "subscriptionName": "All Access",
+          "isFreeTrial": false,
+          "hasQueuedSub": false,
+          "startDate": "10000-01-01T04:59:59.000Z",
+          "endDate": null,
+          "status": "ACTIVE",
+          "entitlements": [
+            "AAA",
+            "XWD",
+            "MM",
+            "MOW",
+            "MSD",
+            "MTD",
+            "CKG",
+            "WC",
+            "ATH",
+            "AUD"
+          ],
+          "graceStartDate": null,
+          "graceEndDate": null,
+          "hasTransactionInProgress": false,
+          "hasActiveEntitlements": true,
+          "billingSource": "Sartre",
+          "ownershipStatus": "OWNED",
+          "promotionTierType": "ZERO_VALUE_COMP",
+          "subscriptionProducts": [
+            "NEWS",
+            "COOKING",
+            "GAMES",
+            "WIRECUTTER",
+            "ATHLETIC",
+            "AUDIO"
+          ],
+          "subscriptionLabels": [
+            "BONUS",
+            "ALL_ACCESS"
+          ]
+        }
+      ]
+    }
+  }
+}

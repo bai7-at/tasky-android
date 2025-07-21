@@ -1,0 +1,55 @@
+{
+  "loginNavigationTitle": "Logged In",
+  "accountCreatedNavigationTitle": "Account Created",
+  "userMessage": "You are logged in as",
+  "header": "Subscribe for unlimited play.",
+  "freeTrialHeader": "Unlimited play, free for 7 days",
+  "gameIcons": [
+    "wordle",
+    "connections",
+    "crossword",
+    "spelling_bee",
+    "mini",
+    "sudoku",
+    "tiles",
+    "letterboxed"
+  ],
+  "productIdentifier": "and.games.7.days.free.mo.oc.20000296100",
+  "cardHeader": "Games",
+  "cardSubHeader": "Enjoy the full Spelling Bee experience, plus Wordle, The Crossword and more.",
+  "cardValuePropsButtonText": "Learn more",
+  "valueProps": [
+    {
+      "icon": "checkmark",
+      "title": "",
+      "text": "Enjoy full access to Wordle, Spelling Bee, The Crossword and more."
+    },
+    {
+      "icon": "checkmark",
+      "title": "",
+      "text": "Play new puzzles every day for concentration or relaxation."
+    },
+    {
+      "icon": "checkmark",
+      "title": "",
+      "text": "Strengthen your strategy with WordleBot."
+    },
+    {
+      "icon": "checkmark",
+      "title": "",
+      "text": "Unlock over 10,000 puzzles in our Spelling Bee and crossword archives."
+    },
+    {
+      "icon": "checkmark",
+      "title": "",
+      "text": "Track your stats and streaks on any device."
+    }
+  ],
+  "cardCancelNotice": "Cancel or pause anytime.",
+  "cardSubscribeButtonText": "Subscribe Now",
+  "freeTrialCardSubscribeButtonText": "Start free trial",
+  "cardContinueButtonText": "Continue without subscribing",
+  "terms": "<b>Automatic Renewal Terms</b><br><br><b>If you subscribe to The New York Times via Google, payment for your subscription will be automatically charged to your Google Play account upon confirmation. Subscriptions renew automatically 24-hours prior to the start of the next billing period. Billing occurs every calendar month for a monthly subscription or once-yearly for an annual subscription. Subscriptions continue to renew automatically until cancelled. You can manage and cancel subscriptions using the Google Play subscription center.</b><br><br>Current subscribers not eligible. Print edition not included. New York Times Games, Cooking, Wirecutter and The Athletic are referred to as Standalone subscriptions. Access to Standalones is included with a New York Times All Access subscription, but is not included with a New York Times News subscription. Individual Standalone subscriptions do not include other Standalones or digital news content. <br><br>For offers that include a free trial: If you cancel before the end of the free trial, you will not be charged. After the free trial period, you will automatically become a paying subscriber. If you choose to upgrade or downgrade your subscription during a free trial period, you will forfeit the remainder of the free trial. <br><br>By selecting a pricing option you agree to the automatic renewal terms stated above, <a href='https://www.nytimes.com/privacy/privacy-policy'>The New York Times Privacy Policy</a> and <a href='https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service'>The New York Times Terms of Service.</a>",
+  "noInternetTitleText": "Cannot Connect",
+  "noInternetDetailsText": "Please check your network connection and try again later."
+}

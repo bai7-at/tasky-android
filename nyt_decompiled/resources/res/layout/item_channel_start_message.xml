@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/daily_five_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/divider"
+        style="@style/DailyFive.ChannelDivider"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/daily_five_feed_horizontal_spacing"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="@dimen/daily_five_feed_horizontal_spacing"
+        android:text="@string/daily_five_channels_start_message_1"
+        style="@style/DailyFive.ChannelStartTitle"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/daily_five_feed_horizontal_spacing"
+        android:layout_marginRight="@dimen/daily_five_feed_horizontal_spacing"
+        android:layout_marginBottom="30dp"
+        android:text="@string/daily_five_channels_start_message_2"
+        style="@style/DailyFive.ChannelStartMessage"/>
+</LinearLayout>

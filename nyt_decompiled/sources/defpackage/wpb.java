@@ -1,0 +1,174 @@
+package defpackage;
+
+import android.content.Context;
+import com.google.android.gms.internal.ads.s6;
+import com.google.android.gms.internal.ads.t6;
+import com.google.android.gms.internal.ads.u6;
+import com.google.android.gms.internal.ads.zzflg;
+import com.google.android.gms.internal.ads.zzgaf;
+import java.util.concurrent.ScheduledExecutorService;
+
+/* loaded from: classes3.dex */
+final class wpb extends asd {
+    private final lrd a;
+    private final gqb b;
+    private final wpb c = this;
+    private final e4f d;
+    private final e4f e;
+    private final e4f f;
+    private final e4f g;
+    private final e4f h;
+    private final e4f i;
+    private final e4f j;
+    private final e4f k;
+    private final e4f l;
+    private final e4f m;
+    private final e4f n;
+
+    /* synthetic */ wpb(gqb gqbVar, lrd lrdVar, vpb vpbVar) {
+        e4f e4fVar;
+        e4f e4fVar2;
+        e4f e4fVar3;
+        this.b = gqbVar;
+        this.a = lrdVar;
+        e4fVar = gqbVar.H;
+        this.d = u3f.b(new t7e(e4fVar));
+        wrd wrdVar = new wrd(lrdVar);
+        this.e = wrdVar;
+        e4f b = u3f.b(utc.a());
+        this.f = b;
+        e4f b2 = u3f.b(stc.a());
+        this.g = b2;
+        e4f b3 = u3f.b(wtc.a());
+        this.h = b3;
+        e4f b4 = u3f.b(ytc.a());
+        this.i = b4;
+        y3f b5 = z3f.b(4);
+        b5.b(zzflg.GMS_SIGNALS, b);
+        b5.b(zzflg.BUILD_URL, b2);
+        b5.b(zzflg.HTTP, b3);
+        b5.b(zzflg.PRE_PROCESS, b4);
+        z3f c = b5.c();
+        this.j = c;
+        e4fVar2 = gqbVar.h;
+        e4f b6 = u3f.b(new ztc(wrdVar, e4fVar2, x4e.a(), c));
+        this.k = b6;
+        i4f a = j4f.a(0, 1);
+        a.a(b6);
+        j4f c2 = a.c();
+        this.l = c2;
+        u6 u6Var = new u6(c2);
+        this.m = u6Var;
+        x4e a2 = x4e.a();
+        e4fVar3 = gqbVar.n;
+        this.n = u3f.b(new t6(a2, e4fVar3, u6Var));
+    }
+
+    @Override // defpackage.asd
+    public final jqd a() {
+        dob dobVar;
+        e4f e4fVar;
+        e4f e4fVar2;
+        dob dobVar2;
+        e4f e4fVar3;
+        dob dobVar3;
+        e4f e4fVar4;
+        e4f e4fVar5;
+        e4f e4fVar6;
+        dob dobVar4;
+        dob dobVar5;
+        dob dobVar6;
+        e4f e4fVar7;
+        e4f e4fVar8;
+        e4f e4fVar9;
+        e4f e4fVar10;
+        e4f e4fVar11;
+        e4f e4fVar12;
+        dobVar = this.b.b;
+        Context a = dobVar.a();
+        d4f.b(a);
+        kke kkeVar = pgb.a;
+        d4f.b(kkeVar);
+        teb tebVar = new teb();
+        d4f.b(kkeVar);
+        vtd vtdVar = new vtd(tebVar, kkeVar, mrd.a(this.a));
+        aod a2 = cod.a();
+        e4fVar = this.b.n;
+        gqd a3 = uud.a(vtdVar, a2, (ScheduledExecutorService) e4fVar.zzb(), 0);
+        o7b o7bVar = new o7b();
+        e4fVar2 = this.b.n;
+        ScheduledExecutorService scheduledExecutorService = (ScheduledExecutorService) e4fVar2.zzb();
+        dobVar2 = this.b.b;
+        Context a4 = dobVar2.a();
+        d4f.b(a4);
+        fud fudVar = new fud(o7bVar, scheduledExecutorService, a4);
+        e4fVar3 = this.b.n;
+        gqd b = uud.b(fudVar, (ScheduledExecutorService) e4fVar3.zzb());
+        bfb bfbVar = new bfb();
+        dobVar3 = this.b.b;
+        Context a5 = dobVar3.a();
+        d4f.b(a5);
+        e4fVar4 = this.b.n;
+        ScheduledExecutorService scheduledExecutorService2 = (ScheduledExecutorService) e4fVar4.zzb();
+        d4f.b(kkeVar);
+        lrd lrdVar = this.a;
+        drd a6 = frd.a(bfbVar, a5, scheduledExecutorService2, kkeVar, nrd.a(lrdVar), prd.a(lrdVar), qrd.a(lrdVar));
+        e4fVar5 = this.b.n;
+        gqd a7 = vud.a(a6, (ScheduledExecutorService) e4fVar5.zzb());
+        d4f.b(kkeVar);
+        dvd dvdVar = new dvd(kkeVar);
+        e4fVar6 = this.b.n;
+        gqd c = uud.c(dvdVar, (ScheduledExecutorService) e4fVar6.zzb());
+        pud pudVar = pud.a;
+        dobVar4 = this.b.b;
+        Context a8 = dobVar4.a();
+        d4f.b(a8);
+        String a9 = mrd.a(this.a);
+        d4f.b(kkeVar);
+        csd csdVar = new csd(null, a8, a9, kkeVar);
+        xma xmaVar = new xma();
+        d4f.b(kkeVar);
+        dobVar5 = this.b.b;
+        Context a10 = dobVar5.a();
+        d4f.b(a10);
+        rsd rsdVar = new rsd(xmaVar, kkeVar, a10);
+        soa soaVar = new soa();
+        d4f.b(kkeVar);
+        ztd ztdVar = new ztd(soaVar, kkeVar, ord.a(this.a));
+        bfb bfbVar2 = new bfb();
+        d4f.b(kkeVar);
+        lrd lrdVar2 = this.a;
+        jrd jrdVar = new jrd(bfbVar2, kkeVar, rrd.a(lrdVar2), vrd.a(lrdVar2), nrd.a(lrdVar2));
+        bfb bfbVar3 = new bfb();
+        lrd lrdVar3 = this.a;
+        gqb gqbVar = this.b;
+        int a11 = nrd.a(lrdVar3);
+        dobVar6 = gqbVar.b;
+        Context a12 = dobVar6.a();
+        d4f.b(a12);
+        e4fVar7 = this.b.k0;
+        kfb kfbVar = (kfb) e4fVar7.zzb();
+        e4fVar8 = this.b.n;
+        ScheduledExecutorService scheduledExecutorService3 = (ScheduledExecutorService) e4fVar8.zzb();
+        d4f.b(kkeVar);
+        nsd nsdVar = new nsd(bfbVar3, a11, a12, kfbVar, scheduledExecutorService3, kkeVar, mrd.a(this.a));
+        e4fVar9 = this.b.N0;
+        gqd gqdVar = (gqd) e4fVar9.zzb();
+        String a13 = mrd.a(this.a);
+        ima imaVar = new ima();
+        e4fVar10 = this.b.k0;
+        kfb kfbVar2 = (kfb) e4fVar10.zzb();
+        e4fVar11 = this.b.n;
+        ScheduledExecutorService scheduledExecutorService4 = (ScheduledExecutorService) e4fVar11.zzb();
+        d4f.b(kkeVar);
+        zzgaf A = zzgaf.A(a3, b, a7, c, pudVar, csdVar, rsdVar, ztdVar, jrdVar, nsdVar, gqdVar, jsd.a(a13, imaVar, kfbVar2, scheduledExecutorService4, kkeVar));
+        q7e q7eVar = (q7e) this.d.zzb();
+        e4fVar12 = this.b.a0;
+        return new jqd(a, kkeVar, A, q7eVar, (zuc) e4fVar12.zzb());
+    }
+
+    @Override // defpackage.asd
+    public final s6 b() {
+        return (s6) this.n.zzb();
+    }
+}

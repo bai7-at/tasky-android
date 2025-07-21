@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@+id/share"
+        android:layout_alignParentStart="true"
+        style="@style/VideoSingleControlContainer">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_share_filled"
+            app:tint="@color/content_primary_alwaysdark"/>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/caption_control_container"
+        android:visibility="gone"
+        android:layout_toStartOf="@+id/video_fullscreen_toggle_container"
+        style="@style/VideoSingleControlContainer">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/caption_control_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_cc_android"/>
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/video_fullscreen_toggle_container"
+        android:layout_toStartOf="@+id/volumeContainer"
+        style="@style/VideoSingleControlContainer">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/video_fullscreen_toggle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/vr_minimize_fullscreen"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/volumeContainer"
+        android:layout_alignParentEnd="true"
+        style="@style/VideoSingleControlContainer">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_volume"/>
+    </LinearLayout>
+</merge>

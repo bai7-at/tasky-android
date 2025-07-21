@@ -1,0 +1,35 @@
+package defpackage;
+
+import kotlin.jvm.internal.DefaultConstructorMarker;
+
+/* loaded from: classes.dex */
+public abstract class eo5 {
+    public static final a a = new a(null);
+    private static final int b = c(0);
+    private static final int c = c(1);
+
+    public static final class a {
+        public /* synthetic */ a(DefaultConstructorMarker defaultConstructorMarker) {
+            this();
+        }
+
+        public final int a() {
+            return eo5.b;
+        }
+
+        public final int b() {
+            return eo5.c;
+        }
+
+        private a() {
+        }
+    }
+
+    public static int c(int i) {
+        return i;
+    }
+
+    public static final boolean d(int i, int i2) {
+        return i == i2;
+    }
+}

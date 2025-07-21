@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="20sp"
+    android:id="@+id/books_action_bar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/booksActionBarTitle"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:fontFamily="@font/font_franklin_bold"/>

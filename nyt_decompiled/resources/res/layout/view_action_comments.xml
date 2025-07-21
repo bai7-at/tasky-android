@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_gravity="center"
+        android:background="@drawable/ic_story_comment_bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="3dp"
+        android:minWidth="29dp">
+        <TextView
+            android:textColor="@color/content_primary"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/btnCommentsAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:singleLine="true"
+            android:includeFontPadding="false"
+            style="@style/TextView.Article.Comments"/>
+    </FrameLayout>
+</merge>

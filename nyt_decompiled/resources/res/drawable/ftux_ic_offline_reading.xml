@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="17dp"
+    android:width="16.15dp"
+    android:viewportWidth="19"
+    android:viewportHeight="20">
+    <group>
+        <clip-path android:pathData="M0,0h18.8235v20h-18.8235z M 0,0"/>
+        <path
+            android:fillColor="@color/ftux_icon_color"
+            android:pathData="M10.2352,7.6471H8.4705V18.8235H10.2352V7.6471Z"/>
+        <path
+            android:fillColor="@color/ftux_icon_color"
+            android:pathData="M14.7059,4.7059C14.4706,4.7059 14.3529,4.7059 14.1176,4.7059C14.1176,2.1177 12,0 9.4118,0C7.1765,0 5.4118,1.5294 4.8235,3.5294H4.7059C2.1177,3.5294 0,5.6471 0,8.2353C0,10.8235 2.1177,12.9412 4.7059,12.9412H7.4118V7.6471V7.0588V6.4706H11.5294V7.0588V7.6471V12.9412H14.7059C16.9412,12.9412 18.8235,11.0588 18.8235,8.8235C18.8235,6.5882 16.9412,4.7059 14.7059,4.7059Z"/>
+        <path
+            android:fillColor="@color/ftux_icon_color"
+            android:pathData="M12.7059,16.4706L9.4118,20L6.1177,16.4706"/>
+    </group>
+</vector>

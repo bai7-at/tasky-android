@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:background="@drawable/default_ripple_background"
+    app:cardElevation="@dimen/sf_audio_elevation"
+    style="@style/CardView.Default">
+    <include layout="@layout/row_section_front_inter_group_separator"/>
+    <RelativeLayout
+        android:id="@+id/playback_container"
+        android:background="@drawable/default_ripple_background"
+        style="@style/WidthMatchHeightWrap">
+        <RelativeLayout
+            android:id="@+id/row_article_content"
+            android:paddingTop="@dimen/row_section_front_spacing_top_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/row_search_padding_left_right"
+            android:paddingEnd="@dimen/row_search_padding_left_right">
+            <include layout="@layout/row_section_front_incl"/>
+        </RelativeLayout>
+        <com.nytimes.android.sectionfront.ui.FooterView
+            android:id="@+id/footer_view"
+            android:paddingTop="@dimen/row_section_front_spacing_top_bottom"
+            android:paddingBottom="@dimen/row_section_front_spacing_top_bottom"
+            android:layout_below="@+id/row_article_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            style="@style/SF_Footer.Article"/>
+        <com.nytimes.android.media.audio.views.SfAudioControl
+            android:id="@+id/audio_view"
+            android:paddingTop="@dimen/row_section_front_spacing_top_bottom"
+            android:layout_marginTop="@dimen/sf_audio_view_playback_container_margin_top"
+            android:layout_marginBottom="@dimen/row_section_front_spacing_top_bottom"
+            android:layout_alignTop="@+id/footer_view"
+            android:layout_marginStart="@dimen/row_search_padding_left_right"
+            android:layout_alignParentStart="true"
+            style="@style/WidthMatchHeightWrap"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

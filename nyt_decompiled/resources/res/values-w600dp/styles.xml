@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LedeSFSummary" parent="@style/WidthMatchHeightWrap">
+        <item name="android:layout_below">@id/row_sf_lede_byline_timestamp</item>
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:layout_marginEnd">@dimen/row_search_padding_left_right</item>
+        <item name="android:layout_toEndOf">@id/row_sf_ordered_section_number</item>
+        <item name="isLede">true</item>
+    </style>
+    <style name="LedeSFSummaryColumns" parent="@style/WidthWrapHeightWrap">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="isLede">true</item>
+    </style>
+    <style name="MeterGatewayCard" parent="">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">540dp</item>
+        <item name="android:layout_marginStart">@dimen/meter_card_horizontal_margin</item>
+        <item name="android:layout_marginEnd">@dimen/meter_card_horizontal_margin</item>
+    </style>
+    <style name="SFSummary" parent="@style/WidthWrapHeightWrap">
+        <item name="android:layout_below">@id/row_sf_byline_and_timestamp</item>
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:layout_toStartOf">@id/thumbnail_container</item>
+        <item name="android:layout_toEndOf">@id/row_sf_left_ruler</item>
+    </style>
+    <style name="TextView.FullscreenMedia.ActionBar.ByLine" parent="@style/TextView.FullscreenMedia.ActionBar">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/ds_grayCC</item>
+        <item name="android:lineSpacingMultiplier">1.15</item>
+        <item name="android:fontFamily">@font/font_franklin_medium</item>
+    </style>
+    <style name="TextView.FullscreenMedia.ActionBar.Title" parent="@style/TextView.FullscreenMedia.ActionBar">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/ds_times_white</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+        <item name="android:fontFamily">@font/font_chelt_sh_medium</item>
+    </style>
+    <style name="TextView.SFPhotoVideoCaption.Show" parent="@style/TextView.SFPhotoVideoCaption">
+        <item name="android:fontFamily">@font/font_karnak_regular</item>
+        <item name="lineHeight">@dimen/row_section_front_video_kicker_text_size</item>
+    </style>
+    <style name="Tone.ArticleFront.Feature" parent="@style/Tone.ArticleFront">
+        <item name="android:textSize">36sp</item>
+        <item name="android:lineSpacingMultiplier">1.13</item>
+        <item name="android:fontFamily">@font/font_chelt_light</item>
+    </style>
+    <style name="Tone.ArticleFront.Magazine" parent="@style/Tone.ArticleFront">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingMultiplier">1.04</item>
+        <item name="android:fontFamily">@font/font_mag_slab_bold</item>
+    </style>
+    <style name="Tone.ArticleFront.News" parent="@style/Tone.ArticleFront">
+        <item name="android:textSize">34sp</item>
+        <item name="android:lineSpacingMultiplier">1.12</item>
+        <item name="android:fontFamily">@font/font_chelt_bold_italics</item>
+    </style>
+    <style name="Tone.ArticleFront.Opinion" parent="@style/Tone.ArticleFront">
+        <item name="android:textSize">31sp</item>
+        <item name="android:lineSpacingMultiplier">1.12</item>
+        <item name="android:fontFamily">@font/font_chelt_medium</item>
+    </style>
+    <style name="Tone.SectionFront.Feature" parent="@style/Tone.SectionFront">
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:fontFamily">@font/font_chelt_light</item>
+    </style>
+    <style name="Tone.SectionFront.Magazine" parent="@style/Tone.SectionFront">
+        <item name="android:textSize">36sp</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:fontFamily">@font/font_mag_slab_bold</item>
+    </style>
+    <style name="Tone.SectionFront.News" parent="@style/Tone.SectionFront">
+        <item name="android:textSize">26sp</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:fontFamily">@font/font_chelt_bold</item>
+    </style>
+    <style name="Tone.SectionFront.Opinion" parent="@style/Tone.SectionFront">
+        <item name="android:textSize">26sp</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:fontFamily">@font/font_chelt_medium</item>
+    </style>
+    <style name="Tone.SectionFrontLede.Default" parent="@style/Tone.SectionFrontLede">
+        <item name="android:textSize">33sp</item>
+        <item name="android:lineSpacingMultiplier">1.15</item>
+        <item name="android:fontFamily">@font/font_chelt_bold</item>
+    </style>
+    <style name="Tone.SectionFrontLede.Feature" parent="@style/Tone.SectionFrontLede">
+        <item name="android:textSize">35sp</item>
+        <item name="android:lineSpacingMultiplier">1.14</item>
+        <item name="android:fontFamily">@font/font_chelt_light</item>
+    </style>
+    <style name="Tone.SectionFrontLede.Magazine" parent="@style/Tone.SectionFrontLede">
+        <item name="android:textSize">46sp</item>
+        <item name="android:lineSpacingMultiplier">1.04</item>
+        <item name="android:fontFamily">@font/font_mag_slab_bold</item>
+    </style>
+    <style name="Tone.SectionFrontLede.News" parent="@style/Tone.SectionFrontLede">
+        <item name="android:textSize">33sp</item>
+        <item name="android:lineSpacingMultiplier">1.12</item>
+        <item name="android:fontFamily">@font/font_chelt_bold_italics</item>
+    </style>
+    <style name="Tone.SectionFrontLede.Opinion" parent="@style/Tone.SectionFrontLede">
+        <item name="android:textSize">33sp</item>
+        <item name="android:lineSpacingMultiplier">1.15</item>
+        <item name="android:fontFamily">@font/font_chelt_medium</item>
+    </style>
+</resources>

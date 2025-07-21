@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/notifications_item_icon_left_margin"
+    android:paddingEnd="@dimen/notifications_item_cb_right_margin">
+    <ImageView
+        android:id="@+id/icon"
+        android:visibility="gone"
+        android:layout_width="@dimen/notifications_item_icon_height"
+        android:layout_height="@dimen/notifications_item_icon_height"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/title"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        app:layout_constraintBottom_toTopOf="@+id/description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/TextView.Push.Notifications.Title"/>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/subscribedSwitch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        style="@style/TextView.Push.Notifications.Description"/>
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/subscribedSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/notifications_item_cb_top_margin"
+        android:layout_marginEnd="@dimen/notifications_header_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

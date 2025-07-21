@@ -1,0 +1,189 @@
+{
+  "documentation": "Values in tabOrder must match values in gamesTabTitle and allAccessTabTitle. Product skus can be scheduled to temporarily change for a time interval in skuOverrides. Deprecated fields as of version 10.11.0: headline, urgencyMessage, urgency_messages, gamesChecklist, allAccessChecklist, savingsBubbleText, useGamesChecklist.",
+  "gamesHeadline": "Subscribe for\nUnlimited Play",
+  "gamesSubHeadline": "",
+  "gamesFreeTrialHeadline": "",
+  "gamesFreeTrialSubHeadline": "",
+  "allAccessHeadline": "Subscribe for\nUnlimited Play",
+  "allAccessSubHeadline": "Get everything The Times offers, including Games.",
+  "allAccessFreeTrialHeadline": "",
+  "allAccessFreeTrialSubHeadline": "",
+  "icons": [
+    "ic_product_landing_wordle",
+    "ic_product_landing_connections",
+    "ic_product_landing_crossword",
+    "ic_product_landing_spelling_bee",
+    "ic_product_landing_mini",
+    "ic_product_landing_sudoku",
+    "ic_product_landing_tiles",
+    "ic_product_landing_letterboxed"
+  ],
+  "isAnnualOnly": false,
+  "tabOrder": [
+    "Games",
+    "All Access"
+  ],
+  "isAllAccessDefault": false,
+  "gamesTabTitle": "Games",
+  "allAccessTabTitle": "All Access",
+  "legalTerms": "<b>Automatic Renewal Terms</b><br><br><b>If you subscribe to The New York Times via Google, payment for your subscription will be automatically charged to your Google Play account upon confirmation. Subscriptions renew automatically 24-hours prior to the start of the next billing period. For special introductory offers, you will be automatically charged the applicable introductory rate shown to you at the time of subscription for the stated introductory period and the standard rate shown to you at the time of subscription thereafter. Billing occurs every calendar month for a monthly subscription or once-yearly for an annual subscription. Subscriptions continue to renew automatically until cancelled. You can manage and cancel subscriptions using the Google Play subscription center.</b><br><br>Current subscribers not eligible. Print edition not included. New York Times Games, Cooking, Wirecutter and The Athletic are referred to as Standalone subscriptions. Access to Standalones is included with a New York Times All Access subscription, but is not included with a New York Times News subscription. Individual Standalone subscriptions do not include other Standalones or digital news content.<br><br>By selecting a pricing option you agree to the automatic renewal terms stated above, <a href='https://www.nytimes.com/privacy/privacy-policy'><b>The New York Times Privacy Policy</b></a> and <a href='https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service'><b>The New York Times Terms of Service.</b></a>",
+  "monthlyAdaIdentifier": "and.aa.playtab.bau.mo.oc.20000286080",
+  "yearlyAdaIdentifier": "and.aa.playtab.bau.yr.oc.20000277680",
+  "monthlyGamesIdentifier": "google.news.cr.5.99.oc.20000267300",
+  "yearlyGamesIdentifier": "google.news.cr.49.99.yr.oc.20000268140",
+  "skuOverrides": [
+    {
+      "startTimeInterval": 1701363600,
+      "endTimeInterval": 1701365400,
+      "monthlyGamesIdentifier": "and.games.playtab.sale.mo.oc.20000292100",
+      "yearlyGamesIdentifier": "and.games.playtab.sale.yr.oc.20000291680",
+      "monthlyAdaIdentifier": "and.aa.playtab.bau.mo.oc.20000274580",
+      "yearlyAdaIdentifier": "and.aa.playtab.bau.yr.oc.20000277680",
+      "windowForSchedule": "Start at time, ends at time"
+    }
+  ],
+  "gamesUrgencyMessages": [
+    {
+      "startTimeInterval": 1701363600,
+      "endTimeInterval": 1701363900,
+      "headline": "Sale: Limited time offer. Save 50% on Games.",
+      "subHeadline": "Or subscribe to Games and more with All Access.",
+      "windowForSchedule": "Start at time, ends at time"
+    },
+    {
+      "startTimeInterval": 1701363900,
+      "endTimeInterval": 1701364200,
+      "headline": "Sale: Offer Won't Last. Save 50% on Games.",
+      "subHeadline": "Or subscribe to Games and more with All Access.",
+      "windowForSchedule": "Start at time, ends at time"
+    },
+    {
+      "startTimeInterval": 1701364200,
+      "endTimeInterval": 1701364500,
+      "headline": "Sale: Ends Soon. Save 50% on Games.",
+      "subHeadline": "Or subscribe to Games and more with All Access.",
+      "windowForSchedule": "Start at time, ends at time"
+    },
+    {
+      "startTimeInterval": 1701364500,
+      "endTimeInterval": 1701364800,
+      "headline": "Sale: Ends Tomorrow. Save 50% on Games.",
+      "subHeadline": "Or subscribe to Games and more with All Access.",
+      "windowForSchedule": "Start at time, ends at time"
+    },
+    {
+      "startTimeInterval": 1701364800,
+      "endTimeInterval": 1701365100,
+      "headline": "Sale: Ends Today. Save 50% on Games.",
+      "subHeadline": "Or subscribe to Games and more with All Access.",
+      "windowForSchedule": "Start at time, ends at time"
+    },
+    {
+      "startTimeInterval": 1701365100,
+      "endTimeInterval": 1701365400,
+      "headline": "Sale: Final Hours. Save 50% on Games.",
+      "subHeadline": "Or subscribe to Games and more with All Access.",
+      "windowForSchedule": "Start at time, ends at time"
+    }
+  ],
+  "allAccessUrgencyMessages": [],
+  "monthlyAdaBadge": {
+    "text": "",
+    "isVisible": false
+  },
+  "yearlyAdaBadge": {
+    "text": "BEST VALUE",
+    "isVisible": false
+  },
+  "monthlyGamesBadge": {
+    "text": "",
+    "isVisible": false
+  },
+  "yearlyGamesBadge": {
+    "text": "BEST VALUE",
+    "isVisible": false
+  },
+  "gamesValueProps": [
+    {
+      "title": "",
+      "text": "Enjoy the full Spelling Bee experience, plus Wordle, The Crossword and more.",
+      "icon": "bullet",
+      "isIncluded": true
+    },
+    {
+      "title": "",
+      "text": "Play new puzzles every day for concentration or relaxation.",
+      "icon": "bullet",
+      "isIncluded": true
+    },
+    {
+      "title": "",
+      "text": "Unlock over 10,000 puzzles in our crossword archives plus play past Spelling Bees.",
+      "icon": "bullet",
+      "isIncluded": true
+    },
+    {
+      "title": "",
+      "text": "Track your stats and streaks on any device.",
+      "icon": "bullet",
+      "isIncluded": true
+    },
+    {
+      "title": "",
+      "text": "Use WordleBot to strengthen your Wordle strategy. Try Spelling Bee Buddy for real-time hints.",
+      "icon": "bullet",
+      "isIncluded": true
+    }
+  ],
+  "allAccessValueProps": [
+    {
+      "title": "News",
+      "text": "Engage with expert reporting, including culture coverage and analysis.",
+      "icon": "ic_logo_news",
+      "isIncluded": true
+    },
+    {
+      "title": "Games",
+      "text": "Unwind with Spelling Bee, Wordle, The Crossword and more.",
+      "icon": "ic_logo_games",
+      "isIncluded": true
+    },
+    {
+      "title": "Cooking",
+      "text": "Enjoy delicious recipes, advice and inspiration daily.",
+      "icon": "ic_logo_cooking",
+      "isIncluded": true
+    },
+    {
+      "title": "Wirecutter",
+      "text": "Choose products confidently with reviews and real-world testing.",
+      "icon": "ic_logo_wirecutter",
+      "isIncluded": true
+    },
+    {
+      "title": "The Athletic",
+      "text": "Follow in-depth, personalized coverage of your favorite sports.",
+      "icon": "ic_logo_athletic",
+      "isIncluded": true
+    }
+  ],
+  "useGamesChecklist": true,
+  "headline": "Subscribe for Unlimited Play",
+  "urgencyMessage": "",
+  "gamesChecklist": [
+    "Enjoy the full Spelling Bee experience, plus Wordle, The Crossword and more.",
+    "Play new puzzles every day for concentration or relaxation.",
+    "Unlock over 10,000 puzzles in our crossword archives.",
+    "Track your stats and streaks on any device.",
+    "Use WordleBot to strengthen your Wordle strategy. Try Spelling Bee Buddy for real-time hints."
+  ],
+  "allAccessChecklist": [
+    "<b>News</b>. Engage with expert reporting, including culture coverage and analysis.",
+    "<b>Games</b>. Unwind with Spelling Bee, Wordle, The Crossword and more.",
+    "<b>Cooking</b>. Enjoy delicious recipes, advice and inspiration daily.",
+    "<b>Wirecutter</b>. Choose products confidently with reviews and real-world testing.",
+    "<b>The Athletic</b>. Follow in-depth, personalized coverage of your favorite sports."
+  ],
+  "savingsBubbleText": "BEST VALUE",
+  "urgency_messages": []
+}

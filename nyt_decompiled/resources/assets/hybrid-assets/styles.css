@@ -1,0 +1,332 @@
+@charset "utf-8";
+
+@font-face { font-family: nyt-franklin; font-weight: 400; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-franklin-medium.woff) format("woff"); }
+@font-face { font-family: nyt-franklin; font-weight: 400; font-style: italic;
+             src: local("☺︎"), url(fonts/nyt-franklin-medium-italic.woff) format("woff"); }
+@font-face { font-family: nyt-imperial; font-weight: 400; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-imperial-regular.woff) format("woff"); }
+@font-face { font-family: nyt-imperial; font-weight: 400; font-style: italic;
+             src: local("☺︎"), url(fonts/nyt-imperial-italic.woff) format("woff"); }
+@font-face { font-family: nyt-imperial; font-weight: 700; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-imperial-semibold.woff) format("woff"); }
+@font-face { font-family: nyt-imperial; font-weight: 700; font-style: italic;
+             src: local("☺︎"), url(fonts/nyt-imperial-semibold-italic.woff) format("woff"); }
+@font-face { font-family: nyt-stymie; font-weight: 500; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-stymie-500-normal.woff) format("woff"); }
+@font-face { font-family: nyt-stymie; font-weight: 700; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-stymie-700-normal.woff) format("woff"); }
+@font-face { font-family: nyt-cheltenham; font-weight: 200; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-cheltenham-200-normal.woff) format("woff"); }
+@font-face { font-family: nyt-cheltenham; font-weight: 300; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-cheltenham-300-normal.woff) format("woff"); }
+@font-face { font-family: nyt-cheltenham; font-weight: 300; font-style: italic;
+             src: local("☺︎"), url(fonts/nyt-cheltenham-300-italic.woff) format("woff"); }
+@font-face { font-family: nyt-cheltenham; font-weight: 400; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-cheltenham-400-normal.woff) format("woff"); }
+@font-face { font-family: nyt-cheltenham; font-weight: 500; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-cheltenham-500-normal.woff) format("woff"); }
+@font-face { font-family: nyt-cheltenham; font-weight: 700; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-cheltenham-700-normal.woff) format("woff"); }
+@font-face { font-family: nyt-cheltenham; font-weight: 700; font-style: italic;
+             src: local("☺︎"), url(fonts/nyt-cheltenham-700-italic.woff) format("woff"); }
+@font-face { font-family: nyt-cheltenham-sh; font-weight: 400; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-cheltenham-sh-400-normal.woff) format("woff"); }
+@font-face { font-family: nyt-cheltenham-sh; font-weight: 400; font-style: italic;
+             src: local("☺︎"), url(fonts/nyt-cheltenham-sh-400-italic.woff) format("woff"); }
+@font-face { font-family: nyt-cheltenham-sh; font-weight: 700; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-cheltenham-sh-700-normal.woff) format("woff"); }
+@font-face { font-family: nyt-cheltenham-extra-cn-bd; font-weight: 700; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-cheltenham-extra-condensed-bold-700-normal.woff) format("woff"); }
+@font-face { font-family: nyt-mag-serif-headline; font-weight: 700; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-mag-serif-headline-700-normal.woff) format("woff"); }
+@font-face { font-family: nyt-karnak-display-130124; font-weight: 400; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-karnak-display-130124-400-normal.woff) format("woff"); }
+@font-face { font-family: nyt-mag-sans; font-weight: 500; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-mag-sans-500-normal.woff) format("woff"); }
+@font-face { font-family: nyt-mag-sans; font-weight: 700; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-mag-sans-700-normal.woff) format("woff"); }
+@font-face { font-family: nyt-franklin; font-weight: 300; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-franklin-300-normal.woff) format("woff"); }
+@font-face { font-family: nyt-franklin; font-weight: 300; font-style: italic;
+             src: local("☺︎"), url(fonts/nyt-franklin-300-italic.woff) format("woff"); }
+@font-face { font-family: nyt-franklin; font-weight: 500; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-franklin-500-normal.woff) format("woff"); }
+@font-face { font-family: nyt-franklin; font-weight: 500; font-style: italic;
+             src: local("☺︎"), url(fonts/nyt-franklin-500-italic.woff) format("woff"); }
+@font-face { font-family: nyt-franklin; font-weight: 700; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-franklin-700-normal.woff) format("woff"); }
+@font-face { font-family: nyt-franklin; font-weight: 700; font-style: italic;
+             src: local("☺︎"), url(fonts/nyt-franklin-700-italic.woff) format("woff"); }
+@font-face { font-family: nyt-mag-slab; font-weight: 700; font-style: normal;
+             src: local("☺︎"), url(fonts/nyt-mag-slab-700-normal.woff) format("woff"); }
+
+img[data-lazy-src] {
+    opacity: 0;
+}
+
+img[data-lazy-src].lazy-loaded {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+    -webkit-transition: opacity 0.5s ease-in;
+}
+
+.advert-native-view-spacer, .advert-gpt-div {
+    margin: 0.5em 0;
+}
+
+p.drop-cap::first-letter,
+p.drop-cap-2::first-letter {
+    font-size: 2.8em;
+    display: block;
+    float: left;
+    font: bold 2.8em/1em "nyt-franklin", sans-serif;
+    line-height: 0.85em;
+    margin-right: 6px;
+}
+
+.advert {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font: 12px nyt-franklin;
+    color: #999;
+    margin: 1em 0;
+}
+
+.twitter-tweet {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 6px 12px 6px;
+    border: 4px dotted #ccc;
+    background: #eee;
+}
+
+.youtube-video {
+    margin: 1em 0;
+    padding: 0 6px 12px 6px;
+    border: 4px dotted #ccc;
+    background: #eee;
+}
+
+.youtube-video-replaced {
+    position: relative;
+    margin: 1em 0;
+}
+
+.youtube-video-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: black;
+    font: 16px/1.4 'nyt-imperial';
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+html.theme-dark {
+    color: #ccc;
+    background: #333;
+}
+
+body {
+    margin: 12px;
+    padding: 0;
+}
+
+article {
+    -webkit-user-select: text;
+}
+
+article p {
+    -webkit-hyphens: auto;
+    -webkit-hyphenate-limit-after: 4;
+    -webkit-hyphenate-limit-before: 4;
+    -webkit-hyphenate-limit-lines: 2;
+}
+
+.kicker {
+    font: 14px 'nyt-franklin';
+}
+
+.kicker + h1 {
+    margin-top: 6px;
+}
+
+h1 {
+    font: bold 1.625em/1.12 "nyt-cheltenham";
+    color: #333;
+    margin: 12px 0;
+}
+
+html.theme-dark h1 {
+    color: #ccc;
+}
+
+p {
+    margin: 1em 0;
+}
+
+.byline-dateline {
+    color: #333;
+    font-size: 0.75em;
+}
+
+html.theme-dark .byline-dateline {
+    color: #999;
+}
+
+.byline {
+    font-weight: bold;
+}
+
+.author {
+    text-transform: uppercase;
+}
+
+.fig-fullbleed {
+    margin: 12px -12px;
+}
+
+.fig-fullbleed a {
+    margin-bottom: -4px;
+    padding-bottom: 4px;
+}
+
+.fig-inline {
+    margin: 12px 0;
+    padding: 12px 0;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.fig-cap-body {
+    color: #666;
+    font: 0.75em 'nyt-franklin';
+}
+
+html.theme-dark .fig-cap-body {
+    color: #999;
+}
+
+.fig-cap-title {
+    font: bold 0.85em nyt-franklin;
+    margin: 6px 0 4px 0;
+}
+
+.fig-img-inline {
+    display: block;
+    float: left;
+    width: 50%;
+    padding-right: 12px;
+    box-sizing: border-box;
+}
+
+.fig-cap-fullbleed {
+    margin: 4px 12px;
+}
+
+.fig-cap-inline {
+    overflow: hidden;
+    /* make float appear to extend full height */ }
+
+.fig-cap-fullbleed .fig-cap-body {
+    margin: 4px 0;
+}
+
+.fig-cap-credit {
+    margin: 4px 0;
+    text-transform: uppercase;
+    color: #999;
+    font: 0.5625em 'nyt-franklin';
+}
+
+html.theme-dark .fig-cap-credit {
+    color: #666;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+}
+
+a.block {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    position: relative;
+}
+
+.fig-inline a::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a:not(.block) {
+    color: #369;
+    text-decoration: underline;
+}
+
+a:not(.block):visited {
+    color: #666;
+}
+
+a:not(.block):active {
+    color: black;
+    background: rgba(51, 51, 51, 0.4);
+    border-radius: 4px;
+    margin: -2px;
+    padding: 2px;
+}
+
+.story-footer {
+    font: 0.875em 'nyt-franklin';
+    color: #333;
+}
+
+html.theme-dark .story-footer {
+    color: #999;
+}
+
+.story-footer::before {
+    content: "";
+    display: block;
+    margin: 1em 0;
+    width: 60px;
+    height: 1px;
+    background-color: #333;
+}
+
+html.theme-dark .story-footer::before {
+    background-color: #999;
+}
+
+.fig-fullbleed-img-wrapper {
+    display: block;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    background: #eee;
+    overflow: hidden;
+}
+
+.fig-fullbleed-img-wrapper img,
+.fig-fullbleed-img-wrapper video {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+}

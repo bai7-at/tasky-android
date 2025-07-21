@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Theme">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>System default</item>
+    </array>
+    <array name="ThemeValues">
+        <item>@string/light_mode</item>
+        <item>@string/dark_mode</item>
+        <item>@string/system_mode</item>
+    </array>
+    <array name="adConfig_sectionFront_bypassBannerAd">
+        <item>@string/sectionName_Video</item>
+        <item>@string/sectionName_Photo</item>
+    </array>
+    <array name="adConfig_sectionFront_bypassFlexFrameAd">
+        <item>@string/sectionName_Video</item>
+        <item>@string/sectionName_Photo</item>
+        <item>@string/sectionName_saved</item>
+    </array>
+    <array name="adSize_220x133">
+        <item>220</item>
+        <item>133</item>
+    </array>
+    <array name="adSize_300x250">
+        <item>300</item>
+        <item>250</item>
+    </array>
+    <array name="adSize_300x600">
+        <item>300</item>
+        <item>600</item>
+    </array>
+    <array name="adSize_320x50">
+        <item>320</item>
+        <item>50</item>
+    </array>
+    <array name="adSize_flexFrame_1605x300">
+        <item>1605</item>
+        <item>300</item>
+    </array>
+    <array name="adSize_flexFrame_300x420">
+        <item>300</item>
+        <item>420</item>
+    </array>
+    <array name="adSize_flexFrame_728x90">
+        <item>728</item>
+        <item>90</item>
+    </array>
+    <array name="adSize_flexFrame_970x250">
+        <item>970</item>
+        <item>250</item>
+    </array>
+    <array name="adSize_flexFrame_970x70">
+        <item>970</item>
+        <item>70</item>
+    </array>
+    <array name="adSize_flexFrame_970x90">
+        <item>970</item>
+        <item>90</item>
+    </array>
+    <array name="adSize_flexFrame_fluid">
+    </array>
+    <array name="adSize_sponsorship_300x300">
+        <item>300</item>
+        <item>300</item>
+    </array>
+    <array name="adSize_sponsorship_320x25">
+        <item>320</item>
+        <item>25</item>
+    </array>
+    <array name="autoPlaySettings">
+        <item>@string/autoplay_agnostic</item>
+        <item>@string/autoplay_wifi_only</item>
+        <item>@string/autoplay_never</item>
+    </array>
+    <array name="autoPlaySettings_values">
+        <item>@string/autoplay_agnostic_value</item>
+        <item>@string/autoplay_wifi_only_value</item>
+        <item>@string/autoplay_never_value</item>
+    </array>
+    <array name="bookMenuURL">
+        <item>hardcover-fiction</item>
+        <item>hardcover-nonfiction</item>
+        <item>combined-print-and-e-book-fiction</item>
+        <item>combined-print-and-e-book-nonfiction</item>
+        <item>picture-books</item>
+        <item>series-books</item>
+        <item>testOtherWeeklyLists</item>
+    </array>
+    <array name="bookMenuUserFacing">
+        <item>Hardcover Fiction</item>
+        <item>Hardcover Nonfiction</item>
+        <item>Combined Print &amp; E-book Fiction</item>
+        <item>Combined Print &amp; E-book Nonfiction</item>
+        <item>Children\'s Picture Books</item>
+        <item>Children\'s Series</item>
+        <item>Other Weekly Lists</item>
+    </array>
+    <array name="dataDogEnvironment">
+        <item>@string/STAGING</item>
+        <item>@string/PRODUCTION</item>
+    </array>
+    <array name="downloadImages">
+        <item>@string/download_some_images</item>
+        <item>@string/download_no_images</item>
+    </array>
+    <array name="downloadImages_values">
+        <item>@string/hybrid_download_some_images_value</item>
+        <item>@string/hybrid_download_no_images_value</item>
+    </array>
+    <array name="downloadSections">
+        <item>@string/download_top</item>
+        <item>@string/download_all</item>
+    </array>
+    <array name="downloadSections_values">
+        <item>@string/download_top_value</item>
+        <item>@string/download_all_value</item>
+    </array>
+    <array name="entitlement_entries">
+        <item>Basic Subscriber (MSD)</item>
+        <item>Crosswords (XWD)</item>
+        <item>Cooking (COO)</item>
+        <item>Cooking (CKG)</item>
+    </array>
+    <array name="entitlement_entry_values">
+        <item>MSD</item>
+        <item>XWD</item>
+        <item>COO</item>
+        <item>CKG</item>
+    </array>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="license_names">
+        <item>OkHttp</item>
+        <item>RxJava</item>
+        <item>Picasso</item>
+        <item>Dagger 2</item>
+        <item>Gson</item>
+        <item>Immutables</item>
+        <item>RxAndroid</item>
+        <item>Tape</item>
+        <item>Android ObservableScrollView</item>
+        <item>NineOldAndroid</item>
+        <item>ImageViewZoom</item>
+        <item>Guava</item>
+        <item>Okio</item>
+    </array>
+    <array name="license_values">
+        <item>Licensed under the Apache License, Version 2.0 (the License); you may not use this file except in compliance with the License. You may obtain a copy of the License at \n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</item>
+        <item>Copyright 2013 Netflix, Inc. \n\nLicensed under the Apache License, Version 2.0 (the License); you may not use this file except in compliance with the License. You may obtain a copy of the License at \n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</item>
+        <item>Copyright 2013 Square, Inc.\n\n Licensed under the Apache License, Version 2.0 (the License); you may not use this file except in compliance with the License. You may obtain a copy of the License at \n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</item>
+        <item>Copyright 2012 Square, Inc.\nCopyright 2012 Google, Inc.\n\n Licensed under the Apache License, Version 2.0 (the License); you may not use this file except in compliance with the License. You may obtain a copy of the License at \n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</item>
+        <item>Copyright 2008 Google Inc.\n\n Licensed under the Apache License, Version 2.0 (the License); you may not use this file except in compliance with the License. You may obtain a copy of the License at \n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License</item>
+        <item>Copyright 2013-2016 Immutables Authors and Contributors\n\n Licensed under the Apache License, Version 2.0 (the License); you may not use this file except in compliance with the License. You may obtain a copy of the License at \n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</item>
+        <item>Copyright 2015 The RxAndroid authors\n\n Licensed under the Apache License, Version 2.0 (the License); you may not use this file except in compliance with the License. You may obtain a copy of the License at \n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</item>
+        <item>Copyright 2012 Square, Inc.\n\n Licensed under the Apache License, Version 2.0 (the License); you may not use this file except in compliance with the License. You may obtain a copy of the License at \n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</item>
+        <item>Copyright 2014 Soichiro Kashima\n\n Licensed under the Apache License, Version 2.0 (the License); you may not use this file except in compliance with the License. You may obtain a copy of the License at \n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</item>
+        <item>Copyright 2012 Jake Wharton\n\n Licensed under the Apache License, Version 2.0 (the License); you may not use this file except in compliance with the License. You may obtain a copy of the License at \n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</item>
+        <item>This software is provided under the MIT license.\nAlessandro Crugnola - alessandro.crugnola@gmail.com\n\n The MIT License (MIT)\n\n Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the Software), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\n The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\n THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</item>
+        <item>Licensed under the Apache License, Version 2.0 (the License); you may not use this file except in compliance with the License. You may obtain a copy of the License at \n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</item>
+        <item> Licensed under the Apache License, Version 2.0 (the License); you may not use this file except in compliance with the License. You may obtain a copy of the License at \n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</item>
+    </array>
+    <array name="offlineBackgroundUpdate">
+        <item>@string/wifi_only</item>
+        <item>@string/wifiplusdata</item>
+        <item>@string/noneRequirePTR</item>
+    </array>
+    <array name="offlineBackgroundUpdate_values">
+        <item>@string/wifi_only_value</item>
+        <item>@string/wifiplusdata_value</item>
+        <item>@string/noneRequirePTR_value</item>
+    </array>
+    <array name="otherListsURL">
+        <item>trade-fiction-paperback</item>
+        <item>mass-market-monthly</item>
+        <item>paperback-nonfiction</item>
+        <item>combined-print-and-e-book-fiction</item>
+        <item>combined-print-and-e-book-nonfiction</item>
+        <item>advice-how-to-and-miscellaneous</item>
+        <item>graphic-books-and-manga</item>
+    </array>
+    <array name="searchEnvNames">
+        <item>@string/PRODUCTION</item>
+        <item>@string/STAGING</item>
+    </array>
+    <array name="subauth_custom_nyts_login_override_entries">
+        <item>@string/subauth_custom_nyts_login_no_override</item>
+        <item>@string/subauth_custom_nyts_login_success</item>
+        <item>@string/subauth_custom_nyts_login_success_with_delay</item>
+        <item>@string/subauth_custom_nyts_login_failure</item>
+        <item>@string/subauth_custom_nyts_login_failure_with_delay</item>
+    </array>
+    <array name="subauth_customization_entries">
+        <item>Default</item>
+        <item>News</item>
+        <item>Cooking</item>
+        <item>Games</item>
+        <item>Lorem Ipsum</item>
+    </array>
+    <array name="subauth_customization_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </array>
+    <array name="subauth_email_account_state_entries">
+        <item>@string/subauth_no_override</item>
+        <item>@string/subauth_email_account_state_override_registered_user</item>
+        <item>@string/subauth_email_account_state_override_anon_user</item>
+        <item>@string/subauth_email_account_state_override_regi_lite_user</item>
+        <item>@string/subauth_email_account_state_override_regi_lite_good_ta_token_good_nyt_user</item>
+        <item>@string/subauth_email_account_state_override_regi_lite_bad_ta_token_good_nyt_user</item>
+        <item>@string/subauth_email_account_state_override_regi_lite_good_ta_token_no_nyt_user</item>
+        <item>@string/subauth_email_account_state_override_regi_lite_bad_ta_token_no_nyt_user</item>
+        <item>@string/subauth_email_account_state_override_facebook_user</item>
+        <item>@string/subauth_email_account_state_override_google_user</item>
+        <item>@string/subauth_email_account_state_override_locked_user</item>
+    </array>
+    <array name="subauth_offer_entries">
+        <item>Show Offer Checkbox</item>
+        <item>Hide Offer Checkbox</item>
+    </array>
+    <array name="subauth_offer_entries_values">
+        <item>true</item>
+        <item>false</item>
+    </array>
+    <array name="subauth_override_delete_account_state_entries">
+        <item>@string/subauth_no_override</item>
+        <item>@string/subauth_override_delete_account_state_success</item>
+        <item>@string/subauth_override_delete_account_state_existing_p1_user</item>
+        <item>@string/subauth_override_delete_account_state_existing_p3_user</item>
+        <item>@string/subauth_override_delete_account_state_error_anon_user</item>
+        <item>@string/subauth_override_delete_account_state_error_missing_cookies</item>
+        <item>@string/subauth_override_delete_account_state_error_server</item>
+        <item>@string/subauth_override_delete_account_state_error_unknown</item>
+    </array>
+    <array name="subauth_override_error_state_entries">
+        <item>@string/subauth_no_override</item>
+        <item>@string/subauth_override_error_state_email_first</item>
+        <item>@string/subauth_override_error_state_login</item>
+        <item>@string/subauth_override_error_state_register</item>
+        <item>@string/subauth_override_error_state_facebook_sso</item>
+        <item>@string/subauth_override_error_state_google_sso</item>
+    </array>
+    <array name="subauth_override_session_refresh_v2_entries">
+        <item>@string/subauth_no_override</item>
+        <item>@string/subauth_override_session_refresh_v2_success</item>
+        <item>@string/subauth_override_session_refresh_v2_missing_cookie</item>
+        <item>@string/subauth_override_session_refresh_v2_bad_request</item>
+        <item>@string/subauth_override_session_refresh_v2_internal_server_error</item>
+        <item>@string/subauth_override_session_refresh_v2_server_unavailable_error</item>
+        <item>@string/subauth_override_session_refresh_v2_network_connectivity_error</item>
+        <item>@string/subauth_override_session_refresh_v2_unknown_error</item>
+    </array>
+    <array name="subauth_override_sso_action_entries">
+        <item>@string/subauth_no_override</item>
+        <item>@string/subauth_override_sso_action_override_login</item>
+        <item>@string/subauth_override_sso_action_override_register</item>
+        <item>@string/subauth_override_sso_action_override_regilite</item>
+    </array>
+    <array name="subauth_override_user_details_entries">
+        <item>@string/subauth_override_user_details_no_override</item>
+        <item>@string/subauth_override_user_details_success_entitled</item>
+        <item>@string/subauth_override_user_details_success_non_subscriber</item>
+        <item>@string/subauth_override_user_details_failure</item>
+        <item>@string/subauth_override_user_details_soft_cancel</item>
+        <item>@string/subauth_override_user_details_invalid_dates</item>
+        <item>@string/subauth_override_user_details_failure_socket_exception</item>
+        <item>@string/subauth_override_user_details_failure_invalid_response</item>
+        <item>@string/subauth_override_user_details_fail_open_empty_user</item>
+        <item>@string/subauth_override_user_details_fail_open_empty_sub</item>
+    </array>
+    <array name="subauth_privacy_entries">
+        <item>Show Privacy Notice</item>
+        <item>Hide Privacy Notice</item>
+    </array>
+    <array name="subauth_privacy_entries_values">
+        <item>true</item>
+        <item>false</item>
+    </array>
+    <array name="subauth_request_verification_code_entries">
+        <item>@string/subauth_no_override</item>
+        <item>@string/subauth_request_verification_code_status_override_success</item>
+        <item>@string/subauth_request_verification_code_status_override_fail</item>
+    </array>
+    <array name="subauth_set_password_with_token_entries">
+        <item>@string/subauth_no_override</item>
+        <item>@string/subauth_set_password_with_token_override_success</item>
+        <item>@string/subauth_set_password_with_token_override_fail_precondition</item>
+        <item>@string/subauth_set_password_with_token_override_fail</item>
+    </array>
+    <array name="subauth_sso_action_entries">
+        <item>@string/subauth_sso_action_no_override</item>
+        <item>@string/subauth_sso_action_login</item>
+        <item>@string/subauth_sso_action_register</item>
+        <item>@string/subauth_sso_action_regilite</item>
+    </array>
+    <array name="subauth_theme_entries">
+        <item>Default</item>
+        <item>News</item>
+        <item>Cooking</item>
+        <item>Games</item>
+        <item>Luigi</item>
+    </array>
+    <array name="subauth_theme_entries_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </array>
+    <array name="subauth_user_state_entries">
+        <item>@string/subauth_no_override</item>
+        <item>@string/subauth_user_state_newly_registered_user</item>
+        <item>@string/subauth_user_state_logged_in_subscriber</item>
+        <item>@string/subauth_user_state_logged_in_unsubscribed</item>
+        <item>@string/subauth_user_state_anonymous_user</item>
+    </array>
+    <array name="subauth_verify_email_with_code_entries">
+        <item>@string/subauth_no_override</item>
+        <item>@string/subauth_verify_email_with_code_status_override_success</item>
+        <item>@string/subauth_verify_email_with_code_status_override_fail_expired</item>
+        <item>@string/subauth_verify_email_with_code_status_override_fail_invalid</item>
+        <item>@string/subauth_verify_email_with_code_status_override_fail</item>
+    </array>
+    <array name="vibrate_options">
+        <item>@string/always</item>
+        <item>@string/only_when_silent</item>
+        <item>@string/never</item>
+    </array>
+</resources>

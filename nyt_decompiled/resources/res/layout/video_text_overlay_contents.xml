@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/video_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        style="@style/VR.VideoTitle"/>
+    <TextView
+        android:textColor="@color/content_secondary_alwaysdark"
+        android:ellipsize="end"
+        android:id="@+id/video_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:maxLines="2"
+        style="@style/VR.VideoDescription"/>
+    <TextView
+        android:textColor="@color/content_primary_alwaysdark"
+        android:id="@+id/video_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/VR.Date"/>
+</merge>

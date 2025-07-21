@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_interests">
+        <item quantity="one">Add %1$d Selection</item>
+        <item quantity="other">Add %1$d Selections</item>
+    </plurals>
+    <plurals name="books_interest_great_book">
+        <item quantity="one">%1$d book.</item>
+        <item quantity="other">%1$d books.</item>
+    </plurals>
+    <plurals name="comments_plurals">
+        <item quantity="one">%s Comment</item>
+        <item quantity="other">%s Comments</item>
+    </plurals>
+    <plurals name="comments_screen_repy_plurals">
+        <item quantity="one">%d reply</item>
+        <item quantity="other">%d replies</item>
+    </plurals>
+    <plurals name="comments_screen_thread_button_plurals">
+        <item quantity="one">View %d reply</item>
+        <item quantity="other">View %d replies</item>
+    </plurals>
+    <plurals name="comments_screen_title_plurals">
+        <item quantity="one">%d Comment</item>
+        <item quantity="other">%d Comments</item>
+    </plurals>
+    <plurals name="day_plural">
+        <item quantity="one">Day</item>
+        <item quantity="other">Days</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Fast forward %d second</item>
+        <item quantity="other">Fast forward %d seconds</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Rewind %d second</item>
+        <item quantity="other">Rewind %d seconds</item>
+    </plurals>
+    <plurals name="gift_share_articles_plural">
+        <item quantity="one">article</item>
+        <item quantity="other">articles</item>
+    </plurals>
+    <plurals name="gift_share_views_plural">
+        <item quantity="one">view</item>
+        <item quantity="other">views</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="week_plural">
+        <item quantity="one">Week</item>
+        <item quantity="other">Weeks</item>
+    </plurals>
+</resources>

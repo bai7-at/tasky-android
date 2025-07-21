@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.exoplayer2.ui.AspectRatioFrameLayout
+        android:layout_gravity="center"
+        android:id="@+id/aspect_ratio_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:keepScreenOn="true"/>
+    <FrameLayout
+        android:id="@+id/ad_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.nytimes.android.video.views.VideoControlView
+        android:id="@+id/control_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</merge>

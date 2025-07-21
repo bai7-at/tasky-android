@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SectionFront.LayoutConfig.Default" parent="@style/SectionFront.LayoutConfig.TwoColumnLayout">
+    </style>
+    <style name="SectionFront.LayoutConfig.Email" parent="@style/SectionFront.LayoutConfig.TwoColumnLayout">
+        <item name="isOrderedSection">true</item>
+    </style>
+</resources>

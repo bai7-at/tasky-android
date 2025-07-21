@@ -1,0 +1,18 @@
+package defpackage;
+
+/* loaded from: classes3.dex */
+public final class kob implements v3f {
+    private final dob a;
+    private final l4f b;
+
+    public kob(dob dobVar, l4f l4fVar) {
+        this.a = dobVar;
+        this.b = l4fVar;
+    }
+
+    @Override // defpackage.l4f
+    /* renamed from: a, reason: merged with bridge method [inline-methods] */
+    public final String zzb() {
+        return q2e.d(((gob) this.b).a()).e();
+    }
+}

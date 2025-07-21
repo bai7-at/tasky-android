@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/timestamp"
+        style="@style/SF_FooterText.TimeStampText"/>
+    <TextView
+        android:id="@+id/row_sf_comment_number_text"
+        style="@style/SF_FooterText.CommentCount"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/sf_footer_save_container"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/section_save_content_descrip"
+        android:layout_toStartOf="@+id/sf_footer_share_container"
+        style="@style/SF_Footer_Tool">
+        <TextView
+            android:id="@+id/sf_footer_save_text"
+            android:text="@string/sf_footer_read_later"
+            android:contentDescription="@string/section_save_content_descrip"
+            android:layout_marginEnd="4dp"
+            style="@style/SF_FooterText.ReadLaterShare"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/sf_footer_save_icon"
+            app:srcCompat="@drawable/selector_ic_save"
+            app:tint="@color/content_primary"
+            style="@style/WidthWrapHeightWrap"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/sf_footer_share_container"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/section_share_content_decrip"
+        android:paddingEnd="6dp"
+        android:layout_alignParentEnd="true"
+        style="@style/SF_Footer_Tool">
+        <TextView
+            android:id="@+id/sf_footer_share_text"
+            android:text="@string/sf_footer_share"
+            android:layout_marginEnd="5dp"
+            style="@style/SF_FooterText.ReadLaterShare"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/sf_footer_share_icon"
+            app:srcCompat="@null"
+            app:tint="@color/content_primary"
+            style="@style/WidthWrapHeightWrap"/>
+    </LinearLayout>
+</merge>

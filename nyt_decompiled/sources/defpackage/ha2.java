@@ -1,0 +1,25 @@
+package defpackage;
+
+import com.nytimes.android.messaging.postloginregioffers.model.PostRegiLoginOfferConfig;
+import com.nytimes.android.messaging.postloginregioffers.model.ValueProp;
+import kotlin.collections.i;
+import okhttp3.internal.http2.Http2;
+
+/* loaded from: classes4.dex */
+public final class ha2 {
+    public static final ha2 a = new ha2();
+    private static final PostRegiLoginOfferConfig b = new PostRegiLoginOfferConfig("Account Created", "Subscribe to gain unlimited access to all of The Times", "All Access", "News, plus Games, Cooking, Wirecutter and The Athletic.", "Learn more", true, i.o(new ValueProp("checkmark", "News.", "Engage with expert reporting, including culture coverage and analysis."), new ValueProp("checkmark", "Games.", "Unwind with Spelling Bee, Wordle, The Crossword and more."), new ValueProp("checkmark", "Cooking.", "Enjoy delicious recipes, advice and inspiration daily."), new ValueProp("checkmark", "Wirecutter.", "Choose products confidently with reviews and real-world testing."), new ValueProp("checkmark", "The Athletic.", "Follow in-depth, personalized coverage of your favorite sports.")), "Cancel or pause anytime", "Subcribe Now", "Continue without subscribing", "and.aa.news.app.bau.mo.oc.20000288480", "<b>Automatic Renewal Terms</b><br><br><b>If you subscribe to The New York Times via Google, payment for your subscription will be automatically charged to your Google Play account upon confirmation. Subscriptions renew automatically 24-hours prior to the start of the next billing period. Billing occurs every calendar month for a monthly subscription or once-yearly for an annual subscription. Subscriptions continue to renew automatically until cancelled. You can manage and cancel subscriptions using the Google Play subscription center.</b><br><br>Current subscribers not eligible. Print edition not included. New York Times Games, Cooking, Wirecutter and The Athletic are referred to as Standalone subscriptions. Access to Standalones is included with a New York Times All Access subscription, but is not included with a New York Times News subscription. Individual Standalone subscriptions do not include other Standalones or digital news content. Some benefits, as access to Wordle, may be available without the subscription.<br><br>By selecting a pricing option you agree to the automatic renewal terms stated above, <a href=\"https://www.nytimes.com/privacy/privacy-policy\">Privacy Policy</a> | <a href=\"https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service\">Terms of Service</a>.", i.l(), i.l(), false, Http2.INITIAL_MAX_FRAME_SIZE, null);
+    private static final PostRegiLoginOfferConfig c = new PostRegiLoginOfferConfig("Logged In", "Subscribe to gain unlimited access to all of The Times", "All Access", "News, plus Games, Cooking, Wirecutter and The Athletic.", "Learn more", true, i.o(new ValueProp("checkmark", "News.", "Engage with expert reporting, including culture coverage and analysis."), new ValueProp("checkmark", "Games.", "Unwind with Spelling Bee, Wordle, The Crossword and more."), new ValueProp("checkmark", "Cooking.", "Enjoy delicious recipes, advice and inspiration daily."), new ValueProp("checkmark", "Wirecutter.", "Choose products confidently with reviews and real-world testing."), new ValueProp("checkmark", "The Athletic.", "Follow in-depth, personalized coverage of your favorite sports.")), "Cancel or pause anytime", "Subcribe Now", "Continue without subscribing", "and.aa.news.app.bau.mo.oc.20000288480", "<b>Automatic Renewal Terms</b><br><br><b>If you subscribe to The New York Times via Google, payment for your subscription will be automatically charged to your Google Play account upon confirmation. Subscriptions renew automatically 24-hours prior to the start of the next billing period. Billing occurs every calendar month for a monthly subscription or once-yearly for an annual subscription. Subscriptions continue to renew automatically until cancelled. You can manage and cancel subscriptions using the Google Play subscription center.</b><br><br>Current subscribers not eligible. Print edition not included. New York Times Games, Cooking, Wirecutter and The Athletic are referred to as Standalone subscriptions. Access to Standalones is included with a New York Times All Access subscription, but is not included with a New York Times News subscription. Individual Standalone subscriptions do not include other Standalones or digital news content. Some benefits, as access to Wordle, may be available without the subscription.<br><br>By selecting a pricing option you agree to the automatic renewal terms stated above, <a href=\"https://www.nytimes.com/privacy/privacy-policy\">Privacy Policy</a> | <a href=\"https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service\">Terms of Service</a>.", i.l(), i.l(), false, Http2.INITIAL_MAX_FRAME_SIZE, null);
+    public static final int d = 8;
+
+    private ha2() {
+    }
+
+    public final PostRegiLoginOfferConfig a() {
+        return c;
+    }
+
+    public final PostRegiLoginOfferConfig b() {
+        return b;
+    }
+}

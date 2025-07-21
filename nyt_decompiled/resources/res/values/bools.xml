@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="adluce_on">true</bool>
+    <bool name="af_hybrid_enabled">true</bool>
+    <bool name="android_adReportsEnabled">false</bool>
+    <bool name="android_appsFlyerEnabled">false</bool>
+    <bool name="android_homeEnabled">true</bool>
+    <bool name="appShortcutsEnabled">false</bool>
+    <bool name="betaSettingsEnabled">false</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="default_firebase_app_is_production">true</bool>
+    <bool name="display_detailed_build_information">false</bool>
+    <bool name="dns_check_enabled">true</bool>
+    <bool name="enable_system_alarm_service_default">false</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">true</bool>
+    <bool name="gdpr_overlay_on">true</bool>
+    <bool name="hybrid_is_tablet">false</bool>
+    <bool name="isLightMode">true</bool>
+    <bool name="is_debug">false</bool>
+    <bool name="is_large_heap">false</bool>
+    <bool name="is_tablet">false</bool>
+    <bool name="key_drn_subscribed_default">true</bool>
+    <bool name="light_navigation_bar">true</bool>
+    <bool name="logNetworkErrs">false</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="sfTextWrapping">false</bool>
+    <bool name="show_developer_settings">false</bool>
+    <bool name="subauth_isPortraitOnly">true</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@color/books_rank"
+        android:id="@+id/other_books_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/font_franklin_light"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/books_title"
+        android:id="@+id/other_books_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_franklin_bold"
+        android:layout_toEndOf="@+id/other_books_rank"/>
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/books_author"
+        android:id="@+id/other_books_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/other_books_title"
+        android:lineSpacingExtra="4dp"
+        android:fontFamily="@font/font_imperial_regular"
+        android:layout_toEndOf="@+id/other_books_rank"/>
+</RelativeLayout>

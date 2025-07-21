@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="One WebView Home"
+    android:key="one_webview_home_menu">
+    <androidx.preference.SwitchPreferenceCompat
+        android:title="Use custom GraphQL Id"
+        android:key="@string/use_custom_oneWebViewGraphQLId"
+        android:defaultValue="false"/>
+    <androidx.preference.EditTextPreference
+        android:title="GraphQL Id"
+        android:key="@string/custom_oneWebViewGraphQLId"
+        android:summary="Enter GraphQL Id"
+        android:dependency="@string/use_custom_oneWebViewGraphQLId"
+        android:defaultValue="@string/default_custom_oneWebViewGraphQLId"/>
+</androidx.preference.PreferenceScreen>

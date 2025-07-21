@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/tablet_grid_item"
+    android:background="@drawable/default_ripple_background"
+    android:clipChildren="false"
+    style="@style/WidthMatchHeightWrap">
+    <RelativeLayout
+        android:paddingTop="@dimen/row_section_front_spacing_top_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingStart="@dimen/row_search_padding_left_right"
+        android:paddingEnd="@dimen/row_search_padding_left_right">
+        <include layout="@layout/row_section_front_incl"/>
+    </RelativeLayout>
+    <com.nytimes.android.sectionfront.ui.FooterView
+        android:id="@+id/footer_view"
+        style="@style/SF_Footer.Article"/>
+</LinearLayout>

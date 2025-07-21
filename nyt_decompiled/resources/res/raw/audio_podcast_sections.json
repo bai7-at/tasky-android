@@ -1,0 +1,104 @@
+{
+  "hero": {
+    "credit": "Pablo Delcan",
+    "headline": "The Good Whale",
+    "summary": "The true story of a movie-star orca and his odyssey back to the ocean.",
+    "kicker": "FEATURED PODCAST",
+    "byline": "From Serial Productions and The New York Times",
+    "imageUrl": "https://static01.nyt.com/images/2024/10/15/podcasts/the-good-whale-promo-art/the-good-whale-promo-art-square640-v4.png",
+    "contentUrl": "https://www.nytimes.com/interactive/2024/podcasts/serial-good-whale.html",
+    "contentUri": "nyt://interactive/efd49cfb-1824-5119-9191-f526f5a174cf"
+  },
+  "podcasts": [
+    {
+      "title": "News",
+      "assets": [
+        {
+          "headline": "The Daily",
+          "summary": "The biggest stories of our time, in 20 minutes a day.",
+          "imageUrl": "https://static.nytimes.com/email-images/NYT-Newsletters-TheDaily-Icon-500px.jpg",
+          "contentUrl": "https://www.nytimes.com/column/the-daily",
+          "contentUri": "nyt://legacycollection/083d2a52-ab43-5b52-bb74-74a35756c439"
+        },
+        {
+          "headline": "The Headlines",
+          "summary": "Your morning listen. Top stories, in 5 minutes.",
+          "imageUrl": "https://static01.nyt.com/images/2022/10/12/podcasts/headlines-albumartwork-audioapp-2/headlines-albumartwork-audioapp-2-thumbLarge.png",
+          "contentUrl": "https://www.nytimes.com/column/the-headlines",
+          "contentUri": "nyt://legacycollection/45bf7512-79ac-5336-90ee-c79ba5b1534e"
+        },
+        {
+          "headline": "The Run-Up",
+          "summary": "The 2024 election and its aftermath.",
+          "imageUrl": "https://static01.nyt.com/images/2022/08/29/podcasts/the-run-up-album-art/the-run-up-album-art-square320.jpg",
+          "contentUrl": "https://www.nytimes.com/column/election-run-up-podcast",
+          "contentUri": "nyt://legacycollection/41debc58-1625-5aac-a7fd-b8f236ab9b9b"
+        },
+        {
+          "headline": "Hard Fork",
+          "summary": "Making sense of the rapidly changing tech world.",
+          "imageUrl": "https://static01.nyt.com/images/2022/09/28/podcasts/hard-fork-album-art/hard-fork-album-art-thumbLarge-v2.png",
+          "contentUrl": "https://www.nytimes.com/column/hard-fork",
+          "contentUri": "nyt://legacycollection/accf1a3a-8140-5889-9a49-a52b5430dca5"
+        },
+        {
+          "headline": "Reporter Reads",
+          "summary": "Recent articles read by the reporters behind them.",
+          "imageUrl": "https://www.nytimes.com/vi-assets/static-assets/icon-reporter-reads_144x144-f63cbc9989c9a468682611ad1f6f5d63.webp",
+          "contentUrl": "https://www.nytimes.com/spotlight/reporter-reads",
+          "contentUri": "nyt://legacycollection/d06ecd0e-7187-59e7-a2bd-1a46800387d2"
+        }
+      ]
+    },
+    {
+      "title": "Opinion",
+      "assets": [
+        {
+          "headline": "The Ezra Klein Show",
+          "summary": "Real conversations. Ideas that matter.",
+          "imageUrl": "https://s1.nyt.com/mobile-apps/newsreader/xpn-assets/v2/img/the-ezra-klein-show-320x320.png",
+          "contentUrl": "https://www.nytimes.com/column/ezra-klein-podcast",
+          "contentUri": "nyt://legacycollection/fd364dbe-c0e3-5450-8556-62fef0f6823c"
+        },
+        {
+          "headline": "The Opinions",
+          "summary": "One voice, one opinion, in 10 minutes or less.",
+          "imageUrl": "https://static01.nyt.com/images/2023/11/27/opinion/the-opinions-art/the-opinions-art-square320.jpg",
+          "contentUrl": "https://www.nytimes.com/column/the-opinions",
+          "contentUri": "nyt://legacycollection/515313ea-78c2-5c1a-8ad8-bf93060fecab"
+        },
+        {
+          "headline": "Matter of Opinion",
+          "summary": "A weekly news and politics round table from Opinion.",
+          "imageUrl": "https://static01.nyt.com/images/2023/05/08/podcasts/matter-of-opinion-album-art/matter-of-opinion-album-art-thumbLarge-v2.jpg",
+          "contentUrl": "https://www.nytimes.com/column/matter-of-opinion",
+          "contentUri": "nyt://legacycollection/8e3a986b-8ea4-56f5-90ac-22c74d27e6fa"
+        }
+      ]
+    },
+    {
+      "title": "Culture",
+      "assets": [
+        {
+          "headline": "The Culture Desk",
+          "summary": "Your guide to arts and culture.",
+          "imageUrl": "https://static01.nyt.com/images/2023/11/06/podcasts/00culturedesk-albumartwork/00culturedesk-albumartwork-thumbLarge.jpg",
+          "contentUrl": "https://www.nytimes.com/column/the-culture-desk",
+          "contentUri": "nyt://legacycollection/b098acd8-9fb1-5a5f-980e-93545ae86ad8"
+        },
+        {
+          "headline": "Modern Love",
+          "summary": "The complicated love lives of real people.",
+          "imageUrl": "https://static01.nyt.com/images/2023/04/08/podcasts/modernlove-album-art/modernlove-logo-thumbLarge-v3.jpg",
+          "contentUrl": "https://www.nytimes.com/column/modern-love-podcast",
+          "contentUri": "nyt://legacycollection/75fb1f98-3d2b-5462-9bea-06a0310ccd0b"
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "headline": "View all audio",
+    "contentUrl": "https://www.nytimes.com/spotlight/podcasts",
+    "contentUri": "nyt://legacycollection/1693fba8-9aeb-5a68-9d85-d86946e9ee6a"
+  }
+}

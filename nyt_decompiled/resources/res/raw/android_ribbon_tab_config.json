@@ -1,0 +1,119 @@
+[
+  {
+    "id": "games",
+    "displayName": "Games",
+    "position": 0,
+    "type": "brand",
+    "enabled": true,
+    "endpoint": "personalized",
+    "url": ""
+  },
+  {
+    "id": "audio",
+    "displayName": "Audio",
+    "position": 1,
+    "type": "brand",
+    "enabled": true,
+    "endpoint": "personalized",
+    "url": ""
+  },
+  {
+    "id": "wirecutter",
+    "displayName": "Wirecutter",
+    "position": 2,
+    "type": "brand",
+    "enabled": true,
+    "endpoint": "personalized",
+    "url": ""
+  },
+  {
+    "id": "cooking",
+    "displayName": "Cooking",
+    "position": 3,
+    "type": "brand",
+    "enabled": true,
+    "endpoint": "personalized",
+    "url": ""
+  },
+  {
+    "id": "the_athletic",
+    "displayName": "The Athletic",
+    "position": 4,
+    "type": "brand",
+    "enabled": true,
+    "endpoint": "personalized",
+    "url": ""
+  },
+  {
+    "id": "today",
+    "displayName": "Today",
+    "position": 5,
+    "type": "news",
+    "enabled": true,
+    "endpoint": "personalized",
+    "url": ""
+  },
+  {
+    "id": "best_of",
+    "displayName": "Best of 2024",
+    "position": 6,
+    "type": "news",
+    "enabled": true,
+    "endpoint": "personalized",
+    "url": "https://www.stg.nytimes.com/panel/live/best-of-2024"
+  },
+  {
+    "id": "election",
+    "displayName": "Election 2024",
+    "position": 6,
+    "type": "news",
+    "enabled": false,
+    "endpoint": "personalized",
+    "url": "https://www.stg.nytimes.com/panel/live/2024-election-guide"
+  },
+  {
+    "id": "trending",
+    "displayName": "Trending",
+    "position": 7,
+    "type": "news",
+    "enabled": false,
+    "endpoint": "personalized",
+    "url": ""
+  },
+  {
+    "id": "lifestyle",
+    "displayName": "Lifestyle",
+    "position": 8,
+    "type": "news",
+    "enabled": true,
+    "endpoint": "personalized",
+    "url": ""
+  },
+  {
+    "id": "great_reads",
+    "displayName": "Great Reads",
+    "position": 9,
+    "type": "news",
+    "enabled": true,
+    "endpoint": "generic",
+    "url": ""
+  },
+  {
+    "id": "opinion",
+    "displayName": "Opinion",
+    "position": 10,
+    "type": "news",
+    "enabled": true,
+    "endpoint": "personalized",
+    "url": ""
+  },
+  {
+    "id": "sections",
+    "displayName": "Sections",
+    "position": 11,
+    "type": "news",
+    "enabled": true,
+    "endpoint": "personalized",
+    "url": ""
+  }
+]

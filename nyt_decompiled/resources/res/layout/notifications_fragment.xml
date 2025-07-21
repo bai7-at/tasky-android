@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/notifications_scroll_view"
+    android:paddingTop="@dimen/notification_scroll_view_padding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <LinearLayout
+        android:orientation="vertical"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/notifications_header_title"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notification_permission_disabled_title"
+            style="@style/TextView.Push.Notifications.Header.Title"/>
+        <TextView
+            android:id="@+id/notifications_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notification_header"
+            style="@style/TextView.Push.Notifications.Header"/>
+        <com.google.android.material.button.MaterialButton
+            android:layout_gravity="center"
+            android:id="@+id/notifications_permissions_btn"
+            android:padding="@dimen/notification_header_padding"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/notification_header_padding"
+            android:text="@string/notification_permission_adjust_settings_btn_text"
+            android:layout_marginStart="@dimen/notification_header_padding"
+            android:layout_marginEnd="@dimen/notification_header_padding"
+            style="@style/Push.Notifications.Header.Button"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/notifications_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

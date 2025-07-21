@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="@string/settingsScreen_key">
+    <androidx.preference.PreferenceCategory
+        android:title="@string/notifications"
+        android:key="@string/notifications">
+        <androidx.preference.Preference
+            android:title="@string/bnaRingtoneTitle"
+            android:key="@string/key_bna_ringtone"/>
+        <androidx.preference.ListPreference
+            android:entries="@array/vibrate_options"
+            android:title="@string/vibrate"
+            android:key="@string/key_bna_vibrate"
+            android:defaultValue="@string/only_when_silent"
+            android:entryValues="@array/vibrate_options"/>
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

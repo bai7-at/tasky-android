@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        style="@style/WidthMatchHeightMatch">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:id="@+id/play_pause_container"
+            android:background="@drawable/white_pressed"
+            android:padding="@dimen/vr_control_play_pause_padding"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/play_pause_icon"
+                android:contentDescription="@string/pause_button"
+                app:srcCompat="@drawable/ic_vr_pause"
+                style="@style/WidthWrapHeightWrap"/>
+        </LinearLayout>
+        <RelativeLayout style="@style/WidthMatchHeightWrap">
+            <TextView
+                android:id="@+id/playing_text"
+                android:text="@string/playing_in"
+                android:layout_centerInParent="true"
+                style="@style/EndslateText"/>
+            <TextView
+                android:gravity="start"
+                android:id="@+id/dots"
+                android:layout_toEndOf="@+id/playing_text"
+                style="@style/EndslateText"/>
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,55 @@
+package defpackage;
+
+/* loaded from: classes4.dex */
+public abstract class ud6 {
+    public static int audio_control_duration_height = 2131165280;
+    public static int audio_control_duration_width = 2131165281;
+    public static int audio_indicator_full_size_padding_start_end = 2131165293;
+    public static int audio_indicator_onboarding_height = 2131165298;
+    public static int audio_indicator_onboarding_padding_end = 2131165299;
+    public static int audio_indicator_onboarding_padding_start = 2131165300;
+    public static int audio_indicator_onboarding_padding_top = 2131165301;
+    public static int bottom_controls_margin = 2131165313;
+    public static int bottom_controls_margin_center = 2131165314;
+    public static int caption_left_padding = 2131165322;
+    public static int caption_line_height = 2131165323;
+    public static int caption_text_size = 2131165324;
+    public static int caption_title_size = 2131165325;
+    public static int compass_dimen = 2131165350;
+    public static int default_video_title_margin_top = 2131165378;
+    public static int element_spacing_large_af = 2131165432;
+    public static int element_spacing_medium_af = 2131165433;
+    public static int element_spacing_small_af = 2131165434;
+    public static int endslate_text_size = 2131165435;
+    public static int endslate_vertical_orientation_spacing = 2131165436;
+    public static int fullscreen_end_panel_side_spacing = 2131165483;
+    public static int fullscreen_end_top_padding = 2131165484;
+    public static int paragragh_text_size = 2131166222;
+    public static int row_section_front_card_view_corner_radius = 2131166250;
+    public static int row_section_front_card_view_elevation = 2131166251;
+    public static int row_section_front_card_view_margin_top = 2131166252;
+    public static int row_section_front_card_view_margin_top_inter_group = 2131166253;
+    public static int section_front_divider_left_right_margin = 2131166325;
+    public static int sf_audio_elevation = 2131166335;
+    public static int sf_audio_view_horizontal_margin = 2131166336;
+    public static int sf_audio_view_playback_container_margin_top = 2131166337;
+    public static int sf_video_replay_button_height = 2131166351;
+    public static int sf_video_replay_button_width = 2131166352;
+    public static int title_text_size = 2131166384;
+    public static int vertical_video_promo_inset = 2131166415;
+    public static int vertical_video_title_text_size = 2131166417;
+    public static int video_controls_internal_padding = 2131166418;
+    public static int video_cover_default_text_size = 2131166419;
+    public static int video_cover_live_text_size = 2131166420;
+    public static int video_cover_padding_bottom = 2131166421;
+    public static int video_cover_padding_end = 2131166422;
+    public static int video_cover_padding_start = 2131166423;
+    public static int video_front_cover_icon = 2131166424;
+    public static int vr_control_bottom_icons_padding = 2131166425;
+    public static int vr_control_play_pause_padding = 2131166426;
+    public static int vr_internal_padding = 2131166427;
+    public static int vr_internal_padding_half = 2131166428;
+    public static int vr_video_date_text_size = 2131166429;
+    public static int vr_video_description_text_size = 2131166430;
+    public static int vr_video_title_text_size = 2131166431;
+}

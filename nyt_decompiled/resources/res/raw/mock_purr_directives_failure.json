@@ -1,0 +1,32 @@
+{
+  "errors": [
+    {
+      "message": "Dev Setting - Internal server error",
+      "path": [
+        "user",
+        "currentTcfNotice"
+      ],
+      "extensions": {
+        "traceId": "ed0d04e719a52947",
+        "serviceName": "samizdat-sangria-graphql",
+        "code": "DOWNSTREAM_SERVICE_ERROR",
+        "exception": {
+          "message": "Internal server error",
+          "path": [
+            "user",
+            "currentTcfNotice"
+          ],
+          "locations": [
+            {
+              "line": 1,
+              "column": 771
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "data": {
+    "user": null
+  }
+}

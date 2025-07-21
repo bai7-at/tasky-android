@@ -1,0 +1,51 @@
+{
+  "errors": [
+    {
+      "message": "Received Unauthorized response from LIRE client: The user token is invalid.",
+      "path": [
+        "user",
+        "userInfo"
+      ],
+      "extensions": {
+        "detailCode": "UIE",
+        "description": "The provided user input is invalid.",
+        "serviceName": "samizdat-sangria-graphql",
+        "code": "DOWNSTREAM_SERVICE_ERROR",
+        "exception": {
+          "message": "Received Unauthorized response from LIRE client: The user token is invalid.",
+          "path": [
+            "user",
+            "userInfo"
+          ],
+          "locations": [
+            {
+              "line": 1,
+              "column": 107
+            }
+          ],
+          "stacktrace": [
+            ""
+          ]
+        }
+      }
+    }
+  ],
+  "data": {
+    "user": {
+      "profile": {
+        "__typename": "Profile",
+        "email": "testemail@nytimes.com",
+        "displayName": "test.user",
+        "name": "Test User",
+        "givenName": "Test",
+        "familyName": "User",
+        "username": "testuser"
+      },
+      "userInfo": {
+        "__typename": "UserInfo",
+        "regiId": "135190990"
+      },
+      "subscriptionDetails": []
+    }
+  }
+}

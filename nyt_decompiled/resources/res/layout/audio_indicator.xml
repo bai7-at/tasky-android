@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/cover_image"
+        android:layout_width="@dimen/audio_indicator_width"
+        android:layout_height="@dimen/audio_indicator_height"
+        android:contentDescription="@null"/>
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_gravity="center"
+        android:id="@+id/animation_view"
+        android:layout_width="@dimen/audio_indicator_animation_width"
+        android:layout_height="@dimen/audio_indicator_animation_height"
+        app:lottie_fileName="icons/dancing_bars.json"
+        app:lottie_loop="true"/>
+</merge>

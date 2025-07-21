@@ -1,0 +1,1433 @@
+{
+  "blogs": [
+    {
+      "title": "Ross Douthat",
+      "blogHash": "be7a47a26718a694497f81e1f70275d0",
+      "blogName": "douthat",
+      "pubDate": 1509654158,
+      "fullfeed": "blogs/douthat.json"
+    }
+  ],
+  "podcasts": {
+    "file": "/cms/mobile/podcasts/podcasts.json",
+    "last_modified_timestamp": 1556143399
+  },
+  "meter": {
+    "version": 407,
+    "enabled": true,
+    "exclusions": {
+      "sections": [
+        "dealbook",
+        "insider"
+      ],
+      "blogs": [
+        "dealbook",
+        "publiceditor",
+        "afterdeadline",
+        "ferguson",
+        "first-draft",
+        "news",
+        "op-talk",
+        "iht-retrospective"
+      ],
+      "urls": [
+        "http://www.nytimes.com/crosswords/game/mini.*",
+        "https://www.nytimes.com/crosswords/game/mini.*",
+        "http://cooking.nytimes.com/*",
+        "https://cooking.nytimes.com/*",
+        "http://www.nytimes.com/es/.*",
+        "https://www.nytimes.com/es/.*",
+        "https://www.nytimes.com/tips",
+        "https://www.nytimes.com/help/.*",
+        "https://www.nytimes.com/packages/html/mobile/newsletter-promos/.*",
+        "https://www.nytimes.com/.*/reader-center/.*",
+        "http://www.nytimes.com/.*/reader-center/.*",
+        "https://www.nytimes.com/interactive/2018/01/26/sports/olympics/sam-manchester-at-the-games-ul.html",
+        "https://www.nytimes.com/interactive/2018/podcasts/caliphate-isis-rukmini-callimachi.html",
+        "https://www.nytimes.com/interactive/2018/briefing/global-morning-briefing-newsletter-signup.html",
+        "https://www.nytimes.com/interactive/2017/04/04/admin/the-new-york-times-masthead.html",
+        "https://www.nytimes.com/interactive/2018/opinion/editorialboard.html",
+        "https://www.nytimes.com/interactive/2017/11/06/magazine/mag-job-at-war.html",
+        "https://www.nytimes.com/interactive/.*/jobs/.*",
+        "https://www.nytimes.com/interactive/2018/06/11/sports/worldcup/100000005947887.embedded.html.*",
+        "https://www.nytimes.com/2018/09/17/technology/disinformation-tipsheet.html",
+        "https://www.nytimes.com/interactive/2018/09/28/us/politics/the-campaign-reporter-ul.html"
+      ],
+      "type": [
+        "video"
+      ]
+    },
+    "limit": 10,
+    "period": "monthly",
+    "cardMessaging": {
+      "default": "Try Unlimited Access for 14 Days Free"
+    }
+  },
+  "gateway": {
+    "mainCopy": "Start Your 14 Day Free Trial",
+    "offerCopy": "",
+    "offerImageUrl": "http://static.stg.nytimes.com/images/mobile/android/mkt/Bernanke@2x_Phone.jpg",
+    "buttonCopy": "See My Options"
+  },
+  "freeTrial": {
+    "duration": "1w",
+    "freeTrialAnnouncement": {
+      "mainCopy": "Starting today, you can enjoy a week of free unlimited access from any section in this app."
+    },
+    "postTrialAnnouncement": {
+      "mainCopy": "We hope you enjoyed your free trial. Starting today, you can read up to #{limit} free articles a #{period} in this app, from any section.",
+      "actionButtonCopy": "Subscribe for Unlimited Access",
+      "actionBodyCopy": "<p><b>Frequently Asked Questions</b></p>\n<p><b>Can I use the NYTimes app without a subscription?</b></p>\n<p>Yes. You can read 10 articles a month from any section in the app. Your daily limit resets at midnight. Digital subscribers have unlimited access to all content within the app.</p>\n\n<p><b>What digital subscriptions are available?</b></p>\n<p>There are three types of digital subscriptions, each of which provides unlimited access to the NYTimes.com Web site from any computer or device, plus access to apps on portable devices. To learn more, visit our Digital Subscriptions and Premium Products FAQ within the NYTimes.com Help section.</p>\n\n<p><b>How has the free content available in the app changed?</b></p>\n<p>Previously, only articles in the Top News section of the app were available to nonsubscribers. However, we wanted to offer a wider selection of content to our readers. You can now access 10 articles each month from any section in the app. In addition, a subscription isn't required to view videos.</p>",
+      "actionButtonUrl": "http://www.nytimes.com/content/help/mobile/unsub-access.html"
+    },
+    "marketingMessages": [
+      {
+        "afterSessions": 2,
+        "message": "We hope you are enjoying your free trial. Subscribe today for continued unlimited access to this app."
+      },
+      {
+        "afterSessions": 5,
+        "message": "We hope you are enjoying your free trial. Subscribe today for continued unlimited access to this app."
+      }
+    ]
+  },
+  "sectionConfig": {
+    "theater": {
+      "internationalRank": 220,
+      "rank": 210
+    },
+    "travel": {
+      "internationalRank": 270,
+      "rank": 260
+    },
+    "feeds.sunday-review": {
+      "internationalRank": 230,
+      "rank": 220
+    },
+    "business": {
+      "defaultSection": true,
+      "rank": 60
+    },
+    "movies": {
+      "internationalRank": 210,
+      "rank": 200
+    },
+    "opinion.global": {
+      "defaultSection": true,
+      "internationalRank": 30,
+      "internationalTitle": "Opinion",
+      "international": true
+    },
+    "atwar": {},
+    "technology": {
+      "internationalRank": 130,
+      "rank": 140
+    },
+    "nyregion": {
+      "defaultSection": true,
+      "internationalRank": 90,
+      "rank": 90
+    },
+    "books": {
+      "internationalRank": 200,
+      "rank": 190
+    },
+    "mostemailed": {
+      "defaultSection": true,
+      "internationalRank": 20,
+      "rank": 20,
+      "title": "Most Popular"
+    },
+    "world.asia": {
+      "internationalRank": 330,
+      "international": true
+    },
+    "feeds.slideshows": {
+      "internationalRank": 120,
+      "rank": 120
+    },
+    "sports": {
+      "defaultSection": true,
+      "rank": 70
+    },
+    "dining": {
+      "rank": 180
+    },
+    "health": {
+      "internationalRank": 170,
+      "rank": 160
+    },
+    "well": {
+      "rank": 165
+    },
+    "business.global": {
+      "defaultSection": true,
+      "internationalRank": 60,
+      "internationalTitle": "Business",
+      "international": true
+    },
+    "obituaries": {
+      "internationalRank": 300,
+      "rank": 290
+    },
+    "fashion.weddings": {
+      "internationalRank": 260,
+      "rank": 250
+    },
+    "video.latestvideo": {
+      "defaultSection": true,
+      "internationalRank": 110,
+      "rank": 110
+    },
+    "realestate": {
+      "internationalRank": 280,
+      "rank": 270
+    },
+    "sports.global": {
+      "defaultSection": true,
+      "internationalRank": 70,
+      "internationalTitle": "Sports",
+      "international": true
+    },
+    "fashion.global": {
+      "internationalRank": 235,
+      "internationalTitle": "Style",
+      "international": true
+    },
+    "dining.global": {
+      "internationalRank": 190,
+      "localFeedName": "dining",
+      "internationalTitle": "Food",
+      "international": true
+    },
+    "us.politics": {
+      "internationalRank": 140,
+      "rank": 145,
+      "internationalTitle": "U.S. Politics"
+    },
+    "augmented": {
+      "rank": 142
+    },
+    "opinion": {
+      "defaultSection": true,
+      "rank": 30
+    },
+    "upshot": {
+      "internationalRank": 160,
+      "rank": 150
+    },
+    "world.americas": {
+      "internationalRank": 320,
+      "international": true
+    },
+    "homepage": {
+      "defaultSection": true,
+      "rank": 10
+    },
+    "fashion": {
+      "rank": 225
+    },
+    "world.africa": {
+      "internationalRank": 310,
+      "international": true
+    },
+    "arts.global": {
+      "defaultSection": true,
+      "internationalRank": 80,
+      "internationalTitle": "Arts",
+      "international": true
+    },
+    "automobiles": {
+      "internationalRank": 290,
+      "rank": 280
+    },
+    "world": {
+      "defaultSection": true,
+      "internationalRank": 40,
+      "rank": 40
+    },
+    "science": {
+      "internationalRank": 180,
+      "rank": 170
+    },
+    "climate": {
+      "rank": 175
+    },
+    "reader-center": {
+      "rank": 113
+    },
+    "insider": {
+      "rank": 115
+    },
+    "feeds.t-magazine": {
+      "internationalRank": 240,
+      "rank": 230
+    },
+    "us": {
+      "defaultSection": true,
+      "internationalRank": 50,
+      "rank": 50
+    },
+    "world.europe": {
+      "internationalRank": 340,
+      "international": true
+    },
+    "magazine": {
+      "defaultSection": true,
+      "internationalRank": 100,
+      "rank": 100
+    },
+    "world.middleeast": {
+      "internationalRank": 350,
+      "international": true
+    },
+    "thelede": {},
+    "arts": {
+      "defaultSection": true,
+      "rank": 80
+    },
+    "global-home": {
+      "defaultSection": true,
+      "internationalRank": 10,
+      "international": true
+    },
+    "publiceditor": {},
+    "world.australia": {
+      "rank": 300
+    },
+    "lens": {
+      "rank": 310
+    },
+    "dealbook": {
+      "rank": 320
+    },
+    "es.america-latina": {
+      "defaultSection": true,
+      "nytEs": true,
+      "nytEsRank": 50
+    },
+    "es.cultura": {
+      "defaultSection": true,
+      "nytEs": true,
+      "nytEsRank": 30
+    },
+    "es.noticias": {
+      "defaultSection": true,
+      "nytEs": true,
+      "nytEsRank": 20
+    },
+    "es.opinion": {
+      "defaultSection": true,
+      "nytEs": true,
+      "nytEsRank": 40
+    },
+    "es.reposado": {
+      "defaultSection": true,
+      "nytEs": true,
+      "nytEsRank": 60
+    },
+    "es.inicio": {
+      "defaultSection": true,
+      "nytEs": true,
+      "nytEsRank": 10
+    }
+  },
+  "ecomm": {
+    "skus": {
+      "previous": [
+        "com.nytimes.googleplay.bundle.a.monthly",
+        "com.nytimes.googleplay.bundle.a.monthly.samsung",
+        "com.nytimes.googleplay.bundle.d.v1.monthly",
+        "com.nytimes.googleplay.bundle.d.v1.monthly.samsung",
+        "com.nytimes.googleplay.bundle.d.v1.monthly.samsungint",
+        "com.nytimes.googleplay.bundle.a.v2.monthly",
+        "com.nytimes.googleplay.bundle.a.v2.monthly.samsung",
+        "com.nytimes.googleplay.bundle.a.v2.monthly.samsungint",
+        "com.nytimes.googleplay.bundle.d.v2.monthly",
+        "com.nytimes.googleplay.bundle.d.v3.monthly",
+        "com.nytimes.googleplay.bundle.d.v3.monthly.samsung",
+        "com.nytimes.googleplay.bundle.d.v3.monthly.samsungint",
+        "com.nytimes.googleplay.bundle.f.v1.monthly",
+        "com.nytimes.googleplay.bundle.d.v2.monthly.samsung",
+        "com.nytimes.googleplay.bundle.f.v1.monthly.samsung",
+        "com.nytimes.googleplay.bundle.d.v2.monthly.samsungint",
+        "com.nytimes.googleplay.bundle.f.v1.monthly.samsungint",
+        "com.nytimes.googleplay.bundle.ada.v1.monthly",
+        "com.nytimes.googleplay.bundle.ada.v2.monthly",
+        "com.nytimes.googleplay.bundle.ada.v3.monthly",
+        "com.nytimes.googleplay.bundle.ada.v4.monthly",
+        "com.nytimes.googleplay.bundle.x.v1.monthly",
+        "com.nytimes.googleplay.bundle.x.v1.yearly",
+        "com.nytimes.googleplay.bundle.x.v2.monthly",
+        "com.nytimes.googleplay.bundle.x.v3.monthly",
+        "com.nytimes.googleplay.bundle.x.v2.yearly",
+        "com.nytimes.googleplay.bundle.x.v3.yearly",
+        "com.nytimes.googleplay.bundle.x.v4.yearly",
+        "com.nytimes.googleplay.bundle.xpass.v1.yearly",
+        "com.nytimes.googleplay.bundle.maxadacr.v1.monthly",
+        "com.nytimes.googleplay.bundle.maxadacr.v1.yearly",
+        "com.nytimes.googleplay.bundle.xpass.monthly.sale.14.99.oc.20000190420",
+        "com.nytimes.googleplay.bundle.xpass.yearly.sale.129.99.oc.20000190060",
+        "com.nytimes.googleplay.bundle.maxadacr.monthly.sale.24.99.oc.20000190440",
+        "com.nytimes.googleplay.bundle.xpass.yearly.sale.199.99.oc.20000190460",
+        "com.nytimes.googleplay.bundle.maxadacr.yearly.sale.199.99.oc.20000190460",
+        "com.nytimes.googleplay.bundle.xpass.monthly.7.99.oc.20000196920",
+        "com.nytimes.googleplay.bundle.xpass.monthly.9.99.oc.20000196960",
+        "com.nytimes.googleplay.bundle.xpass.yearly.89.99.oc.20000196900",
+        "com.nytimes.googleplay.bundle.xpass.yearly.99.99.oc.20000196940",
+        "com.nytimes.googleplay.bundle.maxadacr.monthly.16.99.oc.20000196980",
+        "com.nytimes.googleplay.bundle.maxadacr.yearly.169.99.oc.20000197220",
+        "com.nytimes.googleplay.bundle.xpass.monthly.4.99.oc.20000196860",
+        "com.nytimes.googleplay.bundle.xpass.monthly.7.49.oc.20000196880",
+        "com.nytimes.googleplay.bundle.xpass.yearly.49.99.oc.20000196500",
+        "com.nytimes.googleplay.bundle.xpass.yearly.84.99.oc.20000196840",
+        "com.nytimes.googleplay.bundle.maxadacr.monthly.12.49.oc.20000197240",
+        "com.nytimes.googleplay.bundle.maxadacr.yearly.124.99.oc.20000196820"
+      ],
+      "current": [
+        [
+          {
+            "sku": "com.nytimes.googleplay.bundle.xpass.monthly.sale.14.99.oc.20000190420",
+            "actionText": "%p per month",
+            "description": "Unlimited article access. Get one week free, then enjoy 50% off for a year.",
+            "promoUrl": "mobile/android/v1/icons/%s/basic-access2.png",
+            "title": "Basic",
+            "trial": "one week"
+          },
+          {
+            "sku": "com.nytimes.googleplay.bundle.maxadacr.monthly.sale.24.99.oc.20000190440",
+            "actionText": "%p per month",
+            "description": "Basic + access to NYT Crossword and NYT Cooking, and one bonus subscription. Get started with one week free.",
+            "promoUrl": "mobile/android/v1/icons/%s/all-access2.png",
+            "title": "All Access",
+            "trial": "one week"
+          },
+          {
+            "sku": "com.nytimes.googleplay.bundle.xpass.yearly.sale.129.99.oc.20000190060",
+            "actionText": "%p per year",
+            "description": "Save every year with an annual subscription.",
+            "promoUrl": "mobile/android/v1/icons/%s/all-access-annual2.png",
+            "title": "Basic Annual",
+            "trial": "one week"
+          }
+        ],
+        [
+          {
+            "sku": "com.nytimes.googleplay.bundle.xpass.monthly.sale.14.99.oc.20000190420",
+            "actionText": "%p per month",
+            "description": "Unlimited article access. Get one week free, then enjoy 50% off for a year.",
+            "promoUrl": "mobile/android/v1/icons/%s/basic-access2.png",
+            "title": "Basic",
+            "trial": "one week"
+          },
+          {
+            "sku": "com.nytimes.googleplay.bundle.maxadacr.monthly.sale.24.99.oc.20000190440",
+            "actionText": "%p per month",
+            "description": "Basic + access to NYT Crossword and NYT Cooking, and one bonus subscription. Get started with one week free.",
+            "promoUrl": "mobile/android/v1/icons/%s/all-access2.png",
+            "title": "All Access",
+            "trial": "one week"
+          },
+          {
+            "sku": "com.nytimes.googleplay.bundle.xpass.yearly.sale.129.99.oc.20000190060",
+            "actionText": "%p per year",
+            "description": "Save every year with an annual subscription.",
+            "promoUrl": "mobile/android/v1/icons/%s/all-access-annual2.png",
+            "title": "Basic Annual",
+            "trial": "one week"
+          }
+        ]
+      ],
+      "nyt": [
+        "MSD"
+      ],
+      "nytp": [
+        "TPR"
+      ]
+    }
+  },
+  "device-groups": {},
+  "blogCategories": [
+    {
+      "blogs": [
+        "krugman",
+        "kristof"
+      ],
+      "title": "Opinion"
+    }
+  ],
+  "baseSectionConfig": {
+    "sectionIconBaseUrl": "http://s1.nyt.com/mobile/android/v1/icons"
+  },
+  "marketing": {
+    "campaignCodes": {
+      "sub": "4HX66",
+      "gateway": "4HX68",
+      "subAd": "4HX6F",
+      "meter": "4JRLF",
+      "splash": "4RJK6",
+      "subAB": "4RW9L",
+      "topStoriesSub": "68HRW",
+      "adSub": "68HRR"
+    }
+  },
+  "overrides": [
+    {
+      "meter": {
+        "limit": 10
+      },
+      "bna": {
+        "linkingDisabled": true
+      },
+      "condition": {
+        "build-type": "beta"
+      }
+    }
+  ],
+  "eventTrackerEnabled": false,
+  "imageCropMappings": {
+    "sfLedeVertical": [
+      5
+    ],
+    "sfLedeHorizontal": [
+      4,
+      1
+    ],
+    "sfPackageVertical": [
+      5
+    ],
+    "sfPackageHorizontal": [
+      4,
+      1
+    ],
+    "sfArticle": [
+      5
+    ],
+    "sfLedePhotoVideo": [
+      9
+    ],
+    "sfPhotoVideo": [
+      8,
+      7,
+      6
+    ],
+    "sfDailyBriefing": [
+      5
+    ],
+    "widgetArticle": [
+      4,
+      1
+    ],
+    "notificationThumbnail": [
+      5
+    ],
+    "notificationImage": [
+      4,
+      1
+    ],
+    "afTopRegion": [
+      4,
+      1
+    ],
+    "afSmall": [
+      4,
+      1
+    ],
+    "afInteractive": [
+      7
+    ],
+    "afLarge": [
+      4,
+      1
+    ],
+    "fsSlideshow": [
+      4,
+      1
+    ],
+    "afColumnistPhoto": [
+      0
+    ],
+    "sfVerticalVideo": [
+      10,
+      11,
+      12
+    ]
+  },
+  "eventTracker520Enabled": true,
+  "pushMessaging": {
+    "channels": [
+      {
+        "tag": "breaking-news",
+        "title": "Breaking News",
+        "tagDescription": "Urgent and important stories.",
+        "iconImageURLString": "channel-breakingnews.png",
+        "iconImageNightURLString": "channel-breakingnews_dark.png",
+        "default": true
+      },
+      {
+        "tag": "top-stories",
+        "title": "Top Stories",
+        "tagDescription": "Special reports and editors' picks.",
+        "iconImageURLString": "channel-topstories.png",
+        "iconImageNightURLString": "channel-topstories_dark.png",
+        "default": true
+      },
+      {
+        "tag": "morning-briefing",
+        "title": "Morning Briefing",
+        "tagDescription": "What you need to know to start your day.",
+        "iconImageURLString": "channel-briefing.png",
+        "iconImageNightURLString": "channel-briefing_dark.png",
+        "default": true,
+        "appManaged": true
+      },
+      {
+        "tag": "business-bna",
+        "title": "Business & Tech",
+        "tagDescription": "Market-moving news and features.",
+        "iconImageURLString": "channel-business.png",
+        "iconImageNightURLString": "channel-business_dark.png",
+        "default": false
+      },
+      {
+        "tag": "newyork-bna",
+        "title": "New York",
+        "tagDescription": "Stories from the city, state and region.",
+        "iconImageURLString": "channel-newyork.png",
+        "iconImageNightURLString": "channel-newyork_dark.png",
+        "default": false
+      },
+      {
+        "tag": "politics-bna",
+        "title": "Politics",
+        "tagDescription": "Fearless coverage of Washington and beyond.",
+        "iconImageURLString": "channel-politics.png",
+        "iconImageNightURLString": "channel-politics_dark.png",
+        "default": false
+      },
+      {
+        "tag": "sports-bna",
+        "title": "Sports",
+        "tagDescription": "Scores, live updates and great reads.",
+        "iconImageURLString": "channel-sports.png",
+        "iconImageNightURLString": "channel-sports_dark.png",
+        "default": false
+      }
+    ]
+  },
+  "navLinks": [
+    {
+      "name": "podcasts",
+      "rank": 10,
+      "title": "Podcasts Beta",
+      "url": "nytimes://reader/audio/"
+    },
+    {
+      "name": "crosswords",
+      "rank": 20,
+      "title": "Crosswords",
+      "url": "https://fpx3r.app.goo.gl/jzcw"
+    },
+    {
+      "name": "cooking",
+      "rank": 30,
+      "title": "Cooking",
+      "url": "https://cooking.nytimes.com"
+    }
+  ],
+  "programs": {
+    "home": {
+      "title": "Top Stories",
+      "programId": "home",
+      "defaultProgram": true,
+      "rank": 10,
+      "feedPresentationConfig": {
+        "v1": "415"
+      }
+    }
+  },
+  "hybridResources": [
+    "https://g1.nyt.com/fonts/family/cheltenham-cond/cheltenham-cond-normal-700.woff",
+    "https://g1.nyt.com/fonts/family/cheltenham-small/cheltenham-small-italic-400.woff",
+    "https://g1.nyt.com/fonts/family/cheltenham-small/cheltenham-small-italic-700.woff",
+    "https://g1.nyt.com/fonts/family/cheltenham-small/cheltenham-small-normal-400.woff",
+    "https://g1.nyt.com/fonts/family/cheltenham-small/cheltenham-small-normal-700.woff",
+    "https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-200.woff",
+    "https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-300.woff",
+    "https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-400.woff",
+    "https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-500.woff",
+    "https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-700.woff",
+    "https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-200.woff",
+    "https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-300.woff",
+    "https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-400.woff",
+    "https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-500.woff",
+    "https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-700.woff",
+    "https://g1.nyt.com/fonts/family/fact-deck/fact-deck-normal-400.woff",
+    "https://g1.nyt.com/fonts/family/fact-display/fact-display-normal-700.woff",
+    "https://g1.nyt.com/fonts/family/franklin/franklin-italic-300.woff",
+    "https://g1.nyt.com/fonts/family/franklin/franklin-italic-500.woff",
+    "https://g1.nyt.com/fonts/family/franklin/franklin-italic-700.woff",
+    "https://g1.nyt.com/fonts/family/franklin/franklin-normal-300.woff",
+    "https://g1.nyt.com/fonts/family/franklin/franklin-normal-500.woff",
+    "https://g1.nyt.com/fonts/family/franklin/franklin-normal-700.woff",
+    "https://g1.nyt.com/fonts/family/graphik-xcond/graphik-xcond-normal-600.woff",
+    "https://g1.nyt.com/fonts/family/graphik/graphik-normal-600.woff",
+    "https://g1.nyt.com/fonts/family/imperial/imperial-italic-400.woff",
+    "https://g1.nyt.com/fonts/family/imperial/imperial-italic-700.woff",
+    "https://g1.nyt.com/fonts/family/imperial/imperial-normal-400.woff",
+    "https://g1.nyt.com/fonts/family/imperial/imperial-normal-700.woff",
+    "https://g1.nyt.com/fonts/family/karnak/karnak-normal-400.woff",
+    "https://g1.nyt.com/fonts/family/karnak/karnak-normal-700.woff",
+    "https://g1.nyt.com/fonts/family/kippenberger/kippenberger-normal-400.woff",
+    "https://g1.nyt.com/fonts/family/kippenberger/kippenberger-normal-500.woff",
+    "https://g1.nyt.com/fonts/family/kippenberger/kippenberger-normal-700.woff",
+    "https://g1.nyt.com/fonts/family/magsans/magsans-normal-500.woff",
+    "https://g1.nyt.com/fonts/family/magsans/magsans-normal-700.woff",
+    "https://g1.nyt.com/fonts/family/magserif/magserif-normal-700.woff",
+    "https://g1.nyt.com/fonts/family/magslab/magslab-normal-700.woff",
+    "https://g1.nyt.com/fonts/family/schnyder-scond/schnyder-scond-normal-600.woff",
+    "https://static01.nyt.com/hybrid-assets-legacy/scripts/NYTD_Features.min-377e5740c6.js",
+    "https://static01.nyt.com/hybrid-assets-legacy/scripts/head.min-1f1d3da90a.js",
+    "https://static01.nyt.com/hybrid-assets-legacy/scripts/polyfills-4bc7a3f731.js",
+    "https://static01.nyt.com/hybrid-assets-legacy/scripts/postContent.min-1e4b2373ad.js",
+    "https://static01.nyt.com/hybrid-assets-legacy/scripts/preContent.min-35e38b476f.js",
+    "https://static01.nyt.com/hybrid-assets-legacy/scripts/vendor-116effef0d.js",
+    "https://static01.nyt.com/hybrid-assets-legacy/styles/hybrid-critical.min-20f172d518.css",
+    "https://static01.nyt.com/hybrid-assets-legacy/styles/hybrid-interactive.min-c3e16c48e1.css",
+    "https://static01.nyt.com/hybrid-assets-legacy/styles/hybrid.min-724e1ea098.css",
+    "https://static01.nyt.com/hybrid-assets/scripts/NYTD_Features.min-377e5740c6.js",
+    "https://static01.nyt.com/hybrid-assets/scripts/emotion.umd.min-6319f94a46.js",
+    "https://static01.nyt.com/hybrid-assets/scripts/experimental-cf02834a86.js",
+    "https://static01.nyt.com/hybrid-assets/scripts/head.min-e3551f911f.js",
+    "https://static01.nyt.com/hybrid-assets/scripts/polyfills-4bc7a3f731.js",
+    "https://static01.nyt.com/hybrid-assets/scripts/postContent.min-1d9000937f.js",
+    "https://static01.nyt.com/hybrid-assets/scripts/preContent.min-7dd61bf81f.js",
+    "https://static01.nyt.com/hybrid-assets/scripts/prop-types.min-e305339360.js",
+    "https://static01.nyt.com/hybrid-assets/scripts/react-dom.production.min-7f852301aa.js",
+    "https://static01.nyt.com/hybrid-assets/scripts/react-emotion.umd.min-c532293ad8.js",
+    "https://static01.nyt.com/hybrid-assets/scripts/react.production.min-cb05799b39.js",
+    "https://static01.nyt.com/hybrid-assets/scripts/vendor-116effef0d.js",
+    "https://static01.nyt.com/hybrid-assets/styles/critical.min-cc54788698.css",
+    "https://static01.nyt.com/hybrid-assets/styles/styles.min-adea446fc1.css",
+    "https://www.googletagservices.com/tag/js/gpt.js"
+  ],
+  "ad": {
+    "dfp": {
+      "config": {
+        "article": {
+          "NYTDefaultsKeyMaxAdsPerArticle": 3
+        }
+      },
+      "taxonomy": {
+        "exceptions": {
+          "after deadline/afterdeadline": "timestopics/afterdeadline",
+          "after deadline/afterdeadline/sectionfront": "timestopics/afterdeadline/sectionfront",
+          "afterdeadline": "timestopics/afterdeadline",
+          "afterdeadline/afterdeadline": "timestopics/afterdeadline",
+          "afterdeadline/afterdeadline/sectionfront": "timestopics/afterdeadline/sectionfront",
+          "afterdeadline/sectionfront": "timestopics/afterdeadline/sectionfront",
+          "arts/global": "arts/international",
+          "arts/homelandtvrecaps/column": "arts/homelandtv/column",
+          "arts/television/bestoflatenight/column": "arts/bestoflatenight/column",
+          "artsbeat": "arts/artsbeat",
+          "artsglobal": "arts/international",
+          "awardsseasonmovies/movies": "movies/awardsseason",
+          "bits": "technology/bits",
+          "bittman/sectionfront": "opinion/bittman/sectionfront",
+          "blogs/lens": "multimedia/lens",
+          "booming": "yourmoney/booming",
+          "briefing": "dailybriefing",
+          "bruni/sectionfront": "opinion/bruni/sectionfront",
+          "business/businessdealbook/sectionfront": "business/dealbook/sectionfront",
+          "business/businessmedia/sectionfront": "business/media/sectionfront",
+          "business/dealbookafternoonemail": "business/dealbook/afternoonemail",
+          "business/global": "business/international",
+          "businessdealbook": "business/dealbook",
+          "businessglobal": "business/international",
+          "charlesmblow/column": "opinion/blow",
+          "crosswordsgames/wordplay": "crosswords/wordplay",
+          "crosswordsgames/wordplay/sectionfront": "crosswords/wordplay/sectionfront",
+          "davidbrooks/column": "opinion/brooks",
+          "dealbook/sectionfront": "business/dealbook/sectionfront",
+          "designarts/arts": "arts/design",
+          "dining/food/sectionfront": "dining/sectionfront",
+          "dining/global": "dining/international",
+          "diningglobal": "dining/international",
+          "dotearth/sectionfront": "opinion/dotearth/sectionfront",
+          "douthat/sectionfront": "opinion/douthat/sectionfront",
+          "fashion/global": "fashion/international",
+          "fashion/mens-style": "fashion/mensstyle",
+          "fashion/runwaymens": "fashion/mensstyle",
+          "fashionglobal": "fashion/international",
+          "fashionweddings": "fashion/weddings",
+          "feeds/businesscolumnists": "business",
+          "feeds/diningreviews": "dining/reviews",
+          "feeds/moviesreviews": "movies/reviews",
+          "feeds/opinioncolumnists": "opinion/columnists",
+          "feeds/opinioneditorials": "opinion/editorials",
+          "feeds/opinionletters": "opinion/letters",
+          "feeds/opinionopeds": "opinion/oped",
+          "feeds/opinionroomfordebate": "opinion/roomfordebate",
+          "feeds/slideshows": "multimedia",
+          "feeds/specialopinion": "opinion",
+          "feeds/sundayreview": "opinion/sunday",
+          "feeds/thepubliceditorcolumns": "opinion/publiceditor",
+          "feeds/tmagazine": "tmagazine",
+          "feedsslideshows": "multimedia",
+          "feedssundayreview": "opinion/sunday",
+          "feedstmagazine": "tmagazine",
+          "footballsports/sports": "sports/football",
+          "frankbruni/column": "opinion/bruni",
+          "gailcollins/column": "opinion/collins",
+          "giving": "us/giving",
+          "giving/sectionfront": "us/giving/sectionfront",
+          "globalhome": "homepage/international",
+          "greathomesanddestinations": "realestate/greathomesanddestinations",
+          "greathomesanddestinations/sectionfront": "realestate/greathomesanddestinations/sectionfront",
+          "homepage/sectionfront": "homepage",
+          "insider-events/collection": "insider/events/collection",
+          "insider-podcasts/collection": "insider/podcasts/collection",
+          "insiderevents/collection": "insider/events/collection",
+          "insiderevents/sectionfront": "insider/events/sectionfront",
+          "insiderpodcasts/collection": "insider/podcasts/collection",
+          "insiderpodcasts/column": "insider/podcasts/column",
+          "joenocera/column": "opinion/nocera",
+          "kristof": "opinion/kristof",
+          "kristof/sectionfront": "opinion/kristof/sectionfront",
+          "krugman/sectionfront": "opinion/krugman/sectionfront",
+          "lens/sectionfront": "multimedia/lens/sectionfront",
+          "maureendowd/column": "opinion/columnists/maureendowd",
+          "middleeastworld/world": "world/middleeast",
+          "mostemailed": "mostpopular/mostemailed",
+          "mostshared": "mostpopular/mostshared",
+          "mostviewed": "mostpopular/mostviewed",
+          "musicarts/arts": "arts/music",
+          "ncaabasketballsports/sports": "sports/ncaabasketball",
+          "nicholaskristof/column": "opinion/kristof",
+          "nocera/sectionfront": "opinion/nocera/sectionfront",
+          "nytnow": "dailybriefing",
+          "olympicssports/sports": "sports/olympics",
+          "opinion/davidbrooks": "opinion/brooks",
+          "opinion/global": "opinion/international",
+          "opinion/graymatter/column": "opinion/gray/column",
+          "opinionator/sectionfront": "opinion/opinionator/sectionfront",
+          "opinionglobal": "opinion/international",
+          "paulkrugman/column": "opinion/krugman",
+          "politics/firstdraft": "us/politics/firstdraft",
+          "politicsus/us": "us/politics",
+          "propertyvalues/column": "realestate",
+          "publiceditor": "opinion/publiceditor",
+          "realestate/collection": "realestate/sectionfront",
+          "restaurantguide/sectionfront": "dining/restaurantguide/sectionfront",
+          "reviews/restaurantguide/sectionfront": "dining/restaurantguide/sectionfront",
+          "rogercohen/column": "opinion/columnists/rogercohen",
+          "rossdouthat/column": "opinion/douthat",
+          "sports/global": "sports/international",
+          "sports/worldcup": "sports/soccer/worldcup",
+          "sportsglobal": "sports/international",
+          "style": "fashion",
+          "style/fieldnotes": "fashion/fieldnotes",
+          "style/global": "fashion/international",
+          "style/international": "fashion/international",
+          "style/international/sectionfront": "fashion/international/sectionfront",
+          "style/sectionfront": "fashion/sectionfront",
+          "style/vows": "fashion/vows",
+          "style/vows/column": "fashion/vows/column",
+          "style/watches/spotlight": "fashion/watches/spotlight",
+          "sunday-review": "opinion/sunday",
+          "sundayreview": "opinion/sunday",
+          "t-magazine": "tmagazine",
+          "t-magazine/slideshow": "tmagazine/slideshow",
+          "takingnote/sectionfront": "opinion/takingnote/sectionfront",
+          "technology/dealbook": "business/dealbook",
+          "thomaslfriedman/column": "opinion/friedman",
+          "timesinsider": "insider",
+          "timesinsider/sectionfront": "insider/sectionfront",
+          "tmagazine/design": "tmagazine/interiors",
+          "us/elections": "us/politics/elections",
+          "us/firstdraft": "us/politics/firstdraft",
+          "us/politicsfirstdraft": "us/politics/firstdraft",
+          "uspolitics": "us/politics",
+          "well/welleat/sectionfront": "well/eat/sectionfront",
+          "well/wellfamily/sectionfront": "well/family/sectionfront",
+          "well/welllive/sectionfront": "well/live/sectionfront",
+          "well/wellmind/sectionfront": "well/mind/sectionfront",
+          "well/wellmove/sectionfront": "well/move/sectionfront",
+          "world/asiasinosphere": "world/asia/sinosphere",
+          "world/whatin-the-world": "world/whatintheworld",
+          "world/whatintheworld": "world/linatest",
+          "worldafrica": "world/africa",
+          "worldamericas": "world/americas",
+          "worldasia": "world/asia",
+          "worldcupsports/sports": "sports/soccer/worldcup",
+          "worldeurope": "world/europe",
+          "worldmiddleeast": "world/middleeast"
+        }
+      }
+    }
+  },
+  "sections": [
+    {
+      "title": "Top Stories",
+      "sectionHash": "7e88d257abdfb5c16c2c0fe438a8b421",
+      "pubDate": 1556913078,
+      "sectionName": "homepage",
+      "fullfeed": "homepage.json",
+      "queryId": "nyt://legacycollection/54c2d51c-14f6-5820-832d-968946fb338d",
+      "defaultSection": true,
+      "rank": 10
+    },
+    {
+      "pubDate": 1556911423,
+      "sectionHash": "9a0779d11ef67e16d29bbf3780a9aa1d",
+      "fullfeed": "dining.json",
+      "queryId": "section/dining",
+      "sectionName": "dining",
+      "title": "Food",
+      "rank": 180
+    },
+    {
+      "title": "Lens",
+      "pubDate": 1556911821,
+      "sectionHash": "a212d133d0263179f8ea3aed18dc486d",
+      "sectionName": "lens",
+      "fullfeed": "lens.json",
+      "queryId": "section/lens",
+      "rank": 310
+    },
+    {
+      "title": "DealBook",
+      "sectionHash": "5cf1115e08db05c5eb3a343f0be6f38d",
+      "pubDate": 1556881163,
+      "fullfeed": "dealbook.json",
+      "queryId": "section/business/dealbook",
+      "sectionName": "dealbook",
+      "rank": 320
+    },
+    {
+      "title": "Health",
+      "fullfeed": "health.json",
+      "queryId": "section/health",
+      "sectionName": "health",
+      "pubDate": 1556912958,
+      "sectionHash": "77f3014fa37e1976d8d8a6d40ea3d054",
+      "internationalRank": 170,
+      "rank": 160
+    },
+    {
+      "pubDate": 1556911806,
+      "sectionHash": "350ca1235fe26340da7541109e39ab98",
+      "fullfeed": "fashion.json",
+      "queryId": "section/fashion",
+      "sectionName": "fashion",
+      "title": "Style",
+      "rank": 225
+    },
+    {
+      "title": "Arts",
+      "sectionHash": "444c2ac93ce31175612cd23ad4135d3e",
+      "pubDate": 1556913044,
+      "fullfeed": "arts.json",
+      "queryId": "section/arts",
+      "sectionName": "arts",
+      "defaultSection": true,
+      "rank": 80
+    },
+    {
+      "pubDate": 1556912714,
+      "sectionHash": "0fa96747f2a0d6eacf6c70568fecf5bd",
+      "sectionName": "world.europe",
+      "fullfeed": "world.europe.json",
+      "queryId": "section/world/europe",
+      "title": "Europe",
+      "internationalRank": 340,
+      "international": true
+    },
+    {
+      "sectionHash": "d4ff82054d013fdf2997fbb56d34748b",
+      "pubDate": 1556913044,
+      "sectionName": "us",
+      "fullfeed": "us.json",
+      "queryId": "section/us",
+      "title": "U.S.",
+      "defaultSection": true,
+      "internationalRank": 50,
+      "rank": 50
+    },
+    {
+      "title": "World",
+      "sectionName": "world",
+      "fullfeed": "world.json",
+      "queryId": "section/world",
+      "pubDate": 1556912714,
+      "sectionHash": "89754bb07e727f75e5372a55b8e86866",
+      "defaultSection": true,
+      "internationalRank": 40,
+      "rank": 40
+    },
+    {
+      "fullfeed": "sports.json",
+      "queryId": "section/sports",
+      "sectionName": "sports",
+      "sectionHash": "04e94eccbf91af6915cdeca62a1712d5",
+      "pubDate": 1556913006,
+      "title": "Sports",
+      "defaultSection": true,
+      "rank": 70
+    },
+    {
+      "title": "Politics",
+      "sectionHash": "3c877c5413bb81f01b4fd8d582953561",
+      "pubDate": 1556912785,
+      "fullfeed": "us.politics.json",
+      "queryId": "section/politics",
+      "sectionName": "us.politics",
+      "internationalRank": 140,
+      "rank": 145,
+      "internationalTitle": "U.S. Politics"
+    },
+    {
+      "fullfeed": "world.asia.json",
+      "queryId": "section/world/asia",
+      "sectionName": "world.asia",
+      "pubDate": 1556912130,
+      "sectionHash": "f4ea9e474bfe4fd73c3db8d98538f467",
+      "title": "Asia",
+      "internationalRank": 330,
+      "international": true
+    },
+    {
+      "pubDate": 1556912140,
+      "sectionHash": "5952bff43d359a174dc9b3a63b6f11af",
+      "sectionName": "world.americas",
+      "fullfeed": "world.americas.json",
+      "queryId": "section/world/americas",
+      "title": "Americas",
+      "internationalRank": 320,
+      "international": true
+    },
+    {
+      "title": "Middle East",
+      "sectionHash": "e80349374a6a9f1ce7b6d032e133b272",
+      "pubDate": 1556911461,
+      "sectionName": "world.middleeast",
+      "fullfeed": "world.middleeast.json",
+      "queryId": "section/world/middleeast",
+      "internationalRank": 350,
+      "international": true
+    },
+    {
+      "title": "Obituaries",
+      "sectionHash": "a5973c3afaa739ccf6f5bfae37f65d20",
+      "pubDate": 1556912729,
+      "fullfeed": "obituaries.json",
+      "queryId": "section/obituaries",
+      "sectionName": "obituaries",
+      "internationalRank": 300,
+      "rank": 290
+    },
+    {
+      "fullfeed": "feeds.slideshows.json",
+      "queryId": "section/slideshows",
+      "sectionName": "feeds.slideshows",
+      "pubDate": 1556632646,
+      "sectionHash": "c45730e57e463e7d6ea8ca3e560594ef",
+      "title": "Photos",
+      "internationalRank": 120,
+      "rank": 120
+    },
+    {
+      "sectionName": "todayspaper",
+      "fullfeed": "todayspaper.json",
+      "queryId": "section/todayspaper",
+      "sectionHash": "a1eac063e6926c09bdd17955e099c3f2",
+      "pubDate": 1556912140,
+      "title": "Today’s Paper"
+    },
+    {
+      "sectionHash": "0efff044428064f3c9b28559ba9e9ee7",
+      "pubDate": 1556909570,
+      "fullfeed": "world.australia.json",
+      "queryId": "section/world/australia",
+      "sectionName": "world.australia",
+      "title": "Australia",
+      "rank": 300
+    },
+    {
+      "sectionName": "travel",
+      "fullfeed": "travel.json",
+      "queryId": "section/travel",
+      "pubDate": 1556900211,
+      "sectionHash": "24edd8879094bd78aed5559b82bb4eb3",
+      "title": "Travel",
+      "internationalRank": 270,
+      "rank": 260
+    },
+    {
+      "sectionName": "science",
+      "fullfeed": "science.json",
+      "queryId": "section/science",
+      "pubDate": 1556911910,
+      "sectionHash": "fd27d872c20526842b300b6a7e38f459",
+      "title": "Science",
+      "internationalRank": 180,
+      "rank": 170
+    },
+    {
+      "fullfeed": "magazine.json",
+      "queryId": "section/magazine",
+      "sectionName": "magazine",
+      "sectionHash": "163fe82d13e1dc14f3a2fbd91e2e29d6",
+      "pubDate": 1556909359,
+      "title": "Magazine",
+      "defaultSection": true,
+      "internationalRank": 100,
+      "rank": 100
+    },
+    {
+      "sectionName": "realestate",
+      "fullfeed": "realestate.json",
+      "queryId": "section/realestate",
+      "sectionHash": "ef9e3890143a3adb48c83f1e9b0cbbdf",
+      "pubDate": 1556909820,
+      "title": "Real Estate",
+      "internationalRank": 280,
+      "rank": 270
+    },
+    {
+      "title": "Potato",
+      "sectionHash": "89370149f59693f6220238cb80a2661a",
+      "pubDate": 1556911392,
+      "fullfeed": "mostemailed.json",
+      "queryId": "nyt://legacycollection/54c2d51c-14f6-5820-832d-968946fb338d",
+      "queryOverride": {
+        "queryType": "MOST_POPULAR_LIST",
+        "queryParam": "EMAILED"
+      },
+      "sectionName": "mostemailed",
+      "defaultSection": true,
+      "internationalRank": 20,
+      "rank": 20
+    },
+    {
+      "fullfeed": "fashion.weddings.json",
+      "queryId": "section/fashion/weddings",
+      "sectionName": "fashion.weddings",
+      "pubDate": 1556912286,
+      "sectionHash": "431d911602e3dc9faa45d86f6853174e",
+      "title": "Weddings",
+      "internationalRank": 260,
+      "rank": 250
+    },
+    {
+      "title": "Books",
+      "fullfeed": "books.json",
+      "queryId": "section/books",
+      "sectionName": "books",
+      "sectionHash": "d4a74b1a58c7a1794773abfe28749372",
+      "pubDate": 1556910046,
+      "internationalRank": 200,
+      "rank": 190
+    },
+    {
+      "title": "New York",
+      "fullfeed": "nyregion.json",
+      "queryId": "section/nyregion",
+      "sectionName": "nyregion",
+      "pubDate": 1556911460,
+      "sectionHash": "11c0e2f6b1301c889a8682cad81f064e",
+      "defaultSection": true,
+      "internationalRank": 90,
+      "rank": 90
+    },
+    {
+      "title": "Video",
+      "pubDate": 1556907839,
+      "sectionHash": "9c8d78bd7abfe10e34a5a5b9e5182f25",
+      "sectionName": "video.latestvideo",
+      "fullfeed": "video.latestvideo.json",
+      "queryId": "video/latest-video",
+      "queryOverride": {
+        "queryType": "VIDEO_PLAY_LIST"
+      },
+      "defaultSection": true,
+      "internationalRank": 110,
+      "rank": 110
+    },
+    {
+      "title": "Reader Center",
+      "pubDate": 1556910413,
+      "sectionHash": "c3c327d5b23f6cc853de3e37803257f0",
+      "fullfeed": "reader-center.json",
+      "queryId": "section/reader-center",
+      "sectionName": "reader-center",
+      "rank": 113
+    },
+    {
+      "title": "Immersive (AR/VR)",
+      "sectionName": "augmented",
+      "fullfeed": "augmented.json",
+      "queryId": "spotlight/augmented-reality",
+      "pubDate": 1555711336,
+      "sectionHash": "e6ef1bffb46e724600605bd1d0d64170",
+      "rank": 142
+    },
+    {
+      "sectionName": "feeds.sunday-review",
+      "fullfeed": "feeds.sunday-review.json",
+      "queryId": "section/opinion/sunday",
+      "pubDate": 1556907479,
+      "sectionHash": "69e8a1e0c8f3165dee6493541ab955b8",
+      "title": "Sunday Review",
+      "internationalRank": 230,
+      "rank": 220
+    },
+    {
+      "title": "Technology",
+      "pubDate": 1556911423,
+      "sectionHash": "4e907bbda2bdd37510529eee67716f1b",
+      "fullfeed": "technology.json",
+      "queryId": "section/technology",
+      "sectionName": "technology",
+      "internationalRank": 130,
+      "rank": 140
+    },
+    {
+      "title": "Opinion",
+      "pubDate": 1556911392,
+      "sectionHash": "df6e9aadcd86504419654beaf9afa688",
+      "sectionName": "opinion",
+      "fullfeed": "opinion.json",
+      "queryId": "section/opinion",
+      "defaultSection": true,
+      "rank": 30
+    },
+    {
+      "sectionName": "business",
+      "fullfeed": "business.json",
+      "queryId": "section/business",
+      "sectionHash": "d1714a57780ec9b9f41dcf987f145482",
+      "pubDate": 1556911126,
+      "title": "Business",
+      "defaultSection": true,
+      "rank": 60
+    },
+    {
+      "title": "Movies",
+      "sectionName": "movies",
+      "fullfeed": "movies.json",
+      "queryId": "section/movies",
+      "pubDate": 1556908220,
+      "sectionHash": "87f14d7925c7fd3d4ccb76248d00d09d",
+      "internationalRank": 210,
+      "rank": 200
+    },
+    {
+      "title": "Africa",
+      "fullfeed": "world.africa.json",
+      "queryId": "section/world/africa",
+      "sectionName": "world.africa",
+      "pubDate": 1556902034,
+      "sectionHash": "986c9f893bdd4dca0e57d441c6f14c73",
+      "internationalRank": 310,
+      "international": true
+    },
+    {
+      "sectionHash": "96749b5cc2a00a0e756c7cad2ea8244f",
+      "pubDate": 1556901849,
+      "fullfeed": "climate.json",
+      "queryId": "section/climate",
+      "sectionName": "climate",
+      "title": "Climate and Environment",
+      "rank": 175
+    },
+    {
+      "pubDate": 1556909361,
+      "sectionHash": "9d19b9861345ddf3d393f47009c3bbd9",
+      "fullfeed": "well.json",
+      "queryId": "section/well",
+      "sectionName": "well",
+      "title": "Well: Nutrition & Fitness",
+      "rank": 165
+    },
+    {
+      "title": "T Magazine",
+      "pubDate": 1556828911,
+      "sectionHash": "e2d1bb9cf53209e45c4b38159d5a32d6",
+      "sectionName": "feeds.t-magazine",
+      "fullfeed": "feeds.t-magazine.json",
+      "queryId": "section/t-magazine",
+      "internationalRank": 240,
+      "rank": 230
+    },
+    {
+      "title": "Theater",
+      "pubDate": 1556901974,
+      "sectionHash": "f08fc43cf9eafda9fa1fe87d5d8f010f",
+      "fullfeed": "theater.json",
+      "queryId": "section/theater",
+      "sectionName": "theater",
+      "internationalRank": 220,
+      "rank": 210
+    },
+    {
+      "fullfeed": "upshot.json",
+      "queryId": "section/upshot",
+      "sectionName": "upshot",
+      "pubDate": 1556895771,
+      "sectionHash": "7153ee66cec4bdbf2b2edd11c6df0299",
+      "title": "The Upshot",
+      "internationalRank": 160,
+      "rank": 150
+    },
+    {
+      "title": "Automobiles",
+      "pubDate": 1556818572,
+      "sectionHash": "9264974eb2d1472b02d432d58fbb149a",
+      "sectionName": "automobiles",
+      "fullfeed": "automobiles.json",
+      "queryId": "section/automobiles",
+      "internationalRank": 290,
+      "rank": 280
+    },
+    {
+      "title": "Times Insider",
+      "pubDate": 1541434862,
+      "sectionHash": "aba0e913c927e56917fa8e1eb794750d",
+      "fullfeed": "insider.json",
+      "queryId": "section/insider",
+      "sectionName": "insider",
+      "rank": 115
+    },
+    {
+      "title": "World Cup",
+      "sectionName": "sports.worldcup",
+      "fullfeed": "sports.worldcup.json",
+      "queryId": "section/sports/worldcup",
+      "pubDate": 1537202683,
+      "sectionHash": "9a6840ae27120d748f1d21fe5e08cd09"
+    },
+    {
+      "sectionName": "sports.olympics",
+      "fullfeed": "sports.olympics.json",
+      "queryId": "section/sports/olympics",
+      "pubDate": 1521388170,
+      "sectionHash": "e451625548abde57e8c576b8baf39b4f",
+      "title": "Olympics"
+    },
+    {
+      "title": "Inicio",
+      "pubDate": 1556892601,
+      "fullfeed": "es.inicio.json",
+      "queryId": "es/section/inicio",
+      "sectionHash": "6c956488aba76408df81da44c31b5ef1",
+      "sectionName": "es.inicio",
+      "defaultSection": true,
+      "nytEs": true,
+      "nytEsRank": 10
+    },
+    {
+      "title": "Noticias",
+      "pubDate": 1556878228,
+      "fullfeed": "es.noticias.json",
+      "queryId": "es/section/noticias",
+      "sectionHash": "5a25bc63dc05d3cf2c4acae49c4d7d38",
+      "sectionName": "es.noticias",
+      "defaultSection": true,
+      "nytEs": true,
+      "nytEsRank": 20
+    },
+    {
+      "title": "Cultura",
+      "pubDate": 1556892601,
+      "fullfeed": "es.cultura.json",
+      "queryId": "es/section/cultura",
+      "sectionHash": "d9bc52616cf62e1ce04e91b9fe4657aa",
+      "sectionName": "es.cultura",
+      "defaultSection": true,
+      "nytEs": true,
+      "nytEsRank": 30
+    },
+    {
+      "title": "Opinión",
+      "pubDate": 1556877832,
+      "fullfeed": "es.opinion.json",
+      "queryId": "es/section/opinion",
+      "sectionHash": "a1d0d26a22cb70a8ce587f1559a266c7",
+      "sectionName": "es.opinion",
+      "defaultSection": true,
+      "nytEs": true,
+      "nytEsRank": 40
+    },
+    {
+      "title": "América Latina",
+      "pubDate": 1556864562,
+      "fullfeed": "es.america-latina.json",
+      "queryId": "es/section/america-latina",
+      "sectionHash": "67ee41c40a1ee691cfb410dd127786a6",
+      "sectionName": "es.america-latina",
+      "defaultSection": true,
+      "nytEs": true,
+      "nytEsRank": 50
+    },
+    {
+      "title": "Reposado",
+      "pubDate": 1556114646,
+      "fullfeed": "es.reposado.json",
+      "queryId": "es/section/reposado",
+      "sectionHash": "f1e2276851cf252287a64d26e248653d",
+      "sectionName": "es.reposado",
+      "defaultSection": true,
+      "nytEs": true,
+      "nytEsRank": 60
+    },
+    {
+      "title": "Caricaturas",
+      "pubDate": 1555696761,
+      "fullfeed": "es.caricaturas.json",
+      "queryId": "es/section/caricaturas",
+      "sectionHash": "6249ab90ae1120d43e8d8f06b273a250",
+      "sectionName": "es.caricaturas"
+    },
+    {
+      "title": "Venezuela en crisis",
+      "pubDate": 1556809288,
+      "fullfeed": "es.venezuela-en-crisis.json",
+      "queryId": "es/section/venezuela-en-crisis",
+      "sectionHash": "3c40f478b106aa7eccde0441c41f58e3",
+      "sectionName": "es.venezuela-en-crisis"
+    },
+    {
+      "title": "Género",
+      "pubDate": 1547163805,
+      "fullfeed": "es.genero.json",
+      "queryId": "es/section/genero",
+      "sectionHash": "431d4dbfa172a19873cf6b09fff193cb",
+      "sectionName": "es.genero"
+    },
+    {
+      "title": "Rusia 2018",
+      "pubDate": 1537269660,
+      "fullfeed": "es.rusia-2018.json",
+      "queryId": "es/section/rusia-2018",
+      "sectionHash": "313965ce05d8edcfc322d805c764bfd9",
+      "sectionName": "es.rusia-2018"
+    },
+    {
+      "title": "Elecciones EE. UU.",
+      "pubDate": 1484151240,
+      "fullfeed": "es.elecciones-ee-uu.json",
+      "queryId": "es/section/elecciones-ee-uu",
+      "sectionHash": "a054032bc1548671b0892e4216abdb5d",
+      "sectionName": "es.elecciones-ee-uu"
+    },
+    {
+      "title": "Río 2016",
+      "pubDate": 1479390334,
+      "fullfeed": "es.rio-2016.json",
+      "queryId": "es/section/rio-2016",
+      "sectionHash": "572cdd0982d074ebef8851c80f54b4c5",
+      "sectionName": "es.rio-2016"
+    }
+  ]
+}

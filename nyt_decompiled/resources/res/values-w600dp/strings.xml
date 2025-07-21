@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="daily_five_salutation">Your daily recommendations from across The Times.</string>
+    <string name="webview_header_app_type">NYT-Android-tablet</string>
+</resources>

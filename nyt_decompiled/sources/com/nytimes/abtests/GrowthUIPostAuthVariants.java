@@ -1,0 +1,78 @@
+package com.nytimes.abtests;
+
+import com.nytimes.android.abra.AbraManager;
+import com.nytimes.android.abra.AbraVariant;
+import com.nytimes.android.abra.models.AbraTest;
+import defpackage.b22;
+import defpackage.ss7;
+import defpackage.zq3;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX WARN: Unknown enum class pattern. Please report as an issue! */
+/* loaded from: classes3.dex */
+public final class GrowthUIPostAuthVariants implements AbraVariant {
+    private static final /* synthetic */ b22 $ENTRIES;
+    private static final /* synthetic */ GrowthUIPostAuthVariants[] $VALUES;
+    public static final a Companion;
+    private static final ss7 testSpec;
+    private final String variantName;
+    public static final GrowthUIPostAuthVariants CONTROL = new GrowthUIPostAuthVariants("CONTROL", 0, "0_control");
+    public static final GrowthUIPostAuthVariants USE_POSTAUTH_GROWTHUI_LIBRARY = new GrowthUIPostAuthVariants("USE_POSTAUTH_GROWTHUI_LIBRARY", 1, "1_growthUI_PostAuth");
+
+    public static final class a {
+        public /* synthetic */ a(DefaultConstructorMarker defaultConstructorMarker) {
+            this();
+        }
+
+        public final ss7 a() {
+            return GrowthUIPostAuthVariants.testSpec;
+        }
+
+        public final boolean b(AbraManager abraManager) {
+            String variantName;
+            zq3.h(abraManager, "<this>");
+            AbraTest test = abraManager.getTest(GrowthUIPostAuthVariants.Companion.a().getTestName());
+            if (test == null || (variantName = test.getVariant()) == null) {
+                variantName = GrowthUIPostAuthVariants.CONTROL.getVariantName();
+            }
+            return zq3.c(variantName, GrowthUIPostAuthVariants.USE_POSTAUTH_GROWTHUI_LIBRARY.getVariantName());
+        }
+
+        private a() {
+        }
+    }
+
+    private static final /* synthetic */ GrowthUIPostAuthVariants[] $values() {
+        return new GrowthUIPostAuthVariants[]{CONTROL, USE_POSTAUTH_GROWTHUI_LIBRARY};
+    }
+
+    static {
+        GrowthUIPostAuthVariants[] $values = $values();
+        $VALUES = $values;
+        $ENTRIES = kotlin.enums.a.a($values);
+        Companion = new a(null);
+        testSpec = new ss7("APP_2024H2_GrowthUI_PostAuth_core_and", values(), null, false, 12, null);
+    }
+
+    private GrowthUIPostAuthVariants(String str, int i, String str2) {
+        this.variantName = str2;
+    }
+
+    public static b22 getEntries() {
+        return $ENTRIES;
+    }
+
+    public static GrowthUIPostAuthVariants valueOf(String str) {
+        return (GrowthUIPostAuthVariants) Enum.valueOf(GrowthUIPostAuthVariants.class, str);
+    }
+
+    public static GrowthUIPostAuthVariants[] values() {
+        return (GrowthUIPostAuthVariants[]) $VALUES.clone();
+    }
+
+    @Override // com.nytimes.android.abra.AbraVariant
+    public String getVariantName() {
+        return this.variantName;
+    }
+}

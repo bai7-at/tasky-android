@@ -1,0 +1,9 @@
+package defpackage;
+
+import android.os.Bundle;
+import android.os.IInterface;
+
+/* loaded from: classes3.dex */
+public interface w0f extends IInterface {
+    void k0(Bundle bundle);
+}

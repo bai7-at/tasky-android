@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:gravity="center_vertical"
+        android:id="@+id/feedback_bottomsheet_update"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?attr/selectableItemBackground"
+        android:minHeight="?attr/listPreferredItemHeight"
+        android:text="Update Screenshot"
+        android:drawablePadding="?attr/listPreferredItemPaddingStart"
+        android:drawableStart="@drawable/feedback_ic_screenshot_24dp"
+        android:fontFamily="@font/font_franklin_medium"
+        android:paddingStart="?attr/listPreferredItemPaddingStart"
+        android:paddingEnd="?attr/listPreferredItemPaddingEnd"
+        android:drawableTint="@color/content_primary"/>
+    <View
+        android:background="@color/stroke_quaternary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:gravity="center_vertical"
+        android:id="@+id/feedback_bottomsheet_delete"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?attr/selectableItemBackground"
+        android:minHeight="?attr/listPreferredItemHeight"
+        android:text="Delete Screenshot"
+        android:drawablePadding="?attr/listPreferredItemPaddingStart"
+        android:drawableStart="@null"
+        android:fontFamily="@font/font_franklin_medium"
+        android:paddingStart="?attr/listPreferredItemPaddingStart"
+        android:paddingEnd="?attr/listPreferredItemPaddingEnd"
+        android:drawableTint="@color/content_primary"/>
+</LinearLayout>

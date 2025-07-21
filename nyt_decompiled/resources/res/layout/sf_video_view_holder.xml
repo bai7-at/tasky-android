@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" style="@style/CardView.Default">
+    <include layout="@layout/row_section_front_inter_group_separator"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/container"
+        android:background="@drawable/default_ripple_background"
+        android:paddingTop="@dimen/row_section_front_spacing_top_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/row_section_front_spacing_top_bottom"
+        android:paddingStart="@dimen/row_search_padding_left_right"
+        android:paddingEnd="@dimen/row_search_padding_left_right">
+        <com.nytimes.android.sectionfront.ui.HomepageGroupHeaderView
+            android:id="@+id/row_group_header"
+            style="@style/HomepageGroupHeader"/>
+        <com.nytimes.android.video.views.InlineVideoView
+            android:id="@+id/sf_inline_video_view"
+            android:background="@color/ds_permadark_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/video_image_credits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            style="@style/InlineVideoCaption"/>
+        <Space
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"/>
+        <TextView
+            android:id="@+id/row_sf_lede_headline"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            style="@style/TextView.Section.Lede.Headline"/>
+        <com.nytimes.android.sectionfront.ui.DefaultArticleSummary
+            android:id="@+id/video_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextView.SFSummary"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="40dp"
+    android:width="208dp"
+    android:viewportWidth="208"
+    android:viewportHeight="40">
+    <path
+        android:fillColor="#ff3a3a3c"
+        android:pathData="M0.63,0.63h38.73v38.73h-38.73z"
+        android:strokeColor="#ff3a3a3c"
+        android:strokeWidth="1.2652"/>
+    <path
+        android:fillColor="#ffffffff"
+        android:pathData="M22.35,13L19.37,18.54L16.31,13H12.75L17.47,21.14V27H20.71V21.08L25.25,13H22.35Z"/>
+    <path
+        android:fillColor="#ff3a3a3c"
+        android:pathData="M42.63,0.63h38.73v38.73h-38.73z"
+        android:strokeColor="#ff3a3a3c"
+        android:strokeWidth="1.2652"/>
+    <path
+        android:fillColor="#ffffffff"
+        android:pathData="M62.76,13H59.52V27H62.76V13Z"/>
+    <path
+        android:fillColor="#ff3a3a3c"
+        android:pathData="M84.63,0.63h38.73v38.73h-38.73z"
+        android:strokeColor="#ff3a3a3c"
+        android:strokeWidth="1.2652"/>
+    <path
+        android:fillColor="#ffffffff"
+        android:pathData="M105.52,17.94L109.08,13H105.88L101.32,19.64V13H98.08V27H101.3V23.48L103.26,20.7L106.3,27H109.94L105.52,17.94Z"/>
+    <path
+        android:fillColor="#ff3a3a3c"
+        android:pathData="M126.63,0.63h38.73v38.73h-38.73z"
+        android:strokeColor="#ff3a3a3c"
+        android:strokeWidth="1.2652"/>
+    <path
+        android:fillColor="#ffffffff"
+        android:pathData="M150.83,24.4H144.17V21.24H148.35V18.64H144.17V15.6H150.65V13H140.93V27H150.83V24.4Z"/>
+    <path
+        android:fillColor="#ff3a3a3c"
+        android:pathData="M168.63,0.63h38.73v38.73h-38.73z"
+        android:strokeColor="#ff3a3a3c"
+        android:strokeWidth="1.2652"/>
+    <path
+        android:fillColor="#ffffffff"
+        android:pathData="M193.25,22.7C193.25,20.3 191.53,19.48 190.35,19.04C189.37,18.68 188.59,18.52 187.63,18.3C186.47,18.02 185.45,17.7 185.45,16.66C185.45,15.9 186.21,15.3 187.67,15.3C189.19,15.3 190.05,16.34 190.53,16.94L192.65,15.06C191.61,13.66 189.97,12.82 187.85,12.82C186.61,12.82 185.51,12.96 184.45,13.58C183.27,14.28 182.29,15.56 182.29,17.12C182.29,19.52 184.11,20.62 185.49,21.08C186.43,21.38 187.11,21.5 187.85,21.68C189.07,21.96 190.07,22.3 190.07,23.26C190.07,24.34 188.97,24.8 187.71,24.8C186.29,24.8 184.85,23.8 184.07,22.62L181.81,24.58C183.25,26.48 185.15,27.28 187.79,27.28C190.73,27.28 193.25,25.46 193.25,22.7Z"/>
+</vector>

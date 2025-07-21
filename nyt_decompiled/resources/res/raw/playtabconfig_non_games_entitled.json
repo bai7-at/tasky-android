@@ -1,0 +1,186 @@
+{
+    "layout": {
+        "header": [
+            {
+                "id": "morning",
+                "title": "Good Morning",
+                "subtitle": "A good day starts with play."
+            },
+            {
+                "id": "afternoon",
+                "title": "Good Afternoon",
+                "subtitle": "Kick back and play a quick game."
+            },
+            {
+                "id": "evening",
+                "title": "Good Evening",
+                "subtitle": "Play a game to wrap up the day."
+            }
+        ],
+        "footer": [
+            {
+                "id": "default",
+                "title": "Life is more fun with Games.",
+                "subtitle": "Don't miss tomorrow's new puzzles, all created by experts."
+            }
+        ],
+        "sections": [
+            {
+                "id": "section1",
+                "title": "FREE EVERY DAY",
+                "subtitle": "",
+                "cards": [
+                    {
+                        "id": "wordle",
+                        "type": "hero"
+                    },
+                    {
+                        "id": "strands",
+                        "type": "sidekick"
+                    },
+                    {
+                        "id": "connections",
+                        "type": "sidekick"
+                    },
+                    {
+                        "id": "mini-page",
+                        "type": "list"
+                    },
+                    {
+                        "id": "sudoku",
+                        "type": "list"
+                    }
+                ]
+            },
+            {
+                "id": "section2",
+                "title": "LIMITED DAILY PLAY",
+                "subtitle": "For all puzzles and ranks, subscribe to Games for 50% off",
+                "cards": [
+                    {
+                        "id": "spelling-bee",
+                        "type": "hero"
+                    },
+                    {
+                        "id": "letter-boxed",
+                        "type": "list"
+                    },
+                    {
+                        "id": "tiles",
+                        "type": "list"
+                    }
+                ]
+            },
+            {
+                "id": "section3",
+                "title": "JUST FOR GAMES SUBSCRIBERS",
+                "subtitle": "",
+                "cards": [
+                    {
+                        "id": "daily-page",
+                        "type": "hero"
+                    }
+                ]
+            }
+        ]
+    },
+    "data": [
+        {
+            "id": "connections",
+            "name": "Connections",
+            "description": "Group Words",
+            "button_title": "Play",
+            "byline": "By Wyna Liu",
+            "game_url": "https://www.nytimes.com/games/connections?GAMES_connectionsRollout_1130=1_ConnectionsV2&entry=playTab",
+            "image_url": "https://static01.nyt.com/images/2023/08/15/crosswords/connections_playtab/connections_playtab-smallSquare252-v3.png",
+            "background_color": "FFB4A8FF",
+            "is_subscription_required": false
+        },
+        {
+            "id": "daily-page",
+            "name": "The Crossword",
+            "description": "Crack Clues",
+            "button_title": "Subscribe for 50% off",
+            "game_url": "https://www.nytimes.com/crosswords/game/daily?entry=playTab",
+            "image_url": "https://static01.nyt.com/images/2023/02/27/crosswords/crosswords_playtab/crosswords_playtab-smallSquare252.png",
+            "background_color": "FF6493E6",
+            "is_subscription_required": true
+        },
+        {
+            "id": "letter-boxed",
+            "name": "Letter Boxed",
+            "description": "Connect Characters",
+            "button_title": "Play",
+            "byline": "1 puzzle per day",
+            "game_url": "https://www.nytimes.com/puzzles/letter-boxed?entry=playTab",
+            "image_url": "https://static01.nyt.com/images/2023/02/27/crosswords/letter_boxed_playtab/letter_boxed_playtab-smallSquare252.png",
+            "background_color": "FFFAA6A4",
+            "is_subscription_required": false
+        },
+        {
+            "id": "mini-page",
+            "name": "The Mini",
+            "description": "Solve in Seconds",
+            "button_title": "Play",
+            "byline": "By Joel Fagliano",
+            "game_url": "https://www.nytimes.com/crosswords/game/mini?entry=playTab",
+            "image_url": "https://static01.nyt.com/images/2023/02/27/crosswords/mini_playtab/mini_playtab-smallSquare252.png",
+            "background_color": "FF95BEFA",
+            "is_subscription_required": false
+        },
+        {
+            "id": "tiles",
+            "name": "Tiles",
+            "description": "Match Motifs",
+            "button_title": "Play",
+            "byline": "2 puzzles per day",
+            "game_url": "https://www.nytimes.com/puzzles/tiles?entry=playTab",
+            "image_url": "https://static01.nyt.com/images/2023/02/27/crosswords/tiles_playtab/tiles_playtab-smallSquare252.png",
+            "background_color": "FFB5E352",
+            "is_subscription_required": false
+        },
+        {
+            "id": "spelling-bee",
+            "name": "Spelling Bee",
+            "description": "Wrangle Words",
+            "button_title": "Play",
+            "byline": "Until \"Good\" rank",
+            "game_url": "https://www.nytimes.com/puzzles/spelling-bee?entry=playTab",
+            "image_url": "https://static01.nyt.com/images/2023/02/27/crosswords/spelling_bee_playtab/spelling_bee_playtab-smallSquare252.png",
+            "background_color": "FFF7DA21",
+            "is_subscription_required": false
+        },
+        {
+            "id": "strands",
+            "name": "Strands",
+            "description": "Find Hidden Words",
+            "button_title": "Play",
+            "byline": "By Sam Corbin",
+            "game_url": "https://www.nytimes.com/games/strands?entry=playTab",
+            "image_url": "https://static01.nyt.com/images/2024/12/04/multimedia/strands_playtab/strands_playtab-smallSquare252.png",
+            "background_color": "FFB2DED8",
+            "is_subscription_required": false
+        },
+        {
+            "id": "sudoku",
+            "name": "Sudoku",
+            "description": "Decode Digits",
+            "button_title": "Play",
+            "byline": "Easy, Medium, Hard",
+            "game_url": "https://www.nytimes.com/puzzles/sudoku?entry=playTab",
+            "image_url": "https://static01.nyt.com/images/2023/02/27/crosswords/sudoku_playtab/sudoku_playtab-smallSquare252.png",
+            "background_color": "FFFB9B00",
+            "is_subscription_required": false
+        },
+        {
+            "id": "wordle",
+            "name": "Wordle",
+            "description": "Untangle Terms",
+            "button_title": "Play",
+            "game_url": "https://www.nytimes.com/games/wordle/index.html?entry=playTab",
+            "image_url": "https://static01.nyt.com/images/2023/02/27/crosswords/wordle_playtab/wordle_playtab-smallSquare252.png",
+            "background_color": "FFE3E3E1",
+            "is_subscription_required": false
+        }
+    ]
+}

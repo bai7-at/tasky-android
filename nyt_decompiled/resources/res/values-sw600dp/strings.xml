@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feed_url_dev">http://samizdat-cms.dev.iad2.nyt.net/cms/mobile/v4/json/android_tablet/</string>
+    <string name="feed_url_production">https://samizdat.nytimes.com/cms/mobile/v4/json/android_tablet/</string>
+    <string name="feed_url_samizdat_staging">https://samizdat.stg.nytimes.com/cms/mobile/v4/json/android_tablet/</string>
+    <string name="feed_url_samizdat_staging_vi">http://samizdat-cms-hyb-lab01.dev.iad2.nyt.net/cms/mobile/v4/json/android_tablet/</string>
+    <string name="feed_url_staging">https://samizdat-test.stg.nytimes.com/cms/mobile/v4/json/android_tablet/</string>
+    <string name="samizdat_device_type">android_tablet</string>
+</resources>

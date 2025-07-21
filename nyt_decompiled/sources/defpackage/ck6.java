@@ -1,0 +1,55 @@
+package defpackage;
+
+/* loaded from: classes.dex */
+public abstract class ck6 {
+    public static int GOOGLE = 2131951618;
+    public static int PRODUCTION = 2131951623;
+    public static int STAGING = 2131951624;
+    public static int TEST = 2131951625;
+    public static int betaPrefKey_legal_submenu = 2131951767;
+    public static int betaPrefKey_purr_menu = 2131951768;
+    public static int betasettings_clearwebstorage = 2131951770;
+    public static int betasettings_clearwebstoragesummary = 2131951771;
+    public static int com_android_prefs_launchLire = 2131951838;
+    public static int com_android_prefs_launchPostLoginOffer = 2131951839;
+    public static int com_android_prefs_launchPostRegiOffer = 2131951840;
+    public static int com_nytimes_android_bna_env_choice = 2131951843;
+    public static int com_nytimes_android_deeplinktest = 2131951847;
+    public static int com_nytimes_android_firebase_messaging_env_choice = 2131951849;
+    public static int com_nytimes_android_forceshowdrn = 2131951850;
+    public static int com_nytimes_android_paywall_meter_status = 2131951854;
+    public static int com_nytimes_android_paywall_reset_meter = 2131951855;
+    public static int com_nytimes_android_paywall_set_regi_meter_count = 2131951856;
+    public static int com_nytimes_android_phoenix_beta_ABRA_V12_PREFCATEGORY = 2131951858;
+    public static int com_nytimes_android_phoenix_beta_AGENT_ID = 2131951862;
+    public static int com_nytimes_android_phoenix_beta_ANR = 2131951863;
+    public static int com_nytimes_android_phoenix_beta_COMMENTS_ENV = 2131951864;
+    public static int com_nytimes_android_phoenix_beta_DATADOG_ENVIRONMENT = 2131951867;
+    public static int com_nytimes_android_phoenix_beta_ET_CLEAR_LOG = 2131951869;
+    public static int com_nytimes_android_phoenix_beta_ET_VIEW = 2131951870;
+    public static int com_nytimes_android_phoenix_beta_FIREBASE_ENV = 2131951871;
+    public static int com_nytimes_android_phoenix_beta_MAKE_BNA = 2131951873;
+    public static int com_nytimes_android_phoenix_beta_MAKE_BNA_NO_URL = 2131951874;
+    public static int com_nytimes_android_phoenix_beta_MAKE_LRN = 2131951875;
+    public static int com_nytimes_android_phoenix_beta_MAKE_LRNWOL = 2131951876;
+    public static int com_nytimes_android_phoenix_beta_MAKE_LSN = 2131951877;
+    public static int com_nytimes_android_phoenix_beta_MAKE_LUPDN = 2131951878;
+    public static int com_nytimes_android_phoenix_beta_QA_DEVICE_INFO = 2131951880;
+    public static int com_nytimes_android_phoenix_beta_TEST_BNA_ALERT_TITLE = 2131951881;
+    public static int com_nytimes_android_phoenix_beta_TEST_BNA_ASSET = 2131951882;
+    public static int com_nytimes_android_phoenix_beta_TEST_BNA_IMAGE_URL = 2131951883;
+    public static int com_nytimes_android_phoenix_beta_WIDGET_API_ENV = 2131951887;
+    public static int com_nytimes_android_phoenix_beta_disable_forced_link = 2131951893;
+    public static int com_nytimes_android_phoenix_beta_regi_id_label = 2131951896;
+    public static int com_nytimes_android_phoenix_beta_subauth_user_state = 2131951897;
+    public static int com_nytimes_android_phoenix_kill_pheonix = 2131951899;
+    public static int com_nytimes_android_phoenix_launchGamesPlp = 2131951900;
+    public static int com_nytimes_android_phoenix_launchPlp = 2131951901;
+    public static int com_nytimes_android_phoenix_showFTUXExperiment = 2131951902;
+    public static int meter_service_prod = 2131952563;
+    public static int meter_service_stg = 2131952564;
+    public static int poison_pill_remoteconfig_beta_settings_key = 2131952764;
+    public static int poison_pill_reset_dismisses_key = 2131952765;
+    public static int poison_pill_version_override_key = 2131952766;
+    public static int regi_id_logged_out_value = 2131952867;
+}

@@ -1,0 +1,753 @@
+[
+  {
+    "sectionHash": "d0d5718c1d979669d1211636f9963ef8",
+    "sectionName": "realestate",
+    "fullfeed": "realestate.json",
+    "pubDate": "Jan 19, 1970 12:05:52 AM",
+    "queryId": "nyt://legacycollection/44a08857-0bcd-5d76-852b-db086443c51b",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 270
+    },
+    "title": "Real Estate"
+  },
+  {
+    "sectionHash": "0dc40b3a683524f6fc1218e708c378ff",
+    "sectionName": "books",
+    "fullfeed": "books.json",
+    "pubDate": "Jan 19, 1970 12:05:58 AM",
+    "queryId": "section/books/review",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 190
+    },
+    "title": "Books"
+  },
+  {
+    "sectionHash": "54623ccf64175bb42953bd8b4a72ea1b",
+    "sectionName": "nyregion",
+    "fullfeed": "nyregion.json",
+    "pubDate": "Jan 19, 1970 12:05:56 AM",
+    "queryId": "section/nyregion",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": true,
+      "rank": 65
+    },
+    "title": "New York"
+  },
+  {
+    "sectionHash": "1d2401c5e4a50810bf3cae3ac6431d20",
+    "sectionName": "homepage",
+    "fullfeed": "homepage.json",
+    "pubDate": "Jan 19, 1970 12:05:58 AM",
+    "queryId": "nyt://legacycollection/54c2d51c-14f6-5820-832d-968946fb338d",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": true,
+      "rank": 10
+    },
+    "title": "Top Stories"
+  },
+  {
+    "sectionHash": "c95653d0800744ca8cb6aaf3ef72b662",
+    "sectionName": "video.latestvideo",
+    "fullfeed": "video.latestvideo.json",
+    "pubDate": "Jan 19, 1970 12:05:17 AM",
+    "queryId": "video/latest-video",
+    "queryOverride": {
+      "queryType": "VIDEO_PLAY_LIST"
+    },
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 110
+    },
+    "title": "Video"
+  },
+  {
+    "graphqlIdentifierV2": "nyt://per/personalized-list/sectionfront-national",
+    "sectionHash": "556c5af7fbe3b50829bcf73f6a555763",
+    "sectionName": "us",
+    "fullfeed": "us.json",
+    "pubDate": "Jan 19, 1970 12:05:58 AM",
+    "queryId": "section/us",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": true,
+      "rank": 50
+    },
+    "title": "U.S."
+  },
+  {
+    "sectionHash": "749955aec8e8f143db2a0c6c4f9eda59",
+    "sectionName": "world.middleeast",
+    "fullfeed": "world.middleeast.json",
+    "pubDate": "Jan 19, 1970 12:05:54 AM",
+    "queryId": "section/world/middleeast",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false
+    },
+    "title": "Middle East"
+  },
+  {
+    "sectionHash": "efe56636d580e11bda0fa98fd1c0ec90",
+    "sectionName": "health",
+    "fullfeed": "health.json",
+    "pubDate": "Jan 19, 1970 12:05:52 AM",
+    "queryId": "section/health",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 160
+    },
+    "title": "Health"
+  },
+  {
+    "sectionHash": "5b9481d2476adeb9593fedf15133536d",
+    "sectionName": "world",
+    "fullfeed": "world.json",
+    "pubDate": "Jan 19, 1970 12:05:58 AM",
+    "queryId": "section/world",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": true,
+      "rank": 40
+    },
+    "title": "World"
+  },
+  {
+    "sectionHash": "127f7265683fbec5378f15534f47e59d",
+    "sectionName": "obituaries",
+    "fullfeed": "obituaries.json",
+    "pubDate": "Jan 19, 1970 12:05:39 AM",
+    "queryId": "section/obituaries",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 290
+    },
+    "title": "Obituaries"
+  },
+  {
+    "graphqlIdentifierV2": "nyt://per/personalized-list/sectionfront-opinion",
+    "sectionHash": "6750e8bd6f34e984366f64111584ba16",
+    "sectionName": "opinion",
+    "fullfeed": "opinion.json",
+    "pubDate": "Jan 19, 1970 12:05:49 AM",
+    "queryId": "section/opinion",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": true,
+      "rank": 30
+    },
+    "title": "Opinion"
+  },
+  {
+    "sectionHash": "1fcf92bf47f76e5be401277b7ab60814",
+    "sectionName": "sports",
+    "fullfeed": "sports.json",
+    "pubDate": "Jan 19, 1970 12:05:52 AM",
+    "queryId": "section/sports",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": true,
+      "rank": 90
+    },
+    "title": "Sports"
+  },
+  {
+    "sectionHash": "48ae5150e6d7591916aeea6d8405f4c9",
+    "sectionName": "lens",
+    "fullfeed": "lens.json",
+    "pubDate": "Jan 18, 1970 11:41:06 PM",
+    "title": "Lens"
+  },
+  {
+    "sectionHash": "b98c493142f1216e968a24f40b55c948",
+    "sectionName": "arts",
+    "fullfeed": "arts.json",
+    "pubDate": "Jan 19, 1970 12:05:52 AM",
+    "queryId": "section/arts",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 80
+    },
+    "title": "Arts"
+  },
+  {
+    "sectionHash": "b10dc889c9b82945f63c1061a33bac53",
+    "sectionName": "well",
+    "fullfeed": "well.json",
+    "pubDate": "Jan 19, 1970 12:05:52 AM",
+    "queryId": "section/well",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 165
+    },
+    "title": "Well"
+  },
+  {
+    "sectionHash": "d8556de46a5acc77ed29917bd6343207",
+    "sectionName": "upshot",
+    "fullfeed": "upshot.json",
+    "pubDate": "Jan 19, 1970 12:05:55 AM",
+    "queryId": "section/upshot",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 150
+    },
+    "title": "The Upshot"
+  },
+  {
+    "sectionHash": "6883295126e8c7f64b2d3e20d796488f",
+    "sectionName": "theater",
+    "fullfeed": "theater.json",
+    "pubDate": "Jan 19, 1970 12:05:31 AM",
+    "queryId": "section/theater",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 210
+    },
+    "title": "Theater"
+  },
+  {
+    "sectionHash": "8f3ac3a0b0505683a31bf0346caa8c31",
+    "sectionName": "world.europe",
+    "fullfeed": "world.europe.json",
+    "pubDate": "Jan 19, 1970 12:05:49 AM",
+    "queryId": "section/world/europe",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false
+    },
+    "title": "Europe"
+  },
+  {
+    "graphqlIdentifierV2": "nyt://per/personalized-list/sectionfront-politics",
+    "sectionHash": "4d6cf1fad168b65cb300347d3cea3b11",
+    "sectionName": "us.politics",
+    "fullfeed": "us.politics.json",
+    "pubDate": "Jan 19, 1970 12:05:54 AM",
+    "queryId": "section/politics",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": true,
+      "rank": 55
+    },
+    "title": "Politics"
+  },
+  {
+    "graphqlIdentifierV2": "nyt://per/personalized-list/sectionfront-style",
+    "sectionHash": "4d7a2ef22d605473b99805953df1037d",
+    "sectionName": "fashion",
+    "fullfeed": "fashion.json",
+    "pubDate": "Jan 19, 1970 12:05:52 AM",
+    "queryId": "section/fashion",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 225
+    },
+    "title": "Style"
+  },
+  {
+    "sectionHash": "5bcf716ccabfa3435bb911a00853dd3a",
+    "sectionName": "dining",
+    "fullfeed": "dining.json",
+    "pubDate": "Jan 19, 1970 12:05:52 AM",
+    "queryId": "section/dining",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 180
+    },
+    "title": "Food"
+  },
+  {
+    "sectionHash": "6a3bd0824db3ff4c0c818f017e928ba7",
+    "sectionName": "todayspaper",
+    "fullfeed": "todayspaper.json",
+    "pubDate": "Jan 19, 1970 12:05:55 AM",
+    "title": "Today’s Paper"
+  },
+  {
+    "sectionHash": "642a28119fd39276dbe812334fe17621",
+    "sectionName": "dealbook",
+    "fullfeed": "dealbook.json",
+    "pubDate": "Jan 19, 1970 12:05:50 AM",
+    "queryId": "section/business/dealbook",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 320
+    },
+    "title": "DealBook"
+  },
+  {
+    "sectionHash": "dceca92e1433fda00a00e132b030c289",
+    "sectionName": "business",
+    "fullfeed": "business.json",
+    "pubDate": "Jan 19, 1970 12:05:58 AM",
+    "queryId": "section/business",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": true,
+      "rank": 60
+    },
+    "title": "Business"
+  },
+  {
+    "sectionHash": "65819b180a6a3a3d2ca3e1b7dfe27566",
+    "sectionName": "world.australia",
+    "fullfeed": "world.australia.json",
+    "pubDate": "Jan 19, 1970 12:05:56 AM",
+    "queryId": "section/world/australia",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 300
+    },
+    "title": "Australia"
+  },
+  {
+    "sectionHash": "20a8893e75bb8a9fbe69e32acf4e7090",
+    "sectionName": "world.africa",
+    "fullfeed": "world.africa.json",
+    "pubDate": "Jan 19, 1970 12:05:30 AM",
+    "queryId": "section/world/africa",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false
+    },
+    "title": "Africa"
+  },
+  {
+    "sectionHash": "cf17f076851164edd60cc34096a02e82",
+    "sectionName": "feeds.t-magazine",
+    "fullfeed": "feeds.t-magazine.json",
+    "pubDate": "Jan 19, 1970 12:05:13 AM",
+    "queryId": "section/t-magazine",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 230
+    },
+    "title": "T Magazine"
+  },
+  {
+    "sectionHash": "5a83eaa7d2ac8c70de004a199a3a9374",
+    "sectionName": "feeds.sunday-review",
+    "fullfeed": "feeds.sunday-review.json",
+    "pubDate": "Jan 19, 1970 12:05:06 AM",
+    "queryId": "section/opinion/sunday",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 220
+    },
+    "title": "Sunday Opinion"
+  },
+  {
+    "sectionHash": "8d8dc16c0163d2079a82de374d6011be",
+    "sectionName": "science",
+    "fullfeed": "science.json",
+    "pubDate": "Jan 19, 1970 12:05:43 AM",
+    "queryId": "section/science",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 170
+    },
+    "title": "Science"
+  },
+  {
+    "sectionHash": "bc09fed46d55800a718e5d0901f8ef50",
+    "sectionName": "technology",
+    "fullfeed": "technology.json",
+    "pubDate": "Jan 19, 1970 12:05:45 AM",
+    "queryId": "section/technology",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 140
+    },
+    "title": "Technology"
+  },
+  {
+    "sectionHash": "5d4b3951740fb7b3f2f021d81dd111f9",
+    "sectionName": "climate",
+    "fullfeed": "climate.json",
+    "pubDate": "Jan 19, 1970 12:05:56 AM",
+    "queryId": "section/climate",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 175
+    },
+    "title": "Climate and Environment"
+  },
+  {
+    "sectionHash": "a29a04ef139e5fb8bf2adb525d097ed3",
+    "sectionName": "mostemailed",
+    "fullfeed": "mostemailed.json",
+    "pubDate": "Jan 19, 1970 12:05:51 AM",
+    "queryId": "nyt://legacycollection/54c2d51c-14f6-5820-832d-968946fb338d",
+    "queryOverride": {
+      "queryParam": "TRENDING",
+      "queryType": "MOST_POPULAR_LIST"
+    },
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": true,
+      "rank": 20
+    },
+    "title": "Most Popular"
+  },
+  {
+    "sectionHash": "87a0f091dfe587f466a0d09543fbf6fd",
+    "sectionName": "world.americas",
+    "fullfeed": "world.americas.json",
+    "pubDate": "Jan 19, 1970 12:05:51 AM",
+    "queryId": "section/world/americas",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false
+    },
+    "title": "Americas"
+  },
+  {
+    "sectionHash": "c15b9e1aa51484cf156bf2b4ae12aaa4",
+    "sectionName": "fashion.weddings",
+    "fullfeed": "fashion.weddings.json",
+    "pubDate": "Jan 19, 1970 12:04:50 AM",
+    "queryId": "section/fashion/weddings",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 250
+    },
+    "title": "Weddings"
+  },
+  {
+    "sectionHash": "700d436ddb15dce73807b14a00c7eefa",
+    "sectionName": "world.asia",
+    "fullfeed": "world.asia.json",
+    "pubDate": "Jan 19, 1970 12:05:56 AM",
+    "queryId": "section/world/asia",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false
+    },
+    "title": "Asia"
+  },
+  {
+    "sectionHash": "1085ba6e27a7095720e3c3c10065da7c",
+    "sectionName": "movies",
+    "fullfeed": "movies.json",
+    "pubDate": "Jan 19, 1970 12:05:38 AM",
+    "queryId": "section/movies",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 200
+    },
+    "title": "Movies"
+  },
+  {
+    "sectionHash": "57b3cd641c3c757a612c720a7b1affc7",
+    "sectionName": "reader-center",
+    "fullfeed": "reader-center.json",
+    "pubDate": "Jan 19, 1970 12:05:36 AM",
+    "queryId": "section/reader-center",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 113
+    },
+    "title": "Reader Center"
+  },
+  {
+    "sectionHash": "4bdb3c12ebf25cf2a3113e237440c4fa",
+    "sectionName": "magazine",
+    "fullfeed": "magazine.json",
+    "pubDate": "Jan 19, 1970 12:05:12 AM",
+    "queryId": "section/magazine",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 100
+    },
+    "title": "Magazine"
+  },
+  {
+    "sectionHash": "de45017e6bebd08c1bc2310bbf26399e",
+    "sectionName": "travel",
+    "fullfeed": "travel.json",
+    "pubDate": "Jan 19, 1970 12:05:42 AM",
+    "queryId": "section/travel",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 260
+    },
+    "title": "Travel"
+  },
+  {
+    "sectionHash": "207626b3457dfd632bd46ba2e35a0fd4",
+    "sectionName": "feeds.slideshows",
+    "fullfeed": "feeds.slideshows.json",
+    "pubDate": "Jan 19, 1970 12:04:56 AM",
+    "title": "Photos"
+  },
+  {
+    "sectionHash": "979cfbb6e014fbb0bedacf240a056f39",
+    "sectionName": "augmented",
+    "fullfeed": "augmented.json",
+    "pubDate": "Jan 18, 1970 10:38:41 PM",
+    "title": "Immersive (AR/VR)"
+  },
+  {
+    "sectionHash": "40ea4b919ad6b499a88acc7089d58786",
+    "sectionName": "automobiles",
+    "fullfeed": "automobiles.json",
+    "pubDate": "Jan 19, 1970 12:00:15 AM",
+    "queryId": "section/automobiles",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 280
+    },
+    "title": "Automobiles"
+  },
+  {
+    "sectionHash": "aba0e913c927e56917fa8e1eb794750d",
+    "sectionName": "insider",
+    "fullfeed": "insider.json",
+    "pubDate": "Jan 18, 1970 3:10:34 PM",
+    "queryId": "section/insider",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false,
+      "rank": 115
+    },
+    "title": "Times Insider"
+  },
+  {
+    "sectionHash": "9a6840ae27120d748f1d21fe5e08cd09",
+    "sectionName": "sports.worldcup",
+    "fullfeed": "sports.worldcup.json",
+    "pubDate": "Jan 18, 1970 2:00:02 PM",
+    "title": "World Cup"
+  },
+  {
+    "sectionHash": "e451625548abde57e8c576b8baf39b4f",
+    "sectionName": "sports.olympics",
+    "fullfeed": "sports.olympics.json",
+    "pubDate": "Jan 18, 1970 9:36:28 AM",
+    "title": "Olympics"
+  },
+  {
+    "sectionHash": "e451625548abde57e8c576b8baf39baa",
+    "sectionName": "parenting",
+    "fullfeed": "parenting.json",
+    "pubDate": "Jan 19, 1970 5:10:12 AM",
+    "queryId": "nyt://legacycollection/7627125c-5749-505d-b7bb-b34d5fc4e769",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": true,
+      "rank": 450
+    },
+    "title": "Parenting"
+  },
+  {
+    "sectionHash": "18d6769919266cd0bd6cd78aa405d5d0",
+    "sectionName": "arts.music",
+    "fullfeed": "music.json",
+    "pubDate": "Jan 19, 1970 2:33:59 PM",
+    "queryId": "section/arts/music",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false
+    },
+    "title": "Music"
+  },
+  {
+    "sectionHash": "79464212afb7fd6c38699d0617eaedeb",
+    "sectionName": "arts.television",
+    "fullfeed": "television.json",
+    "pubDate": "Jan 19, 1970 2:33:59 PM",
+    "queryId": "section/arts/television",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false
+    },
+    "title": "Television"
+  },
+  {
+    "sectionHash": "de7a22a0c94aa64ba2449e520aa20c99",
+    "sectionName": "education",
+    "fullfeed": "education.json",
+    "pubDate": "Jan 19, 1970 2:33:59 PM",
+    "queryId": "section/education",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": false
+    },
+    "title": "Education"
+  },
+  {
+    "sectionHash": "61fc41863aa29cecab61e65a940ca332",
+    "sectionName": "es.inicio",
+    "fullfeed": "es.inicio.json",
+    "pubDate": "Jan 18, 1970 10:06:30 PM",
+    "queryId": "es/",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": true
+    },
+    "title": "Inicio"
+  },
+  {
+    "sectionHash": "03a6f92f4619eebfb3c77fcade061af1",
+    "sectionName": "es.opinion",
+    "fullfeed": "es.opinion.json",
+    "pubDate": "Jan 18, 1970 10:06:30 PM",
+    "queryId": "es/section/opinion",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": true
+    },
+    "title": "Opinión"
+  },
+  {
+    "sectionHash": "8c8286b4b600978713304f16331849aa",
+    "sectionName": "es.estilos-de-vida",
+    "fullfeed": "es.estilos-de-vida.json",
+    "pubDate": "Jan 18, 1970 9:53:38 PM",
+    "queryId": "es/section/estilos-de-vida",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": true
+    },
+    "title": "Estilos de Vida"
+  },
+  {
+    "sectionHash": "720e58ea95caf6a93004a8dfc7401f44",
+    "sectionName": "es.noticias",
+    "fullfeed": "es.noticias.json",
+    "pubDate": "Jan 18, 1970 9:53:48 PM",
+    "title": "Noticias"
+  },
+  {
+    "sectionHash": "0ba8a519819a221a407481c6b702b5ec",
+    "sectionName": "es.ciencia-y-tecnologia",
+    "fullfeed": "es.ciencia-y-tecnologia.json",
+    "pubDate": "Jan 18, 1970 9:48:03 PM",
+    "queryId": "es/section/ciencia-y-tecnologia",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": true
+    },
+    "title": "Ciencia y Tecnología"
+  },
+  {
+    "sectionHash": "1e17bb345b8e74568ea8d4f0195a680c",
+    "sectionName": "es.mundo",
+    "fullfeed": "es.mundo.json",
+    "pubDate": "Jan 18, 1970 9:47:50 PM",
+    "queryId": "es/section/mundo",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": true
+    },
+    "title": "Mundo"
+  },
+  {
+    "sectionHash": "687ab60a10b25de2685881dab22cd214",
+    "sectionName": "es.america-latina",
+    "fullfeed": "es.america-latina.json",
+    "pubDate": "Jan 18, 1970 9:53:48 PM",
+    "queryId": "es/section/america-latina",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": true
+    },
+    "title": "América Latina"
+  },
+  {
+    "sectionHash": "d8c8445fffdcd728b250ff0e81583c57",
+    "sectionName": "es.cultura",
+    "fullfeed": "es.cultura.json",
+    "pubDate": "Jan 18, 1970 9:53:28 PM",
+    "queryId": "es/section/cultura",
+    "sectionConfig": {
+      "isAlwaysDefault": false,
+      "defaultSection": true
+    },
+    "title": "Cultura"
+  },
+  {
+    "sectionHash": "be9ecd207da43ea88cbaa7c4e5db65e3",
+    "sectionName": "es.venezuela-en-crisis",
+    "fullfeed": "es.venezuela-en-crisis.json",
+    "pubDate": "Jan 18, 1970 9:44:57 PM",
+    "title": "Venezuela en crisis"
+  },
+  {
+    "sectionHash": "ebf9a0fb0d2c21c85249272b6db27104",
+    "sectionName": "es.reposado",
+    "fullfeed": "es.reposado.json",
+    "pubDate": "Jan 18, 1970 9:53:48 PM",
+    "title": "Reposado"
+  },
+  {
+    "sectionHash": "0093d9a9910a0d4f51b6463e9324e620",
+    "sectionName": "es.rusia-2018",
+    "fullfeed": "es.rusia-2018.json",
+    "pubDate": "Jan 18, 1970 9:15:03 PM",
+    "title": "Rusia 2018"
+  },
+  {
+    "sectionHash": "7150bc8f368ca6f9005ecbe96654e383",
+    "sectionName": "es.mundial-francia-2019",
+    "fullfeed": "es.mundial-francia-2019.json",
+    "pubDate": "Jan 18, 1970 9:05:59 PM",
+    "title": "Francia 2019"
+  },
+  {
+    "sectionHash": "2ec2f3e383055723934a07c54ea5f135",
+    "sectionName": "es.caricaturas",
+    "fullfeed": "es.caricaturas.json",
+    "pubDate": "Jan 18, 1970 8:08:32 PM",
+    "title": "Caricaturas"
+  },
+  {
+    "sectionHash": "695453a3c306da34d3f3b7537f66ef3b",
+    "sectionName": "es.genero",
+    "fullfeed": "es.genero.json",
+    "pubDate": "Jan 18, 1970 8:07:26 PM",
+    "title": "Género"
+  },
+  {
+    "sectionHash": "a054032bc1548671b0892e4216abdb5d",
+    "sectionName": "es.elecciones-ee-uu",
+    "fullfeed": "es.elecciones-ee-uu.json",
+    "pubDate": "Jan 17, 1970 11:15:51 PM",
+    "title": "Elecciones EE. UU."
+  },
+  {
+    "sectionHash": "572cdd0982d074ebef8851c80f54b4c5",
+    "sectionName": "es.rio-2016",
+    "fullfeed": "es.rio-2016.json",
+    "pubDate": "Jan 17, 1970 9:56:30 PM",
+    "title": "Río 2016"
+  }
+]

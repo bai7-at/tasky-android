@@ -1,0 +1,56 @@
+[
+  {
+    "id": "spelling-bee",
+    "headline": "How many words can you make with 7 letters?",
+    "rank": 1,
+    "url": "https://www.nytimes.com/puzzles/spelling-bee?entry=xpnAppGames"
+  },
+  {
+    "id": "strands",
+    "headline": "Find Hidden Words",
+    "rank": 2,
+    "url": "https://www.nytimes.com/games/strands?entry=playTab"
+  },
+  {
+    "id": "connections",
+    "headline": "Group words that share a common thread.",
+    "rank": 3,
+    "url": "https://www.nytimes.com/games/connections?entry=xpnAppGames"
+  },
+  {
+    "id": "wordle",
+    "headline": "Get 6 chances to guess a 5-letter word.",
+    "rank": 4,
+    "url": "https://www.nytimes.com/games/wordle/index.html?entry=xpnAppGames"
+  },
+  {
+    "id": "daily-page",
+    "headline": "Crack the clues in today’s puzzle.",
+    "rank": 5,
+    "url": "https://www.nytimes.com/crosswords/game/daily?entry=xpnAppGames"
+  },
+  {
+    "id": "mini-page",
+    "headline": "Solve the puzzle in seconds.",
+    "rank": 6,
+    "url": "https://www.nytimes.com/crosswords/game/mini?entry=xpnAppGames"
+  },
+  {
+    "id": "sudoku",
+    "headline": "Try this numbers game, minus the math.",
+    "rank": 7,
+    "url": "https://www.nytimes.com/puzzles/sudoku?entry=xpnAppGames"
+  },
+  {
+    "id": "letter-boxed",
+    "headline": "Create words using letters around the square.",
+    "rank": 8,
+    "url": "https://www.nytimes.com/puzzles/letter-boxed?entry=xpnAppGames"
+  },
+  {
+    "id": "tiles",
+    "headline": "Match tiles to keep your chain going.",
+    "rank": 9,
+    "url": "https://www.nytimes.com/puzzles/tiles?entry=xpnAppGames"
+  }
+]

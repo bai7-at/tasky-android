@@ -1,0 +1,52 @@
+package com.nytimes.android.ribbon;
+
+import com.nytimes.android.ribbon.config.RibbonConfig;
+import defpackage.b65;
+import defpackage.by0;
+import defpackage.fc1;
+import defpackage.gt2;
+import defpackage.ww8;
+import kotlin.coroutines.intrinsics.a;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.f;
+import kotlinx.coroutines.CoroutineScope;
+
+@fc1(c = "com.nytimes.android.ribbon.DestinationContentKt$DestinationContent$2$3", f = "DestinationContent.kt", l = {}, m = "invokeSuspend")
+/* loaded from: classes4.dex */
+final class DestinationContentKt$DestinationContent$2$3 extends SuspendLambda implements gt2 {
+    final /* synthetic */ DestinationContentViewModel $viewModel;
+    int label;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    DestinationContentKt$DestinationContent$2$3(DestinationContentViewModel destinationContentViewModel, by0 by0Var) {
+        super(2, by0Var);
+        this.$viewModel = destinationContentViewModel;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final by0 create(Object obj, by0 by0Var) {
+        return new DestinationContentKt$DestinationContent$2$3(this.$viewModel, by0Var);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        RibbonConfig k;
+        String g;
+        a.h();
+        if (this.label != 0) {
+            throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+        }
+        f.b(obj);
+        b65 i = this.$viewModel.i();
+        if (i == null || (g = i.g()) == null || (k = RibbonConfig.Companion.a(g)) == null) {
+            k = this.$viewModel.k();
+        }
+        this.$viewModel.v(k, i);
+        return ww8.a;
+    }
+
+    @Override // defpackage.gt2
+    public final Object invoke(CoroutineScope coroutineScope, by0 by0Var) {
+        return ((DestinationContentKt$DestinationContent$2$3) create(coroutineScope, by0Var)).invokeSuspend(ww8.a);
+    }
+}

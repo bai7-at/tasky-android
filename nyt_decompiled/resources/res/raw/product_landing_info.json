@@ -1,0 +1,135 @@
+{
+  "title": "Choose a plan that’s right for you.",
+  "brand_messaging": "You may cancel at any time.",
+  "hint_message": "See subscription and auto-renewal details below.",
+  "policy_messages": "<b>Automatic Renewal Terms</b><br><br><b>If you subscribe to The New York Times via Google, payment for your subscription will be automatically charged to your Google Play account upon confirmation. Subscriptions renew automatically 24-hours prior to the start of the next billing period. Billing occurs every calendar month for a monthly subscription or once-yearly for an annual subscription. Subscriptions continue to renew automatically until cancelled. You can manage and cancel subscriptions using the Google Play subscription center.</b><br><br>Current subscribers not eligible. Print edition not included. New York Times Games, Cooking, Wirecutter and The Athletic are referred to as Standalone subscriptions. Access to Standalones is included with a New York Times All Access subscription, but is not included with a New York Times News subscription. Individual Standalone subscriptions do not include other Standalones or digital news content. Some benefits, as access to Wordle, may be available without the subscription.<br><br>By selecting a pricing option you agree to the automatic renewal terms stated above, <a href=\"https://www.nytimes.com/privacy/privacy-policy\">Privacy Policy</a> | <a href=\"https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service\">Terms of Service</a>.",
+  "savings_text": "BEST VALUE",
+  "hides_savings_badge": false,
+  "is_all_access_selected": true,
+  "tab_order": [
+    "All Access",
+    "News"
+  ],
+  "basic_package": {
+    "name": "News",
+    "headline": "Subscribe to independent journalism.",
+    "sub_headline": "You may cancel at any time.",
+    "description": "Unlimited article access in the app and on NYTimes.com.",
+    "post_regi_month_sku_id": "com.nytimes.googleplay.swg.bundle.xpass.monthly.4.99.oc.20000229660",
+    "post_login_month_sku_id": "com.nytimes.googleplay.swg.bundle.xpass.monthly.4.99.oc.20000229660",
+    "month_sku_id": "com.nytimes.googleplay.swg.bundle.xpass.monthly.4.99.oc.20000235160",
+    "year_sku_id": "com.nytimes.googleplay.swg.bundle.xpass.annual.49.99.oc.20000235140",
+    "more_about_message": "More about News",
+    "main_bullets": [
+      {
+        "title": "<b>News.</b> Understand the world with original reporting from 1,700 journalists.",
+        "subtitle": ""
+      }
+    ],
+    "upsell_bullets": [
+      {
+        "title": "<b>Games.</b> Unwind with Spelling Bee, Wordle, The Crossword and more.",
+        "subtitle": ""
+      },
+      {
+        "title": "<b>Cooking.</b> Enjoy recipes, advice and inspiration for any occasion.",
+        "subtitle": ""
+      },
+      {
+        "title": "<b>Wirecutter.</b> Explore independent reviews for thousands of products.",
+        "subtitle": ""
+      },
+      {
+        "title": "<b>The Athletic.</b> Discover the source for in-depth, personalized sports journalism.",
+        "subtitle": ""
+      }
+    ],
+    "more_bullets": [
+      {
+        "title": "Explore without limits.",
+        "subtitle": "Sign in to read, watch and listen to The New York Times as much as you like, across all devices."
+      },
+      {
+        "title": "Want to go beyond News?",
+        "subtitle": "Subscribe to All Access for The New York Times Games, and The New York Times Cooking."
+      }
+    ]
+  },
+  "all_access_package": {
+    "name": "All Access",
+    "headline": "Access everything The Times has to offer.",
+    "sub_headline": "You may cancel at any time.",
+    "description": "Unlimited articles, plus The New York Times Cooking and TThe New York Times Games.",
+    "month_sku_id": "and.all.access.bau.mo.oc.20000274520",
+    "year_sku_id": "com.nytimes.ada.49.99.oc.20000262940",
+    "more_about_message": "More about All Access",
+    "main_bullets": [
+      {
+        "title": "<b>News.</b> Understand the world with original reporting from 1,700 journalists.",
+        "subtitle": ""
+      },
+      {
+        "title": "<b>Games.</b> Unwind with Spelling Bee, Wordle, The Crossword and more.",
+        "subtitle": ""
+      },
+      {
+        "title": "<b>Cooking.</b> Enjoy recipes, advice and inspiration for any occasion.",
+        "subtitle": ""
+      },
+      {
+        "title": "<b>Wirecutter.</b> Explore independent reviews for thousands of products.",
+        "subtitle": ""
+      },
+      {
+        "title": "<b>The Athletic.</b> Discover the source for in-depth, personalized sports journalism.",
+        "subtitle": ""
+      }
+    ],
+    "more_bullets": [
+      {
+        "title": "No more article limits",
+        "subtitle": "Sign in to read, watch and listen to The Times as much as you like, across devices."
+      },
+      {
+        "title": "The New York Times Games",
+        "subtitle": "Play the daily and mini puzzles on any device, and enjoy access to 20 years of Crossword archives on the app and online."
+      },
+      {
+        "title": "The New York Times Cooking",
+        "subtitle": "Get access to the entire recipe archive, how-to cooking guides and your own personal Recipe Box online."
+      }
+    ]
+  },
+  "urgency_messages": [
+    {
+      "start_time_interval": 1677452400,
+      "end_time_interval": 1678701600,
+      "saleWindowForMessage": "Starts February 26, 6PM and Ends March 13, 6AM",
+      "text": "Sale: Limited Time Offer. Save on All Access."
+    },
+    {
+      "start_time_interval": 1678701600,
+      "end_time_interval": 1680170400,
+      "saleWindowForMessage": "Starts March 13, 6AM and Ends March 30, 6AM",
+      "text": "Sale ends soon. All of The Times for $1/week."
+    },
+    {
+      "start_time_interval": 1680170400,
+      "end_time_interval": 1680256800,
+      "saleWindowForMessage": "Starts March 30, 6PM and Ends March 31, 6AM",
+      "text": "Sale ends tomorrow. All of The Times for $1/week."
+    },
+    {
+      "start_time_interval": 1680256800,
+      "end_time_interval": 1680282000,
+      "saleWindowForMessage": "Starts March 31, 6AM and Ends March 31, 1PM",
+      "text": "Sale ends today. All of The Times for $1/week."
+    },
+    {
+      "start_time_interval": 1677266400,
+      "end_time_interval": 1680710400,
+      "saleWindowForMessage": "Starts March 27, 6PM and Ends April 5, noon",
+      "text": "Sale extended. All of The Times for $1/week."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="16dp"
+    android:width="17dp"
+    android:viewportWidth="17"
+    android:viewportHeight="16">
+    <path
+        android:fillColor="@color/ftux_icon_color"
+        android:pathData="M4.4074,10.5762H12.5926V9.243H4.4074V10.5762ZM4.4074,8.0877H12.5926V6.7545H4.4074V8.0877ZM4.4074,5.5103H12.5926V4.1771H4.4074V5.5103ZM17,7.2878C17,3.2884 13.2222,0 8.545,0C3.7778,0 0,3.2884 0,7.2878C0,8.7987 0.5397,10.3096 1.5291,11.4649C1.6191,11.6427 0.1799,15.8198 0.4497,15.9976C0.6296,16.0865 4.4974,13.6868 4.5873,13.7757C5.7566,14.309 7.1058,14.5756 8.455,14.5756C13.1323,14.5756 17,11.2872 17,7.2878Z"
+        android:fillType="evenOdd"/>
+</vector>

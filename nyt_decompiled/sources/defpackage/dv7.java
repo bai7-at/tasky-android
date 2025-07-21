@@ -1,0 +1,58 @@
+package defpackage;
+
+import com.apollographql.apollo.api.json.JsonReader;
+import defpackage.uu7;
+import java.util.List;
+import kotlin.collections.i;
+
+/* loaded from: classes3.dex */
+public final class dv7 implements h8 {
+    public static final dv7 a = new dv7();
+    private static final List b = i.e("__typename");
+
+    private dv7() {
+    }
+
+    @Override // defpackage.h8
+    /* renamed from: a, reason: merged with bridge method [inline-methods] */
+    public uu7.i fromJson(JsonReader jsonReader, w41 w41Var) {
+        n59 n59Var;
+        zq3.h(jsonReader, "reader");
+        zq3.h(w41Var, "customScalarAdapters");
+        kf3 kf3Var = null;
+        String str = null;
+        while (jsonReader.l1(b) == 0) {
+            str = (String) j8.a.fromJson(jsonReader, w41Var);
+        }
+        if (str == null) {
+            throw new IllegalStateException("__typename was not found");
+        }
+        if (xa0.c(xa0.e("Video"), w41Var.c, str, w41Var.d, null)) {
+            jsonReader.q();
+            n59Var = a69.a.fromJson(jsonReader, w41Var);
+        } else {
+            n59Var = null;
+        }
+        if (xa0.c(xa0.e("Image"), w41Var.c, str, w41Var.d, null)) {
+            jsonReader.q();
+            kf3Var = of3.a.fromJson(jsonReader, w41Var);
+        }
+        return new uu7.i(str, n59Var, kf3Var);
+    }
+
+    @Override // defpackage.h8
+    /* renamed from: b, reason: merged with bridge method [inline-methods] */
+    public void toJson(lu3 lu3Var, w41 w41Var, uu7.i iVar) {
+        zq3.h(lu3Var, "writer");
+        zq3.h(w41Var, "customScalarAdapters");
+        zq3.h(iVar, "value");
+        lu3Var.name("__typename");
+        j8.a.toJson(lu3Var, w41Var, iVar.c());
+        if (iVar.b() != null) {
+            a69.a.toJson(lu3Var, w41Var, iVar.b());
+        }
+        if (iVar.a() != null) {
+            of3.a.toJson(lu3Var, w41Var, iVar.a());
+        }
+    }
+}

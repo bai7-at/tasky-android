@@ -1,0 +1,57 @@
+package defpackage;
+
+/* loaded from: classes2.dex */
+public abstract class pm6 {
+    public static int abc_action_bar_home_description = 2131951628;
+    public static int abc_action_bar_up_description = 2131951629;
+    public static int abc_action_menu_overflow_description = 2131951630;
+    public static int abc_action_mode_done = 2131951631;
+    public static int abc_activity_chooser_view_see_all = 2131951632;
+    public static int abc_activitychooserview_choose_application = 2131951633;
+    public static int abc_capital_off = 2131951634;
+    public static int abc_capital_on = 2131951635;
+    public static int abc_menu_alt_shortcut_label = 2131951636;
+    public static int abc_menu_ctrl_shortcut_label = 2131951637;
+    public static int abc_menu_delete_shortcut_label = 2131951638;
+    public static int abc_menu_enter_shortcut_label = 2131951639;
+    public static int abc_menu_function_shortcut_label = 2131951640;
+    public static int abc_menu_meta_shortcut_label = 2131951641;
+    public static int abc_menu_shift_shortcut_label = 2131951642;
+    public static int abc_menu_space_shortcut_label = 2131951643;
+    public static int abc_menu_sym_shortcut_label = 2131951644;
+    public static int abc_prepend_shortcut_label = 2131951645;
+    public static int abc_search_hint = 2131951646;
+    public static int abc_searchview_description_clear = 2131951647;
+    public static int abc_searchview_description_query = 2131951648;
+    public static int abc_searchview_description_search = 2131951649;
+    public static int abc_searchview_description_submit = 2131951650;
+    public static int abc_searchview_description_voice = 2131951651;
+    public static int abc_shareactionprovider_share_with = 2131951652;
+    public static int abc_shareactionprovider_share_with_application = 2131951653;
+    public static int abc_toolbar_collapse_description = 2131951654;
+    public static int com_facebook_device_auth_instructions = 2131951907;
+    public static int com_facebook_image_download_unknown_error = 2131951908;
+    public static int com_facebook_internet_permission_error_message = 2131951909;
+    public static int com_facebook_internet_permission_error_title = 2131951910;
+    public static int com_facebook_like_button_liked = 2131951911;
+    public static int com_facebook_like_button_not_liked = 2131951912;
+    public static int com_facebook_loading = 2131951913;
+    public static int com_facebook_loginview_cancel_action = 2131951914;
+    public static int com_facebook_loginview_log_in_button = 2131951915;
+    public static int com_facebook_loginview_log_in_button_continue = 2131951916;
+    public static int com_facebook_loginview_log_in_button_long = 2131951917;
+    public static int com_facebook_loginview_log_out_action = 2131951918;
+    public static int com_facebook_loginview_log_out_button = 2131951919;
+    public static int com_facebook_loginview_logged_in_as = 2131951920;
+    public static int com_facebook_loginview_logged_in_using_facebook = 2131951921;
+    public static int com_facebook_send_button_text = 2131951922;
+    public static int com_facebook_share_button_text = 2131951923;
+    public static int com_facebook_smart_device_instructions = 2131951924;
+    public static int com_facebook_smart_device_instructions_or = 2131951925;
+    public static int com_facebook_smart_login_confirmation_cancel = 2131951926;
+    public static int com_facebook_smart_login_confirmation_continue_as = 2131951927;
+    public static int com_facebook_smart_login_confirmation_title = 2131951928;
+    public static int com_facebook_tooltip_default = 2131951929;
+    public static int search_menu_title = 2131952926;
+    public static int status_bar_notification_info_overflow = 2131953056;
+}

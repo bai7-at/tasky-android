@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.fragment.app.FragmentContainerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="com.nytimes.android.dailyfive.ui.DailyFiveFragment"
+    android:id="@+id/dailyfive_fragment_container_view"
+    android:tag="dailyfive"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>

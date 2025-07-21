@@ -1,0 +1,22 @@
+{
+  "data": {
+    "user": {
+      "__typename": "User",
+      "profile": {
+        "__typename": "Profile",
+        "email": "testemail@nytimes.com",
+        "displayName": "test.user",
+        "name": "Test User",
+        "givenName": "Test",
+        "familyName": "User",
+        "username": "testuser"
+      },
+      "userInfo": {
+        "__typename": "UserInfo",
+        "regiId": "135190990"
+      },
+      "subscriptionDetails": [
+      ]
+    }
+  }
+}

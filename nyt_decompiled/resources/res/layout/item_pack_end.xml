@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/item_end_border"
+    android:padding="16dp"
+    android:layout_width="@dimen/daily_five_carousel_end_item_width"
+    android:layout_height="@dimen/daily_five_carousel_image_height"
+    android:layout_marginLeft="@dimen/daily_five_carousel_offset">
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:text="@string/daily_five_pack_end_message"
+        style="@style/DailyFive.PackEndMessage"/>
+    <com.nytimes.android.designsystem.uiview.DotsProgressButton
+        android:layout_gravity="bottom|right"
+        android:id="@+id/button"
+        android:background="@drawable/pack_end_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:text="@string/daily_five_pack_end_button"/>
+</FrameLayout>

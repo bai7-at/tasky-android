@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+    <style name="Widget.Reader.AudioDrawer" parent="@style/Base.Widget.Reader.AudioDrawer">
+        <item name="android:layout_marginTop">@dimen/audio_indicator_full_size_padding_top_bottom</item>
+        <item name="android:layout_marginBottom">@dimen/audio_indicator_full_size_padding_top_bottom</item>
+        <item name="android:layout_marginStart">@dimen/audio_indicator_full_size_padding_start_end</item>
+        <item name="android:layout_marginEnd">@dimen/audio_indicator_full_size_padding_start_end</item>
+    </style>
+</resources>

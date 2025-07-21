@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nytimes.android.media.audio.views.AudioOnboardingBar
+        android:id="@+id/audio_onboarding_bar"
+        style="@style/AudioOnboardingBar"/>
+    <com.nytimes.android.media.audio.views.AudioIndicator
+        android:id="@+id/audio_indicator"
+        style="@style/AudioIndicator.FullSize"/>
+</merge>

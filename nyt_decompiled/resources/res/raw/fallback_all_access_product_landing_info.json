@@ -1,0 +1,33 @@
+{
+  "policy_messages": "<b>Automatic Renewal Terms</b><br><br><b>If you subscribe to The New York Times via Google, payment for your subscription will be automatically charged to your Google Play account upon confirmation. Subscriptions renew automatically 24-hours prior to the start of the next billing period. Billing occurs every calendar month for a monthly subscription or once-yearly for an annual subscription. Subscriptions continue to renew automatically until cancelled. You can manage and cancel subscriptions using the Google Play subscription center.</b><br><br>Current subscribers not eligible. Print edition not included. New York Times Games, Cooking, Wirecutter and The Athletic are referred to as Standalone subscriptions. Access to Standalones is included with a New York Times All Access subscription, but is not included with a New York Times News subscription. Individual Standalone subscriptions do not include other Standalones or digital news content. Some benefits, as access to Wordle, may be available without the subscription.<br><br>By selecting a pricing option you agree to the automatic renewal terms stated above, <a href=\"https://www.nytimes.com/privacy/privacy-policy\">Privacy Policy</a> | <a href=\"https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service\">Terms of Service</a>.",
+  "all_access_package": {
+    "headline": "Access everything\nThe Times has to offer.",
+    "sub_headline": "You may cancel at any time.",
+    "free_trial_headline": "",
+    "free_trial_sub_headline": "",
+    "description": "This subscription includes <b>unlimited access</b> to News, plus Games, Cooking, Audio, Wirecutter and The Athletic.",
+    "month_sku_id": "and.aa.news.app.bau.mo.oc.20000288480",
+    "year_sku_id": "com.nytimes.ada.49.99.oc.20000262940",
+    "main_bullets": [
+      {
+        "title": "Engage with expert reporting, including culture coverage and analysis.",
+        "subtitle": ""
+      },
+      {
+        "title": "Access exclusive benefits like gift articles and subscriber-only newsletters.",
+        "subtitle": ""
+      }
+    ],
+    "sku_schedules": [],
+    "monthly_badge": "",
+    "yearly_badge": "BEST VALUE"
+  },
+  "urgency_messages": [],
+  "icons": [
+    "ic_logo_news",
+    "ic_logo_games",
+    "ic_logo_cooking",
+    "ic_logo_wirecutter",
+    "ic_logo_athletic"
+  ]
+}

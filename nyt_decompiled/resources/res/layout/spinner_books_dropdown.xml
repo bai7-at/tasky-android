@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ellipsize="marquee"
+    android:padding="@dimen/spinner_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawSelectorOnTop="true"
+    android:singleLine="true"
+    android:elevation="0dp"
+    style="@style/Spinner_Navigation"/>

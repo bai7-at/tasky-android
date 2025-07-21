@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_frame"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.nytimes.android.side.effects.DynamicBottomSpaceBehavior">
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <include
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/progress_indicator"/>
+    </FrameLayout>
+    <include layout="@layout/view_dock"/>
+    <include layout="@layout/audio_layout"/>
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:layout_gravity="bottom"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hideOnScroll="true"
+        app:navigationIcon="@drawable/ic_back_button"
+        app:popupTheme="@style/OverflowStyle"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

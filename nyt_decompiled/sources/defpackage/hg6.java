@@ -1,0 +1,50 @@
+package defpackage;
+
+/* loaded from: classes.dex */
+public abstract class hg6 {
+    public static int appBarLayout = 2131361906;
+    public static int book_other_category = 2131361953;
+    public static int book_spinner = 2131361954;
+    public static int books_action_bar = 2131361955;
+    public static int books_author = 2131361956;
+    public static int books_author_expanded = 2131361957;
+    public static int books_category_space = 2131361958;
+    public static int books_headline_date = 2131361959;
+    public static int books_image = 2131361960;
+    public static int books_image_expanded = 2131361961;
+    public static int books_list = 2131361962;
+    public static int books_num_of_weeks_expanded = 2131361963;
+    public static int books_rank = 2131361964;
+    public static int books_rank_expanded = 2131361965;
+    public static int books_review_expanded = 2131361966;
+    public static int books_space_line = 2131361972;
+    public static int books_summary = 2131361973;
+    public static int books_summary_date = 2131361974;
+    public static int books_summary_expanded = 2131361975;
+    public static int books_title = 2131361976;
+    public static int books_title_expanded = 2131361977;
+    public static int card_kabab_overflow = 2131362016;
+    public static int card_view = 2131362017;
+    public static int card_view_expanded = 2131362018;
+    public static int content_frame = 2131362078;
+    public static int first_chapter_expanded = 2131362265;
+    public static int internal_layout = 2131362361;
+    public static int internal_layout_in = 2131362362;
+    public static int llExpandArea = 2131362392;
+    public static int main_collapsing = 2131362401;
+    public static int new_tag = 2131362557;
+    public static int other_books_author = 2131362613;
+    public static int other_books_rank = 2131362614;
+    public static int other_books_title = 2131362615;
+    public static int other_rank_1 = 2131362616;
+    public static int other_rank_2 = 2131362617;
+    public static int other_rank_3 = 2131362618;
+    public static int other_rank_4 = 2131362619;
+    public static int other_rank_5 = 2131362620;
+    public static int rank_arrow = 2131362670;
+    public static int rank_image_down_expanded = 2131362671;
+    public static int rank_image_expanded = 2131362672;
+    public static int rank_last_week_expanded = 2131362673;
+    public static int selected_chapter_expanded = 2131362786;
+    public static int sunday_book_review_expanded = 2131362858;
+}

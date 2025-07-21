@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/audio_subscribe_podcast_text_color"
+        android:gravity="center"
+        android:id="@+id/subscribe_hint"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="@string/subscribe_in_your_podcast_app"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/font_franklin_medium"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/save_icon"
+        android:padding="16dp"
+        android:visibility="gone"
+        android:layout_toLeftOf="@+id/share_icon"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/selector_ic_save"
+        app:tint="@color/ds_blue30"
+        style="@style/WidthWrapHeightWrap"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/share_icon"
+        android:padding="16dp"
+        android:visibility="gone"
+        android:scaleType="center"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="4dp"
+        app:srcCompat="@null"
+        app:tint="@color/ds_blue30"
+        style="@style/WidthWrapHeightWrap"/>
+</merge>

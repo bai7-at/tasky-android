@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/w720dp_row_section_front_pkg_lede_vertical"
+    android:background="@drawable/default_ripple_background"
+    android:paddingTop="@dimen/row_section_front_spacing_top_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/row_search_padding_left_right"
+    android:paddingEnd="@dimen/row_search_padding_left_right">
+    <TextView
+        android:gravity="center"
+        android:id="@+id/row_sf_package_headline"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        style="@style/TextView.Section.Lede.Banner"/>
+    <View
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/package_no_image_divider"
+        android:background="@color/ds_gray88"
+        android:visibility="gone"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="16dp"/>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/row_section_front_incl"/>
+    </RelativeLayout>
+    <com.nytimes.android.sectionfront.ui.FooterView
+        android:id="@+id/footer_view"
+        style="@style/SF_Footer"/>
+</LinearLayout>

@@ -1,0 +1,64 @@
+{
+  "data": {
+    "user": {
+      "__typename": "User",
+      "privacyDirectivesV2": {
+        "__typename": "UserPrivacyDirectives",
+        "adConfigurationV2": {
+          "__typename": "AdConfigurationPrivacyDirective",
+          "value": "FULL"
+        },
+        "adConfigurationV3": {
+          "__typename": "AdConfigurationPrivacyDirective",
+          "value": "FULL"
+        },
+        "acceptableTrackersV2": {
+          "__typename": "AcceptableTrackersPrivacyDirective",
+          "value": "CONTROLLERS"
+        },
+        "showDataSaleOptOutUIV2": {
+          "__typename": "ShowDataSaleOptOutUiPrivacyDirectiveV2",
+          "value": "HIDE"
+        },
+        "showDataProcessingConsentUI": {
+          "__typename": "ShowDataProcessingConsentUiPrivacyDirective",
+          "value": "HIDE"
+        },
+        "showDataProcessingPreferenceUI": {
+          "__typename": "ShowDataProcessingPreferenceUiPrivacyDirective",
+          "value": "HIDE"
+        },
+        "showCaliforniaNoticesUI": {
+          "__typename": "ShowCaliforniaNoticesUiPrivacyDirective",
+          "value": "HIDE"
+        },
+        "emailMarketingOptInUIV2": {
+          "__typename": "EmailMarketingOptInUiPrivacyDirective",
+          "value": "DO_NOT_DISPLAY"
+        },
+        "showLimitSensitivePIUI": {
+          "__typename": "ShowLimitSensitivePIDirective",
+          "value": "HIDE"
+        },
+        "tosBlockerUIV1": {
+          "__typename": "TosBlockerPrivacyDirectiveV1",
+          "value": "SHOW"
+        },
+        "fidesTCF": {
+          "__typename": "FidesTCFPrivacyDirective",
+          "value": "HIDE"
+        }
+      },
+      "tcfPref": {
+        "__typename": "TcfPreferenceData",
+        "userTcfData": null
+      },
+      "currentTcfNotice": {
+        "__typename": "CurrentNotice",
+        "acceptAllTcString": "CPyZhwAPyZhwAAMABBENASEAAAAAAAAAAAAAAAAAAAAA.IgoMV_H3_bX9v8Tq16ft0eYFX99j77uQxBhfJs-4FyDvW_JwVn2EyNAUytqYKmRIEuzZBIQFsHJnURVChQogVryHsYkGMhTEAJ-BkgHMRa2dYCFxvmYtjEQIZ5_p_czf52R_9_dn-3czjT9lnnzVtO2dlcKidS59tH_l_bRKb-7Ied-7W_4v09tfrkW_eTVu_9evvp9-u_s_v__934AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "rejectAllTcString": "CPyZhwAPyZhwAAMABBENASEAAAAAAAAAAAAAAAAAAAAA.IgoMV_H3_bX9v8Tq16ft0eYFX99j77uQxBhfJs-4FyDvW_JwVn2EyNAUytqYKmRIEuzZBIQFsHJnURVChQogVryHsYkGMhTEAJ-BkgHMRa2dYCFxvmYtjEQIZ5_p_czf52R_9_dn-3czjT9lnnzVtO2dlcKidS59tH_l_bRKb-7Ied-7W_4v09tfrkW_eTVu_9evvp9-u_s_v__934AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "currentNoticeVersion": "370eb6b18bb9"
+      }
+    }
+  }
+}

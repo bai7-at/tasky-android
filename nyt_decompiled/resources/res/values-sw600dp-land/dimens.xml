@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="onboarding_top_offset">82dp</dimen>
+    <dimen name="truncator_header_margin_bottom">10dp</dimen>
+    <dimen name="truncator_subheader_margin_bottom">78dp</dimen>
+    <dimen name="upsell_carousel_dots_margin_top">45dp</dimen>
+</resources>
