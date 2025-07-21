@@ -16,8 +16,11 @@ jobs:
       - uses: gitleaks/gitleaks-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITLEAKS_ARGS: "--format sarif"
+          GITLEAKS_ARGS: "--format sarif -r sarif.json"
           # GITLEAKS_ARGS: "tasky -f sarif -r sarif.json"
+
+      - name: List files in workspace
+        run: ls -al
 
       - name: Upload SARIF to GitHub Code Scanning
         uses: github/codeql-action/upload-sarif@v3
