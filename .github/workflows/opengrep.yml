@@ -28,7 +28,7 @@ jobs:
       - name: Run OpenGrep scan with custom rules
         run: |
           export PATH='/home/runner/.opengrep/cli/latest':$PATH
-          opengrep scan -f android-security-rules --sarif-output=sarif.json .
+          opengrep scan -f android-security-rules --sarif-output=sarif.json tasky
 
       - name: Upload SARIF to GitHub Code Scanning
         uses: github/codeql-action/upload-sarif@v3
