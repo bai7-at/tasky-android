@@ -1,7 +1,28 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("org.owasp.dependencycheck") version "12.1.1"
 }
+
+
+dependencyCheck {
+
+    formats = listOf("HTML", "XML", "JSON") // Generate reports in HTML, JSON and XML format
+
+    analyzers {
+        assemblyEnabled = false  // disables .NET assembly analyzer
+        nodeAuditEnabled = false // disables node analyzer
+    }
+
+    suppressionFile = "suppression.xml"
+
+    nvd {
+        apiKey = "e2e35caf-3da5-403b-b4f4-4d3973d8b225"
+        delay = 16000
+    }
+}
+
+
 
 android {
     namespace = "at.bai7.deeplink"
@@ -65,7 +86,8 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     // OkHttp Core
-    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation ("com.squareup.okhttp3:okhttp:4.9.1") // vulnerable library
+
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
