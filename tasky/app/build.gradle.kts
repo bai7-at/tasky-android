@@ -14,17 +14,19 @@ dependencyCheck {
         nodeAuditEnabled = false // disables node analyzer
     }
 
-    suppressionFile = "suppression.xml"
-
     nvd {
         apiKey = "e2e35caf-3da5-403b-b4f4-4d3973d8b225"
         delay = 16000
     }
+
+    //    suppressionFile = "suppression.xml"
+
 }
 
 
 
 android {
+
     namespace = "at.bai7.deeplink"
     compileSdk = 34
 

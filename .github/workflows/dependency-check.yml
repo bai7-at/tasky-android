@@ -7,11 +7,34 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x ./gradlew
+
+      - name: Build or resolve dependencies
+        run: ./gradlew app:dependencies
+
+      - name: Cache Gradle dependencies
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+
       - name: Depcheck
         uses: dependency-check/Dependency-Check_Action@main
         id: Depcheck
         with:
-          project: 'test'
+          project: 'deeplink'
           path: 'tasky'
           format: 'HTML'
           out: 'reports' # this is the default, no need to specify unless you wish to override it

@@ -6,6 +6,7 @@ plugins {
 
 // fix: java.lang.NoSuchMethodError: 'java.lang.String org.apache.commons.compress.compressors.gzip.GzipUtils.getUncompressedFileName(java.lang.String)'
 buildscript {
+
     configurations.getByName("classpath") {
         resolutionStrategy {
             force("org.apache.commons:commons-compress:1.27.1")
