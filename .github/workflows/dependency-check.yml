@@ -18,9 +18,14 @@ jobs:
       #   run: chmod +x ./gradlew
       #   working-directory: ./tasky
 
-      - name: Build or resolve dependencies
-        run: ./gradlew app:dependencies
+      # - name: Build or resolve dependencies
+      #   run: ./gradlew app:dependencies
+      #   working-directory: ./tasky
+
+      - name: Build app to generate classes/jars
+        run: ./gradlew :app:assembleDebug
         working-directory: ./tasky
+
 
       # - name: Cache Gradle dependencies
       #   uses: actions/cache@v3
