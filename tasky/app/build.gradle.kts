@@ -7,7 +7,7 @@ plugins {
 
 dependencyCheck {
 
-    formats = listOf("HTML", "XML", "JSON") // Generate reports in HTML, JSON and XML format
+    formats = listOf("HTML", "XML", "JSON", "SARIF") // Generate reports in HTML, JSON, SARIF and XML format
 
     analyzers {
         assemblyEnabled = false  // disables .NET assembly analyzer
