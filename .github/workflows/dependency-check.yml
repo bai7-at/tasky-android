@@ -42,6 +42,17 @@ jobs:
       #       --failOnCVSS 7
       #       --enableRetired
 
+
+      - name: Upload SARIF file
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          # Path to SARIF file relative to the root of the repository
+          sarif_file: ./tasky/app/build/reports/dependency-check-report.sarif
+          # Optional category for the results
+          # Used to differentiate multiple results for one commit
+          category: dependency-check
+
+
       - name: Upload Test results
         uses: actions/upload-artifact@master
         with:
