@@ -1,0 +1,19 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+    <suppress>
+        <notes><![CDATA[
+        This suppresses false positives identified on grpc that are not added into the APK.
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.grpc/grpc.*</packageUrl>
+        <vulnerabilityName regex="true">.*</vulnerabilityName>
+    </suppress>
+
+    <suppress>
+        <notes><![CDATA[
+        This suppresses false positives identified on netty that are not added into the APK.
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.netty/netty.*</packageUrl>
+        <vulnerabilityName regex="true">.*</vulnerabilityName>
+    </suppress>
+
+</suppressions> -->
