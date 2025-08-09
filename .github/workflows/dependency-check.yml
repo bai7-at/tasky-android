@@ -23,7 +23,8 @@ jobs:
       #   working-directory: ./tasky
 
       - name: Build app to generate classes/jars
-        run: ./gradlew :app:assembleDebug
+        # run: ./gradlew :app:assembleDebug
+        run: ./gradlew dependencyCheckAnalyze
         working-directory: ./tasky
 
 
