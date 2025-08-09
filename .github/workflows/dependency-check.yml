@@ -8,13 +8,24 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Build app to generate classes/jars
+      - name: Execute Dependency Check through Gradle
         # run: ./gradlew :app:assembleDebug
         run: ./gradlew dependencyCheckAnalyze
         working-directory: ./tasky
 
       - name: List all files in  app/build/reports
         run: ls -la ./tasky/app/build/reports
+
+      - name: List all files in  .gradle
+        run: ls -la ~/.gradle/dependency-check-data
+
+      - name: Cache Dependency-Check data
+        uses: actions/cache@v4
+        with:
+          path: ~/.gradle/dependency-check-data
+          key: depcheck-db-${{ runner.os }}-${{ hashFiles('tasky/**/build.gradle*', 'tasky/**/settings.gradle*', 'tasky/**/gradle.properties', 'tasky/**/libs.versions.toml') }}
+          restore-keys: |
+            depcheck-db-${{ runner.os }}-
 
       # - name: Depcheck
       #   uses: dependency-check/Dependency-Check_Action@main
