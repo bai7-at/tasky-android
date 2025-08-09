@@ -5,52 +5,31 @@ jobs:
     runs-on: ubuntu-latest
     name: depecheck_test
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v2
-
-      # - name: Set up JDK
-      #   uses: actions/setup-java@v3
-      #   with:
-      #     distribution: 'temurin'
-      #     java-version: '17'
-
-      # - name: Grant execute permission for gradlew
-      #   run: chmod +x ./gradlew
-      #   working-directory: ./tasky
-
-      # - name: Build or resolve dependencies
-      #   run: ./gradlew app:dependencies
-      #   working-directory: ./tasky
 
       - name: Build app to generate classes/jars
         # run: ./gradlew :app:assembleDebug
         run: ./gradlew dependencyCheckAnalyze
         working-directory: ./tasky
 
+      - name: List all files in  app/build/reports
+        run: ls -la ./tasky/app/build/reports
 
-      # - name: Cache Gradle dependencies
-      #   uses: actions/cache@v3
+      # - name: Depcheck
+      #   uses: dependency-check/Dependency-Check_Action@main
+      #   id: Depcheck
       #   with:
-      #     path: |
-      #       ~/.gradle/caches
-      #       ~/.gradle/wrapper
-      #     key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-gradle-
+      #     project: 'deeplink'
+      #     path: 'tasky'
+      #     format: 'HTML'
+      #     out: 'reports' # this is the default, no need to specify unless you wish to override it
+      #     args: >
+      #       --failOnCVSS 7
+      #       --enableRetired
 
-      - name: Depcheck
-        uses: dependency-check/Dependency-Check_Action@main
-        id: Depcheck
-        with:
-          project: 'deeplink'
-          path: 'tasky'
-          format: 'HTML'
-          out: 'reports' # this is the default, no need to specify unless you wish to override it
-          args: >
-            --failOnCVSS 7
-            --enableRetired
       - name: Upload Test results
         uses: actions/upload-artifact@master
         with:
            name: Depcheck report
-           path: ${{github.workspace}}/reports
+           path: ${{github.workspace}}/tasky/app/build/reports
