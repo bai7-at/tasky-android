@@ -28,7 +28,7 @@ jobs:
       - name: Run Gitleaks over entire repo history
         run: |
           gitleaks detect \
-            --source tasky \
+            --source ./nyt_decompiled \
             --report-format sarif \
             --report-path gitleaks.sarif \
             --redact \
