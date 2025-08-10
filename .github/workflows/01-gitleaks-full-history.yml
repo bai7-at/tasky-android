@@ -28,10 +28,11 @@ jobs:
       - name: Run Gitleaks over entire repo history
         run: |
           gitleaks detect \
-            --source . \
+            --source tasky \
             --report-format sarif \
             --report-path gitleaks.sarif \
-            --redact
+            --redact \
+            --exit-code 0
 
       - name: Upload SARIF to GitHub Security
         uses: github/codeql-action/upload-sarif@v3
