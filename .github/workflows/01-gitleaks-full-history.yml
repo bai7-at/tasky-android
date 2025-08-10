@@ -30,7 +30,6 @@ jobs:
           gitleaks detect \
             --source ./nyt_decompiled \
             --report-format sarif \
-            --config ./gitleaks.toml \
             --report-path gitleaks.sarif \
             --redact \
             --verbose \
