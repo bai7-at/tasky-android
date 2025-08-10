@@ -1,64 +1,64 @@
-name: dependency-check (gradle)
-on: [push]
+# name: dependency-check (gradle)
+# on: [push]
 
-permissions:
-  contents: read
-  security-events: write
+# permissions:
+#   contents: read
+#   security-events: write
 
-jobs:
-  depchecktest:
-    runs-on: ubuntu-latest
-    name: depecheck_test
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
+# jobs:
+#   depchecktest:
+#     runs-on: ubuntu-latest
+#     name: depecheck_test
+#     steps:
+#       - name: Checkout Repository
+#         uses: actions/checkout@v2
 
-      - name: Cache Dependency-Check data
-        uses: actions/cache@v4
-        with:
-          path: ~/.gradle/dependency-check-data
-          key: depcheck-db-${{ runner.os }}-${{ hashFiles('tasky/**/build.gradle*', 'tasky/**/settings.gradle*', 'tasky/**/gradle.properties', 'tasky/**/libs.versions.toml') }}
-          restore-keys: |
-            depcheck-db-${{ runner.os }}-
+#       - name: Cache Dependency-Check data
+#         uses: actions/cache@v4
+#         with:
+#           path: ~/.gradle/dependency-check-data
+#           key: depcheck-db-${{ runner.os }}-${{ hashFiles('tasky/**/build.gradle*', 'tasky/**/settings.gradle*', 'tasky/**/gradle.properties', 'tasky/**/libs.versions.toml') }}
+#           restore-keys: |
+#             depcheck-db-${{ runner.os }}-
 
-      - name: Execute Dependency Check through Gradle
-        # run: ./gradlew :app:assembleDebug
-        run: ./gradlew dependencyCheckAnalyze
-        working-directory: ./tasky
+#       - name: Execute Dependency Check through Gradle
+#         # run: ./gradlew :app:assembleDebug
+#         run: ./gradlew dependencyCheckAnalyze
+#         working-directory: ./tasky
 
-      - name: List all files in  app/build/reports
-        run: ls -la ./tasky/app/build/reports
+#       - name: List all files in  app/build/reports
+#         run: ls -la ./tasky/app/build/reports
 
-      - name: List all files in  .gradle
-        run: ls -la ~/.gradle/dependency-check-data
+#       - name: List all files in  .gradle
+#         run: ls -la ~/.gradle/dependency-check-data
 
  
 
-      # - name: Depcheck
-      #   uses: dependency-check/Dependency-Check_Action@main
-      #   id: Depcheck
-      #   with:
-      #     project: 'deeplink'
-      #     path: 'tasky'
-      #     format: 'HTML'
-      #     out: 'reports' # this is the default, no need to specify unless you wish to override it
-      #     args: >
-      #       --failOnCVSS 7
-      #       --enableRetired
+#       # - name: Depcheck
+#       #   uses: dependency-check/Dependency-Check_Action@main
+#       #   id: Depcheck
+#       #   with:
+#       #     project: 'deeplink'
+#       #     path: 'tasky'
+#       #     format: 'HTML'
+#       #     out: 'reports' # this is the default, no need to specify unless you wish to override it
+#       #     args: >
+#       #       --failOnCVSS 7
+#       #       --enableRetired
 
 
-      - name: Upload SARIF file
-        uses: github/codeql-action/upload-sarif@v3
-        with:
-          # Path to SARIF file relative to the root of the repository
-          sarif_file: ./tasky/app/build/reports/dependency-check-report.sarif
-          # Optional category for the results
-          # Used to differentiate multiple results for one commit
-          category: dependency-check
+#       - name: Upload SARIF file
+#         uses: github/codeql-action/upload-sarif@v3
+#         with:
+#           # Path to SARIF file relative to the root of the repository
+#           sarif_file: ./tasky/app/build/reports/dependency-check-report.sarif
+#           # Optional category for the results
+#           # Used to differentiate multiple results for one commit
+#           category: dependency-check
 
 
-      - name: Upload Test results
-        uses: actions/upload-artifact@master
-        with:
-           name: Depcheck report
-           path: ${{github.workspace}}/tasky/app/build/reports
+#       - name: Upload Test results
+#         uses: actions/upload-artifact@master
+#         with:
+#            name: Depcheck report
+#            path: ${{github.workspace}}/tasky/app/build/reports
