@@ -1,0 +1,2 @@
+# Ignore all SARIF files
+.*\.sarif

@@ -1,7 +1,0 @@
-title = "Gitleaks Config without sourcegraph-access-token"
-description = "Exclude Sourcegraph access token rule from scans"
-
-# Disable the Sourcegraph access token rule
-[[rules]]
-id = "sourcegraph-access-token"
-disabled = true
