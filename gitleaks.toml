@@ -1,7 +1,11 @@
-title = "Custom Gitleaks Config"
+title = "Gitleaks Config without sourcegraph-access-token"
+description = "Exclude Sourcegraph access token rule from scans"
 
-[allowlist]
-description = "Exclude known safe test strings"
-regexes = [
-  '''Sourcegraph is a code search and navigation engine'''
-]
+# Import all default rules
+[extend]
+path = "https://raw.githubusercontent.com/gitleaks/gitleaks/master/config/gitleaks.toml"
+
+# Disable the Sourcegraph access token rule
+[[rules]]
+id = "sourcegraph-access-token"
+disabled = true
