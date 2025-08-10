@@ -1,16 +1,11 @@
 # .github/workflows/gitleaks-full-history.yml
 name: Gitleaks – Full History Scan
 
-on:
-  workflow_dispatch: {}           # manual run
-  push:
-    branches: [ "**" ]            # optional: scan on every push (expensive)
-  pull_request:                   # optional: scan on PRs too
-    branches: [ "**" ]
+on: [push]
 
 permissions:
   contents: read
-  security-events: write          # needed to upload SARIF
+  security-events: write
 
 jobs:
   gitleaks:
@@ -20,17 +15,19 @@ jobs:
       - name: Checkout full history
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0          # IMPORTANT: needed to scan all commits
+          fetch-depth: 0
 
       - name: Install Gitleaks
         run: |
-          curl -sSfL https://raw.githubusercontent.com/gitleaks/gitleaks/master/install.sh | bash
-          ./gitleaks version
+          GITLEAKS_VERSION=$(curl -s https://api.github.com/repos/gitleaks/gitleaks/releases/latest | grep tag_name | cut -d '"' -f4)
+          curl -sSL https://github.com/gitleaks/gitleaks/releases/download/${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION#v}_linux_x64.tar.gz -o gitleaks.tar.gz
+          tar -xzf gitleaks.tar.gz gitleaks
+          sudo mv gitleaks /usr/local/bin/
+          gitleaks version
 
       - name: Run Gitleaks over entire repo history
         run: |
-          # Scan full git history; fail the job if leaks are found.
-          ./gitleaks detect \
+          gitleaks detect \
             --source . \
             --report-format sarif \
             --report-path gitleaks.sarif \
