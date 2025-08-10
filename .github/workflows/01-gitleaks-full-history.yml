@@ -32,6 +32,7 @@ jobs:
             --report-format sarif \
             --report-path gitleaks.sarif \
             --redact \
+            --verbose \
             --exit-code 0
 
       - name: Upload SARIF to GitHub Security
