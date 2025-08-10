@@ -1,4 +1,7 @@
+title = "Custom Gitleaks Config"
+
 [allowlist]
-paths = [
-  '''results.sarif'''
+description = "Exclude known safe test strings"
+regexes = [
+  '''Sourcegraph is a code search and navigation engine'''
 ]
