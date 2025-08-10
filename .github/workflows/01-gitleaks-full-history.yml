@@ -31,8 +31,7 @@ jobs:
             --source . \
             --report-format sarif \
             --report-path gitleaks.sarif \
-            --redact \
-            --exit-code 1
+            --redact
 
       - name: Upload SARIF to GitHub Security
         uses: github/codeql-action/upload-sarif@v3
